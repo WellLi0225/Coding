@@ -667,13 +667,13 @@ const formatDisplayedEfficiency = (vehicle: VehicleCompareItem) => {
     const basisLabel = getMissingEfficiencyBasisLabel(vehicle)
     const status = getEfficiencyStatus(vehicle)
 
-    return basisLabel ? `${status} (${basisLabel})` : status
+    return basisLabel ? `${status}\n(${basisLabel})` : status
   }
 
   const basisLabel = getEfficiencyBasisLabel(option)
   const efficiency = formatEfficiency(option.value, option.unit)
 
-  return basisLabel ? `${efficiency} (${basisLabel})` : efficiency
+  return basisLabel ? `${efficiency}\n(${basisLabel})` : efficiency
 }
 
 const formatEfficiencyForCategory = (
@@ -686,7 +686,7 @@ const formatEfficiencyForCategory = (
     const basisLabel = getMissingEfficiencyBasisLabel(vehicle)
     const status = getEfficiencyStatus(vehicle)
 
-    return basisLabel ? `${status} (${basisLabel})` : status
+    return basisLabel ? `${status}\n(${basisLabel})` : status
   }
 
   const isElectric = option.fuelType === '전기'
@@ -701,7 +701,54 @@ const formatEfficiencyForCategory = (
   const basisLabel = getEfficiencyBasisLabel(option)
   const efficiency = formatEfficiency(option.value, option.unit)
 
-  return basisLabel ? `${efficiency} (${basisLabel})` : efficiency
+  return basisLabel ? `${efficiency}\n(${basisLabel})` : efficiency
+}
+
+const getDisplayedEfficiencyParts = (vehicle: VehicleCompareItem) => {
+  const option = getDisplayedEfficiencyOption(vehicle)
+
+  if (!option) {
+    return {
+      valueText: getEfficiencyStatus(vehicle),
+      basisText: getMissingEfficiencyBasisLabel(vehicle),
+    }
+  }
+
+  return {
+    valueText: formatEfficiency(option.value, option.unit),
+    basisText: getEfficiencyBasisLabel(option),
+  }
+}
+
+const getEfficiencyPartsForCategory = (
+  vehicle: VehicleCompareItem,
+  category: 'fuelEconomy' | 'electricEfficiency',
+) => {
+  const option = getDisplayedEfficiencyOption(vehicle)
+
+  if (!option) {
+    return {
+      valueText: getEfficiencyStatus(vehicle),
+      basisText: getMissingEfficiencyBasisLabel(vehicle),
+    }
+  }
+
+  const isElectric = option.fuelType === '전기'
+
+  if (
+    (category === 'electricEfficiency' && !isElectric) ||
+    (category === 'fuelEconomy' && isElectric)
+  ) {
+    return {
+      valueText: '해당 없음',
+      basisText: null,
+    }
+  }
+
+  return {
+    valueText: formatEfficiency(option.value, option.unit),
+    basisText: getEfficiencyBasisLabel(option),
+  }
 }
 
 const formatSalesRank = (rank: number | null, volume: number | null) => {
@@ -799,8 +846,16 @@ const formatSalesRank = (rank: number | null, volume: number | null) => {
             </div>
             <div>
               <dt>{{ getEfficiencyLabel(vehicle) }}</dt>
-              <dd>
-                {{ formatDisplayedEfficiency(vehicle) }}
+              <dd class="efficiency-value">
+                <span class="efficiency-number">
+                  {{ getDisplayedEfficiencyParts(vehicle).valueText }}
+                </span>
+                <span
+                  v-if="getDisplayedEfficiencyParts(vehicle).basisText"
+                  class="efficiency-basis"
+                >
+                  ({{ getDisplayedEfficiencyParts(vehicle).basisText }})
+                </span>
               </dd>
             </div>
             <div>
@@ -935,14 +990,47 @@ const formatSalesRank = (rank: number | null, volume: number | null) => {
           </tr>
           <tr v-if="hasSelectedFuelEconomy">
             <th>복합 연비</th>
-            <td v-for="vehicle in selectedVehicles" :key="vehicle.id">
-              {{ formatEfficiencyForCategory(vehicle, 'fuelEconomy') }}
+            <td
+              v-for="vehicle in selectedVehicles"
+              :key="vehicle.id"
+              class="efficiency-value"
+            >
+              <span class="efficiency-number">
+                {{ getEfficiencyPartsForCategory(vehicle, 'fuelEconomy').valueText }}
+              </span>
+              <span
+                v-if="getEfficiencyPartsForCategory(vehicle, 'fuelEconomy').basisText"
+                class="efficiency-basis"
+              >
+                ({{ getEfficiencyPartsForCategory(vehicle, 'fuelEconomy').basisText }})
+              </span>
             </td>
           </tr>
           <tr v-if="hasSelectedElectricEfficiency">
             <th>복합 전비</th>
-            <td v-for="vehicle in selectedVehicles" :key="vehicle.id">
-              {{ formatEfficiencyForCategory(vehicle, 'electricEfficiency') }}
+            <td
+              v-for="vehicle in selectedVehicles"
+              :key="vehicle.id"
+              class="efficiency-value"
+            >
+              <span class="efficiency-number">
+                {{
+                  getEfficiencyPartsForCategory(vehicle, 'electricEfficiency')
+                    .valueText
+                }}
+              </span>
+              <span
+                v-if="
+                  getEfficiencyPartsForCategory(vehicle, 'electricEfficiency')
+                    .basisText
+                "
+                class="efficiency-basis"
+              >
+                ({{
+                  getEfficiencyPartsForCategory(vehicle, 'electricEfficiency')
+                    .basisText
+                }})
+              </span>
             </td>
           </tr>
           <tr>
@@ -1400,6 +1488,21 @@ td {
 .comparison-value-line {
   display: block;
   line-height: 1.45;
+}
+
+.efficiency-value {
+  word-break: keep-all;
+}
+
+.efficiency-number,
+.efficiency-basis {
+  display: block;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+
+.efficiency-basis {
+  font-size: 0.95em;
 }
 
 .comparison-value-line + .comparison-value-line {
