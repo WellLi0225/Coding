@@ -8,6 +8,7 @@
     "dev:host": "vite --host 0.0.0.0",
     "build": "vue-tsc -b && vite build",
     "data:recalls": "node ./scripts/updateRecallData.mjs",
+    "data:specs": "node ./scripts/updateVehicleSpecs.mjs",
     "preview": "vite preview",
     "preview:host": "vite preview --host 0.0.0.0"
   },

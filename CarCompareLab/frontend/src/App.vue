@@ -1,13 +1,21 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, nextTick, ref, watch } from 'vue'
 import { mockVehicles } from './data/mockVehicles'
 import type { VehicleCompareItem } from './types/vehicle'
+import type { VehicleSpecItem, VehicleSpecTrim } from './types/vehicleSpec'
 
 const search = ref('')
 const selectedBrand = ref('All')
 const selectedFuel = ref('All')
 const selectedSort = ref('recommended')
 const selectedIds = ref<string[]>([])
+const currentPage = ref(1)
+const showSpecComparison = ref(false)
+const isLoadingSpecs = ref(false)
+const specLoadError = ref<string | null>(null)
+const vehicleSpecsData = ref<VehicleSpecItem[] | null>(null)
+const selectedSpecTrimNames = ref<Record<string, string>>({})
+const specComparisonRef = ref<HTMLElement | null>(null)
 
 const sortOptions = [
   { value: 'recommended', label: '추천순' },
@@ -85,6 +93,32 @@ const filteredVehicles = computed(() => {
   })
 })
 
+const vehiclesPerPage = 6
+
+const totalPages = computed(() =>
+  Math.max(1, Math.ceil(filteredVehicles.value.length / vehiclesPerPage)),
+)
+
+const paginatedVehicles = computed(() => {
+  const startIndex = (currentPage.value - 1) * vehiclesPerPage
+
+  return filteredVehicles.value.slice(startIndex, startIndex + vehiclesPerPage)
+})
+
+const visibleStartNumber = computed(() =>
+  filteredVehicles.value.length === 0
+    ? 0
+    : (currentPage.value - 1) * vehiclesPerPage + 1,
+)
+
+const visibleEndNumber = computed(() =>
+  Math.min(currentPage.value * vehiclesPerPage, filteredVehicles.value.length),
+)
+
+const goToPage = (page: number) => {
+  currentPage.value = Math.min(Math.max(page, 1), totalPages.value)
+}
+
 const compareNullableAsc = (firstValue: number | null, secondValue: number | null) => {
   if (firstValue === null && secondValue === null) {
     return 0
@@ -126,6 +160,43 @@ const selectedVehicles = computed(() =>
     .filter((vehicle): vehicle is VehicleCompareItem => Boolean(vehicle)),
 )
 
+const selectedSpecComparisons = computed(() =>
+  selectedVehicles.value.map((vehicle) => {
+    const spec = getStoredVehicleSpec(vehicle)
+
+    return {
+      vehicle,
+      spec,
+      trim: getSelectedSpecTrim(vehicle.id, spec),
+    }
+  }),
+)
+
+const specComparisonGroups = computed(() => {
+  const groups: { name: string; rows: string[] }[] = []
+  const rowNamesByGroup = new Map<string, Set<string>>()
+
+  selectedSpecComparisons.value.forEach(({ trim }) => {
+    Object.entries(trim?.specs ?? {}).forEach(([groupName, rows]) => {
+      if (!rowNamesByGroup.has(groupName)) {
+        rowNamesByGroup.set(groupName, new Set())
+        groups.push({ name: groupName, rows: [] })
+      }
+
+      const rowNames = rowNamesByGroup.get(groupName)
+
+      Object.keys(rows).forEach((rowName) => {
+        if (!rowNames?.has(rowName)) {
+          rowNames?.add(rowName)
+          groups.find((group) => group.name === groupName)?.rows.push(rowName)
+        }
+      })
+    })
+  })
+
+  return groups
+})
+
 const hasSelectedElectricEfficiency = computed(() =>
   selectedVehicles.value.some(
     (vehicle) => getDisplayedEfficiencyOption(vehicle)?.fuelType === '전기',
@@ -136,7 +207,10 @@ const hasSelectedFuelEconomy = computed(() =>
   selectedVehicles.value.some((vehicle) => {
     const option = getDisplayedEfficiencyOption(vehicle)
 
-    return option !== null && option.fuelType !== '전기'
+    return (
+      (option !== null && option.fuelType !== '전기') ||
+      (option === null && hasHybridFuel(vehicle))
+    )
   }),
 )
 
@@ -150,6 +224,351 @@ const toggleVehicle = (vehicleId: string) => {
     selectedIds.value = [...selectedIds.value, vehicleId]
   }
 }
+
+const loadVehicleSpecs = async () => {
+  if (vehicleSpecsData.value || isLoadingSpecs.value) {
+    return
+  }
+
+  try {
+    isLoadingSpecs.value = true
+    specLoadError.value = null
+
+    const module = await import('./data/vehicleSpecs')
+    vehicleSpecsData.value = module.vehicleSpecs
+  } catch {
+    specLoadError.value = '제원 데이터를 불러오지 못했습니다.'
+  } finally {
+    isLoadingSpecs.value = false
+  }
+}
+
+const openSpecComparison = async () => {
+  if (selectedVehicles.value.length < 2) {
+    return
+  }
+
+  showSpecComparison.value = true
+  await loadVehicleSpecs()
+  ensureSpecTrimSelections()
+  await nextTick()
+  specComparisonRef.value?.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start',
+  })
+}
+
+const ensureSpecTrimSelections = () => {
+  const nextTrimNames: Record<string, string> = {}
+
+  selectedVehicles.value.forEach((vehicle) => {
+    const spec = vehicleSpecsData.value?.find(
+      (item) => item.vehicleId === vehicle.id,
+    )
+    const currentTrimName = selectedSpecTrimNames.value[vehicle.id]
+    const hasCurrentTrim = spec?.trims.some(
+      (trim) => trim.trimName === currentTrimName,
+    )
+
+    if (hasCurrentTrim && currentTrimName) {
+      nextTrimNames[vehicle.id] = currentTrimName
+      return
+    }
+
+    if (spec?.trims[0]) {
+      nextTrimNames[vehicle.id] = spec.trims[0].trimName
+    }
+  })
+
+  selectedSpecTrimNames.value = nextTrimNames
+}
+
+const setSelectedSpecTrim = (vehicleId: string, trimName: string) => {
+  selectedSpecTrimNames.value = {
+    ...selectedSpecTrimNames.value,
+    [vehicleId]: trimName,
+  }
+}
+
+const getSelectedSpecTrim = (
+  vehicleId: string,
+  spec: VehicleSpecItem | undefined,
+) =>
+  spec?.trims.find(
+    (trim) => trim.trimName === selectedSpecTrimNames.value[vehicleId],
+  ) ??
+  spec?.trims[0] ??
+  null
+
+const getSpecValue = (
+  trim: VehicleSpecTrim | null,
+  groupName: string,
+  rowName: string,
+) => trim?.specs[groupName]?.[rowName] ?? '정보 없음'
+
+const getStoredVehicleSpec = (vehicle: VehicleCompareItem) =>
+  vehicleSpecsData.value?.find((item) => item.vehicleId === vehicle.id)
+
+const getStoredSpecStatus = (vehicle: VehicleCompareItem) => {
+  if (!vehicleSpecsData.value) {
+    return '제원 데이터 불러오는 중'
+  }
+
+  const spec = getStoredVehicleSpec(vehicle)
+
+  return spec?.status ?? '제원 데이터 없음'
+}
+
+const normalizeTrimName = (trimName: string) =>
+  trimName
+    .replace(/\s*\(\d+인승\)/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+
+const splitTrimName = (trimName: string) => {
+  const normalizedTrimName = normalizeTrimName(trimName)
+  const transmissionMatch = normalizedTrimName.match(/\(([^)]*)\)\s*$/)
+  const transmission = transmissionMatch?.[1] ?? null
+  const withoutTransmission = transmissionMatch
+    ? normalizedTrimName.slice(0, transmissionMatch.index).trim()
+    : normalizedTrimName
+  const drivetrainMatch = withoutTransmission.match(/\b(2WD|4WD)\b/i)
+  const drivetrain = drivetrainMatch?.[1]?.toUpperCase() ?? null
+  const baseName = withoutTransmission
+    .replace(/\b(2WD|4WD)\b/gi, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+
+  return {
+    baseName,
+    drivetrain,
+    transmission,
+    fallbackName: normalizedTrimName,
+  }
+}
+
+const formatGroupedTrimName = (
+  baseName: string,
+  transmissions: Set<string>,
+  drivetrains: Set<string>,
+  fallbackName: string,
+) => {
+  const hasTwoWheelDrive = drivetrains.has('2WD')
+  const hasFourWheelDrive = drivetrains.has('4WD')
+  const transmissionLabel =
+    transmissions.size === 1 ? [...transmissions][0] : null
+
+  if (hasTwoWheelDrive && hasFourWheelDrive) {
+    const detailLabels = ['4WD 포함']
+
+    if (transmissionLabel) {
+      detailLabels.push(transmissionLabel)
+    }
+
+    return `${baseName} (${detailLabels.join(', ')})`
+  }
+
+  if (baseName && transmissionLabel && drivetrains.size === 0) {
+    return `${baseName} (${transmissionLabel})`
+  }
+
+  return fallbackName
+}
+
+const getDisplayTrimNames = (trimNames: string[]) => {
+  const groups = new Map<
+    string,
+    {
+      baseName: string
+      transmissions: Set<string>
+      drivetrains: Set<string>
+      fallbackName: string
+    }
+  >()
+
+  trimNames.forEach((trimName) => {
+    const parsedTrim = splitTrimName(trimName)
+    const key = `${parsedTrim.baseName}|${parsedTrim.transmission ?? ''}`
+
+    if (!groups.has(key)) {
+      groups.set(key, {
+        baseName: parsedTrim.baseName,
+        transmissions: new Set(),
+        drivetrains: new Set(),
+        fallbackName: parsedTrim.fallbackName,
+      })
+    }
+
+    const group = groups.get(key)
+
+    if (!group) {
+      return
+    }
+
+    if (parsedTrim.transmission) {
+      group.transmissions.add(parsedTrim.transmission)
+    }
+
+    if (parsedTrim.drivetrain) {
+      group.drivetrains.add(parsedTrim.drivetrain)
+    }
+  })
+
+  return Array.from(
+    new Set(
+      [...groups.values()].map((group) =>
+        formatGroupedTrimName(
+          group.baseName,
+          group.transmissions,
+          group.drivetrains,
+          group.fallbackName,
+        ),
+      ),
+    ),
+  )
+}
+
+const getComparisonTrimNames = (vehicle: VehicleCompareItem) => {
+  if (!vehicleSpecsData.value) {
+    return ['제원 데이터 불러오는 중']
+  }
+
+  const spec = getStoredVehicleSpec(vehicle)
+
+  if (!spec) {
+    return ['제원 데이터 없음']
+  }
+
+  if (spec.trims.length === 0) {
+    return [spec.status ?? '트림 데이터 없음']
+  }
+
+  return getDisplayTrimNames(spec.trims.map((trim) => trim.trimName))
+}
+
+const getSpecTrimOptions = (spec: VehicleSpecItem) => {
+  const groups = new Map<
+    string,
+    {
+      value: string
+      baseName: string
+      transmissions: Set<string>
+      drivetrains: Set<string>
+      fallbackName: string
+    }
+  >()
+
+  spec.trims.forEach((trim) => {
+    const parsedTrim = splitTrimName(trim.trimName)
+    const key = `${parsedTrim.baseName}|${parsedTrim.transmission ?? ''}`
+
+    if (!groups.has(key)) {
+      groups.set(key, {
+        value: trim.trimName,
+        baseName: parsedTrim.baseName,
+        transmissions: new Set(),
+        drivetrains: new Set(),
+        fallbackName: parsedTrim.fallbackName,
+      })
+    }
+
+    const group = groups.get(key)
+
+    if (!group) {
+      return
+    }
+
+    if (parsedTrim.transmission) {
+      group.transmissions.add(parsedTrim.transmission)
+    }
+
+    if (parsedTrim.drivetrain) {
+      group.drivetrains.add(parsedTrim.drivetrain)
+    }
+  })
+
+  return [...groups.values()].map((group) => ({
+    value: group.value,
+    label: formatGroupedTrimName(
+      group.baseName,
+      group.transmissions,
+      group.drivetrains,
+      group.fallbackName,
+    ),
+  }))
+}
+
+const parseTrimPrice = (price: string | null) => {
+  if (!price) {
+    return null
+  }
+
+  const value = Number(price.replace(/[^\d]/g, ''))
+
+  return Number.isFinite(value) && value > 0 ? value : null
+}
+
+const formatWon = (value: number) => {
+  if (value >= 10000) {
+    return `${new Intl.NumberFormat('ko-KR').format(value / 10000)}만원`
+  }
+
+  return `${new Intl.NumberFormat('ko-KR').format(value)}원`
+}
+
+const formatStoredPriceRange = (vehicle: VehicleCompareItem) => {
+  if (!vehicleSpecsData.value) {
+    return '제원 데이터 불러오는 중'
+  }
+
+  const spec = getStoredVehicleSpec(vehicle)
+  const prices =
+    spec?.trims
+      .map((trim) => parseTrimPrice(trim.price))
+      .filter((price): price is number => price !== null) ?? []
+
+  if (prices.length === 0) {
+    return '가격 정보 없음'
+  }
+
+  const minPrice = Math.min(...prices)
+  const maxPrice = Math.max(...prices)
+
+  if (minPrice === maxPrice) {
+    return formatWon(minPrice)
+  }
+
+  return `${formatWon(minPrice)} ~ ${formatWon(maxPrice)}`
+}
+
+watch(selectedVehicles, () => {
+  ensureSpecTrimSelections()
+
+  if (selectedVehicles.value.length < 2) {
+    showSpecComparison.value = false
+    return
+  }
+
+  void loadVehicleSpecs().then(() => {
+    ensureSpecTrimSelections()
+  })
+})
+
+watch([search, selectedBrand, selectedFuel, selectedSort], () => {
+  currentPage.value = 1
+})
+
+watch(totalPages, () => {
+  if (currentPage.value > totalPages.value) {
+    currentPage.value = totalPages.value
+  }
+})
+
+watch(vehicleSpecsData, () => {
+  if (selectedVehicles.value.length >= 2) {
+    ensureSpecTrimSelections()
+  }
+})
 
 const formatCurrency = (value: number | null) => {
   if (value === null) {
@@ -167,12 +586,29 @@ const formatNullable = (value: number | null, suffix = '') =>
 const formatEfficiency = (value: number | null, unit: string | null) =>
   value === null || unit === null ? '정보 없음' : `${value}${unit}`
 
+const getEfficiencyBasisLabel = (
+  option: VehicleCompareItem['efficiencyOptions'][number] | null,
+) => {
+  if (!option) {
+    return null
+  }
+
+  return `${option.fuelType} 기준`
+}
+
 const formatModelYear = (vehicle: VehicleCompareItem) =>
   vehicle.modelYearLabel ?? `${vehicle.year}년형`
 
 const getHighestEfficiencyOption = (
   options: VehicleCompareItem['efficiencyOptions'],
 ) => [...options].sort((first, second) => second.value - first.value)[0] ?? null
+
+const hasHybridFuel = (vehicle: VehicleCompareItem) =>
+  vehicle.fuelType.split(',').some((fuelType) => fuelType.trim() === '하이브리드')
+
+const isHybridEfficiencyOption = (
+  option: VehicleCompareItem['efficiencyOptions'][number],
+) => option.fuelType === '하이브리드'
 
 const getDisplayedEfficiencyOption = (vehicle: VehicleCompareItem) => {
   const options = vehicle.efficiencyOptions ?? []
@@ -185,13 +621,15 @@ const getDisplayedEfficiencyOption = (vehicle: VehicleCompareItem) => {
     )
   }
 
+  const hybridOption = getHighestEfficiencyOption(
+    options.filter(isHybridEfficiencyOption),
+  )
+
+  if (hybridOption) {
+    return hybridOption
+  }
+
   return (
-    getHighestEfficiencyOption(
-      options.filter(
-        (option) =>
-          option.fuelType === '하이브리드' && option.drivetrain === '2WD',
-      ),
-    ) ??
     getHighestEfficiencyOption(
       options.filter((option) => option.drivetrain === '2WD'),
     ) ??
@@ -210,14 +648,32 @@ const getEfficiencyLabel = (vehicle: VehicleCompareItem) =>
     ? '복합 전비'
     : '복합 연비'
 
+const getMissingEfficiencyBasisLabel = (vehicle: VehicleCompareItem) => {
+  if (selectedFuel.value !== 'All') {
+    return `${selectedFuel.value} 기준`
+  }
+
+  if (hasHybridFuel(vehicle)) {
+    return '하이브리드 기준'
+  }
+
+  return null
+}
+
 const formatDisplayedEfficiency = (vehicle: VehicleCompareItem) => {
   const option = getDisplayedEfficiencyOption(vehicle)
 
   if (!option) {
-    return getEfficiencyStatus(vehicle)
+    const basisLabel = getMissingEfficiencyBasisLabel(vehicle)
+    const status = getEfficiencyStatus(vehicle)
+
+    return basisLabel ? `${status} (${basisLabel})` : status
   }
 
-  return formatEfficiency(option.value, option.unit)
+  const basisLabel = getEfficiencyBasisLabel(option)
+  const efficiency = formatEfficiency(option.value, option.unit)
+
+  return basisLabel ? `${efficiency} (${basisLabel})` : efficiency
 }
 
 const formatEfficiencyForCategory = (
@@ -227,7 +683,10 @@ const formatEfficiencyForCategory = (
   const option = getDisplayedEfficiencyOption(vehicle)
 
   if (!option) {
-    return getEfficiencyStatus(vehicle)
+    const basisLabel = getMissingEfficiencyBasisLabel(vehicle)
+    const status = getEfficiencyStatus(vehicle)
+
+    return basisLabel ? `${status} (${basisLabel})` : status
   }
 
   const isElectric = option.fuelType === '전기'
@@ -239,7 +698,10 @@ const formatEfficiencyForCategory = (
     return '해당 없음'
   }
 
-  return formatEfficiency(option.value, option.unit)
+  const basisLabel = getEfficiencyBasisLabel(option)
+  const efficiency = formatEfficiency(option.value, option.unit)
+
+  return basisLabel ? `${efficiency} (${basisLabel})` : efficiency
 }
 
 const formatSalesRank = (rank: number | null, volume: number | null) => {
@@ -309,13 +771,21 @@ const formatSalesRank = (rank: number | null, volume: number | null) => {
     </section>
 
     <section class="layout">
-      <div class="vehicle-list" aria-label="목 차량 목록">
-        <article
-          v-for="vehicle in filteredVehicles"
-          :key="vehicle.id"
-          class="vehicle-card"
-          :class="{ selected: selectedIds.includes(vehicle.id) }"
-        >
+      <div class="results-column">
+        <div class="results-summary" aria-live="polite">
+          <span>
+            {{ visibleStartNumber }}-{{ visibleEndNumber }} / {{ filteredVehicles.length }}대
+          </span>
+          <span>{{ currentPage }} / {{ totalPages }}페이지</span>
+        </div>
+
+        <div class="vehicle-list" aria-label="목 차량 목록">
+          <article
+            v-for="vehicle in paginatedVehicles"
+            :key="vehicle.id"
+            class="vehicle-card"
+            :class="{ selected: selectedIds.includes(vehicle.id) }"
+          >
           <div>
             <p>{{ vehicle.brand }}</p>
             <h2>{{ vehicle.model }}</h2>
@@ -358,7 +828,34 @@ const formatSalesRank = (rank: number | null, volume: number | null) => {
               {{ selectedIds.includes(vehicle.id) ? '비교 해제' : '비교하기' }}
             </button>
           </footer>
-        </article>
+          </article>
+        </div>
+
+        <p v-if="filteredVehicles.length === 0" class="empty results-empty">
+          조건에 맞는 차량이 없습니다.
+        </p>
+
+        <nav
+          v-if="totalPages > 1"
+          class="pagination"
+          aria-label="차량 목록 페이지"
+        >
+          <button
+            type="button"
+            :disabled="currentPage === 1"
+            @click="goToPage(currentPage - 1)"
+          >
+            이전
+          </button>
+          <span>{{ currentPage }} / {{ totalPages }}</span>
+          <button
+            type="button"
+            :disabled="currentPage === totalPages"
+            @click="goToPage(currentPage + 1)"
+          >
+            다음
+          </button>
+        </nav>
       </div>
 
       <aside class="compare-panel" aria-label="선택한 차량">
@@ -376,6 +873,16 @@ const formatSalesRank = (rank: number | null, volume: number | null) => {
             {{ vehicle.brand }} {{ vehicle.model }}
           </li>
         </ul>
+
+        <button
+          v-if="selectedVehicles.length >= 2"
+          type="button"
+          class="spec-compare-button"
+          :disabled="isLoadingSpecs"
+          @click="openSpecComparison"
+        >
+          {{ isLoadingSpecs ? '제원 불러오는 중' : '선택한 차량 비교하기' }}
+        </button>
       </aside>
     </section>
 
@@ -405,7 +912,13 @@ const formatSalesRank = (rank: number | null, volume: number | null) => {
           <tr>
             <th>트림</th>
             <td v-for="vehicle in selectedVehicles" :key="vehicle.id">
-              {{ vehicle.trim }}
+              <span
+                v-for="trimName in getComparisonTrimNames(vehicle)"
+                :key="trimName"
+                class="comparison-value-line"
+              >
+                {{ trimName }}
+              </span>
             </td>
           </tr>
           <tr>
@@ -417,7 +930,7 @@ const formatSalesRank = (rank: number | null, volume: number | null) => {
           <tr>
             <th>권장 소비자가</th>
             <td v-for="vehicle in selectedVehicles" :key="vehicle.id">
-              {{ formatCurrency(vehicle.msrpUsd) }}
+              {{ formatStoredPriceRange(vehicle) }}
             </td>
           </tr>
           <tr v-if="hasSelectedFuelEconomy">
@@ -449,6 +962,116 @@ const formatSalesRank = (rank: number | null, volume: number | null) => {
               {{ formatNullable(vehicle.recallCount, '건') }}
             </td>
           </tr>
+          <tr v-if="isLoadingSpecs" class="spec-group-row">
+            <th :colspan="selectedVehicles.length + 1">제원</th>
+          </tr>
+          <tr v-if="isLoadingSpecs">
+            <th>상태</th>
+            <td v-for="vehicle in selectedVehicles" :key="vehicle.id">
+              {{ getStoredSpecStatus(vehicle) }}
+            </td>
+          </tr>
+          <template v-else-if="specComparisonGroups.length > 0">
+            <template v-for="group in specComparisonGroups" :key="group.name">
+              <tr class="spec-group-row">
+                <th :colspan="selectedVehicles.length + 1">
+                  제원 - {{ group.name }}
+                </th>
+              </tr>
+              <tr
+                v-for="rowName in group.rows"
+                :key="`comparison-${group.name}-${rowName}`"
+              >
+                <th>{{ rowName }}</th>
+                <td
+                  v-for="{ vehicle, trim } in selectedSpecComparisons"
+                  :key="`comparison-${vehicle.id}-${group.name}-${rowName}`"
+                >
+                  {{ getSpecValue(trim, group.name, rowName) }}
+                </td>
+              </tr>
+            </template>
+          </template>
+          <tr v-else-if="vehicleSpecsData">
+            <th>제원</th>
+            <td v-for="vehicle in selectedVehicles" :key="vehicle.id">
+              {{ getStoredSpecStatus(vehicle) }}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section
+      v-if="showSpecComparison"
+      ref="specComparisonRef"
+      class="spec-comparison"
+      aria-label="선택 차량 제원 비교"
+    >
+      <div class="section-heading">
+        <p>선택 차량 제원</p>
+        <h2>제원 비교</h2>
+      </div>
+
+      <p v-if="isLoadingSpecs" class="empty">제원 데이터를 불러오는 중입니다.</p>
+      <p v-else-if="specLoadError" class="empty">{{ specLoadError }}</p>
+      <p v-else-if="specComparisonGroups.length === 0" class="empty">
+        선택한 차량의 제원 데이터가 아직 없습니다.
+      </p>
+
+      <table v-else>
+        <thead>
+          <tr>
+            <th>항목</th>
+            <th
+              v-for="{ vehicle, spec } in selectedSpecComparisons"
+              :key="vehicle.id"
+            >
+              <span class="spec-vehicle-name">
+                {{ vehicle.brand }} {{ vehicle.model }}
+              </span>
+              <select
+                v-if="spec?.trims.length"
+                :value="selectedSpecTrimNames[vehicle.id]"
+                aria-label="비교 트림 선택"
+                @change="
+                  setSelectedSpecTrim(
+                    vehicle.id,
+                    ($event.target as HTMLSelectElement).value,
+                  )
+                "
+              >
+                <option
+                  v-for="trim in getSpecTrimOptions(spec)"
+                  :key="trim.value"
+                  :value="trim.value"
+                >
+                  {{ trim.label }}
+                </option>
+              </select>
+              <span v-else class="spec-status">
+                {{ spec?.status ?? '제원 데이터 없음' }}
+              </span>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <template v-for="group in specComparisonGroups" :key="group.name">
+            <tr class="spec-group-row">
+              <th :colspan="selectedSpecComparisons.length + 1">
+                {{ group.name }}
+              </th>
+            </tr>
+            <tr v-for="rowName in group.rows" :key="`${group.name}-${rowName}`">
+              <th>{{ rowName }}</th>
+              <td
+                v-for="{ vehicle, trim } in selectedSpecComparisons"
+                :key="`${vehicle.id}-${group.name}-${rowName}`"
+              >
+                {{ getSpecValue(trim, group.name, rowName) }}
+              </td>
+            </tr>
+          </template>
         </tbody>
       </table>
     </section>
@@ -520,6 +1143,7 @@ select {
 .filters,
 .compare-panel,
 .comparison,
+.spec-comparison,
 .vehicle-card {
   border: 1px solid #dbe4d7;
   border-radius: 8px;
@@ -574,6 +1198,22 @@ select:focus {
   align-items: start;
 }
 
+.results-column {
+  display: grid;
+  gap: 12px;
+}
+
+.results-summary,
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: #58655d;
+  font-size: 13px;
+  font-weight: 800;
+}
+
 .vehicle-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -597,6 +1237,7 @@ select:focus {
 .vehicle-card h2,
 .vehicle-card dl,
 .comparison h2,
+.spec-comparison h2,
 .compare-panel h2 {
   margin: 0;
 }
@@ -609,6 +1250,7 @@ select:focus {
 
 .vehicle-card h2,
 .comparison h2,
+.spec-comparison h2,
 .compare-panel h2 {
   font-size: 24px;
   line-height: 1.1;
@@ -664,6 +1306,11 @@ button {
   cursor: pointer;
 }
 
+button:disabled {
+  cursor: wait;
+  opacity: 0.72;
+}
+
 .compare-panel {
   position: sticky;
   top: 16px;
@@ -687,10 +1334,44 @@ button {
   font-weight: 800;
 }
 
-.comparison {
+.spec-compare-button {
+  width: 100%;
+}
+
+.results-empty {
+  margin: 0;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+.pagination button {
+  min-width: 82px;
+}
+
+.pagination span {
+  min-width: 88px;
+  text-align: center;
+}
+
+.comparison,
+.spec-comparison {
   margin-top: 18px;
   padding: 18px;
   overflow-x: auto;
+}
+
+.section-heading {
+  display: grid;
+  gap: 5px;
+}
+
+.section-heading p {
+  margin: 0;
+  color: #176b52;
+  font-size: 12px;
+  font-weight: 800;
 }
 
 table {
@@ -714,6 +1395,49 @@ th {
 
 td {
   font-weight: 700;
+}
+
+.comparison-value-line {
+  display: block;
+  line-height: 1.45;
+}
+
+.comparison-value-line + .comparison-value-line {
+  margin-top: 4px;
+}
+
+.spec-comparison table {
+  min-width: 860px;
+}
+
+.spec-comparison thead th {
+  vertical-align: top;
+}
+
+.spec-vehicle-name,
+.spec-status {
+  display: block;
+}
+
+.spec-vehicle-name {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.spec-status {
+  color: #66736a;
+  font-weight: 700;
+}
+
+.spec-comparison select {
+  width: 100%;
+  min-width: 190px;
+}
+
+.spec-group-row th {
+  color: #176b52;
+  background: #edf4e8;
+  font-size: 14px;
 }
 
 @media (max-width: 860px) {
