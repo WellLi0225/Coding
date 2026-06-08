@@ -816,6 +816,30 @@ const formatSalesRank = (rank: number | null, volume: number | null) => {
       </label>
     </section>
 
+    <section
+      v-if="selectedVehicles.length > 0"
+      class="mobile-compare-shortcut"
+      aria-label="모바일 선택 차량 비교"
+    >
+      <div>
+        <p>선택한 차량</p>
+        <strong>{{ selectedVehicles.length }}/3</strong>
+      </div>
+      <button
+        type="button"
+        :disabled="selectedVehicles.length < 2 || isLoadingSpecs"
+        @click="openSpecComparison"
+      >
+        {{
+          selectedVehicles.length < 2
+            ? '1대 더 선택하면 비교표 보기'
+            : isLoadingSpecs
+              ? '제원 불러오는 중'
+              : '비교표 보기'
+        }}
+      </button>
+    </section>
+
     <section class="layout">
       <div class="results-column">
         <div class="results-summary" aria-live="polite">
@@ -1377,6 +1401,10 @@ button:disabled {
   width: 100%;
 }
 
+.mobile-compare-shortcut {
+  display: none;
+}
+
 .comparison-modal {
   position: fixed;
   inset: 0;
@@ -1598,6 +1626,41 @@ td {
   .filters,
   .layout {
     grid-template-columns: 1fr;
+  }
+
+  .mobile-compare-shortcut {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 12px;
+    align-items: center;
+    margin: -2px 0 18px;
+    padding: 14px;
+    border: 1px solid #dbe4d7;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: rgba(32, 46, 39, 0.08) 0 12px 28px;
+  }
+
+  .mobile-compare-shortcut p,
+  .mobile-compare-shortcut strong {
+    margin: 0;
+  }
+
+  .mobile-compare-shortcut p {
+    color: #176b52;
+    font-size: 12px;
+    font-weight: 800;
+  }
+
+  .mobile-compare-shortcut strong {
+    display: block;
+    margin-top: 2px;
+    font-size: 22px;
+  }
+
+  .mobile-compare-shortcut button {
+    min-width: 154px;
+    padding: 0 14px;
   }
 
   .compare-panel {
