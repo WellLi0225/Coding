@@ -941,15 +941,16 @@ const formatSalesRank = (rank: number | null, volume: number | null) => {
     </section>
 
     <Teleport to="body">
-      <div
-        v-if="showSpecComparison"
-        class="comparison-modal"
-        role="dialog"
-        aria-modal="true"
-        aria-label="선택 차량 비교표"
-        @click.self="closeSpecComparison"
-      >
-        <section class="comparison comparison-dialog" aria-label="비교표">
+      <Transition name="modal-fade">
+        <div
+          v-if="showSpecComparison"
+          class="comparison-modal"
+          role="dialog"
+          aria-modal="true"
+          aria-label="선택 차량 비교표"
+          @click.self="closeSpecComparison"
+        >
+          <section class="comparison comparison-dialog" aria-label="비교표">
           <div class="comparison-dialog-header">
             <div>
               <p>선택 차량</p>
@@ -1109,8 +1110,9 @@ const formatSalesRank = (rank: number | null, volume: number | null) => {
           </tr>
         </tbody>
           </table>
-        </section>
-      </div>
+          </section>
+        </div>
+      </Transition>
     </Teleport>
   </main>
 </template>
@@ -1392,6 +1394,45 @@ button:disabled {
   max-height: calc(100vh - 64px);
   margin: 0;
   overflow: auto;
+  transform-origin: top center;
+}
+
+.modal-fade-enter-active,
+.modal-fade-leave-active {
+  transition: opacity 180ms ease;
+}
+
+.modal-fade-enter-active .comparison-dialog,
+.modal-fade-leave-active .comparison-dialog {
+  transition:
+    opacity 180ms ease,
+    transform 180ms ease;
+}
+
+.modal-fade-enter-from,
+.modal-fade-leave-to {
+  opacity: 0;
+}
+
+.modal-fade-enter-from .comparison-dialog,
+.modal-fade-leave-to .comparison-dialog {
+  opacity: 0;
+  transform: translateY(14px) scale(0.98);
+}
+
+.modal-fade-enter-to .comparison-dialog,
+.modal-fade-leave-from .comparison-dialog {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modal-fade-enter-active,
+  .modal-fade-leave-active,
+  .modal-fade-enter-active .comparison-dialog,
+  .modal-fade-leave-active .comparison-dialog {
+    transition: none;
+  }
 }
 
 .comparison-dialog-header {
