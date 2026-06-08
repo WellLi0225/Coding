@@ -1387,6 +1387,7 @@ button:disabled {
   padding: 32px 18px;
   background: rgba(11, 20, 16, 0.62);
   overflow-y: auto;
+  backdrop-filter: blur(2px);
 }
 
 .comparison-dialog {
@@ -1395,29 +1396,43 @@ button:disabled {
   margin: 0;
   overflow: auto;
   transform-origin: top center;
+  will-change: opacity, transform;
 }
 
-.modal-fade-enter-active,
+.modal-fade-enter-active {
+  transition:
+    opacity 320ms cubic-bezier(0.16, 1, 0.3, 1),
+    backdrop-filter 320ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
 .modal-fade-leave-active {
-  transition: opacity 180ms ease;
+  transition:
+    opacity 180ms ease-in,
+    backdrop-filter 180ms ease-in;
 }
 
-.modal-fade-enter-active .comparison-dialog,
+.modal-fade-enter-active .comparison-dialog {
+  transition:
+    opacity 340ms cubic-bezier(0.16, 1, 0.3, 1),
+    transform 340ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
 .modal-fade-leave-active .comparison-dialog {
   transition:
-    opacity 180ms ease,
-    transform 180ms ease;
+    opacity 180ms ease-in,
+    transform 180ms ease-in;
 }
 
 .modal-fade-enter-from,
 .modal-fade-leave-to {
   opacity: 0;
+  backdrop-filter: blur(0);
 }
 
 .modal-fade-enter-from .comparison-dialog,
 .modal-fade-leave-to .comparison-dialog {
   opacity: 0;
-  transform: translateY(14px) scale(0.98);
+  transform: translateY(28px) scale(0.965);
 }
 
 .modal-fade-enter-to .comparison-dialog,
