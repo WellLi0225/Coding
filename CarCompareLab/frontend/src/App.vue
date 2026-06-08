@@ -15,7 +15,6 @@ const isLoadingSpecs = ref(false)
 const specLoadError = ref<string | null>(null)
 const vehicleSpecsData = ref<VehicleSpecItem[] | null>(null)
 const selectedSpecTrimNames = ref<Record<string, string>>({})
-const specComparisonRef = ref<HTMLElement | null>(null)
 
 const sortOptions = [
   { value: 'recommended', label: '추천순' },
@@ -252,10 +251,10 @@ const openSpecComparison = async () => {
   await loadVehicleSpecs()
   ensureSpecTrimSelections()
   await nextTick()
-  specComparisonRef.value?.scrollIntoView({
-    behavior: 'smooth',
-    block: 'start',
-  })
+}
+
+const closeSpecComparison = () => {
+  showSpecComparison.value = false
 }
 
 const ensureSpecTrimSelections = () => {
@@ -941,14 +940,36 @@ const formatSalesRank = (rank: number | null, volume: number | null) => {
       </aside>
     </section>
 
-    <section class="comparison" aria-label="비교표">
-      <h2>비교표</h2>
+    <Teleport to="body">
+      <div
+        v-if="showSpecComparison"
+        class="comparison-modal"
+        role="dialog"
+        aria-modal="true"
+        aria-label="선택 차량 비교표"
+        @click.self="closeSpecComparison"
+      >
+        <section class="comparison comparison-dialog" aria-label="비교표">
+          <div class="comparison-dialog-header">
+            <div>
+              <p>선택 차량</p>
+              <h2>비교표</h2>
+            </div>
+            <button
+              type="button"
+              class="modal-close-button"
+              aria-label="비교표 닫기"
+              @click="closeSpecComparison"
+            >
+              닫기
+            </button>
+          </div>
 
-      <p v-if="selectedVehicles.length < 2" class="empty">
-        차량을 2대 이상 선택하면 비교표가 표시됩니다.
-      </p>
+          <p v-if="selectedVehicles.length < 2" class="empty">
+            차량을 2대 이상 선택하면 비교표가 표시됩니다.
+          </p>
 
-      <table v-else>
+          <table v-else>
         <thead>
           <tr>
             <th>항목</th>
@@ -1087,82 +1108,10 @@ const formatSalesRank = (rank: number | null, volume: number | null) => {
             </td>
           </tr>
         </tbody>
-      </table>
-    </section>
-
-    <section
-      v-if="showSpecComparison"
-      ref="specComparisonRef"
-      class="spec-comparison"
-      aria-label="선택 차량 제원 비교"
-    >
-      <div class="section-heading">
-        <p>선택 차량 제원</p>
-        <h2>제원 비교</h2>
+          </table>
+        </section>
       </div>
-
-      <p v-if="isLoadingSpecs" class="empty">제원 데이터를 불러오는 중입니다.</p>
-      <p v-else-if="specLoadError" class="empty">{{ specLoadError }}</p>
-      <p v-else-if="specComparisonGroups.length === 0" class="empty">
-        선택한 차량의 제원 데이터가 아직 없습니다.
-      </p>
-
-      <table v-else>
-        <thead>
-          <tr>
-            <th>항목</th>
-            <th
-              v-for="{ vehicle, spec } in selectedSpecComparisons"
-              :key="vehicle.id"
-            >
-              <span class="spec-vehicle-name">
-                {{ vehicle.brand }} {{ vehicle.model }}
-              </span>
-              <select
-                v-if="spec?.trims.length"
-                :value="selectedSpecTrimNames[vehicle.id]"
-                aria-label="비교 트림 선택"
-                @change="
-                  setSelectedSpecTrim(
-                    vehicle.id,
-                    ($event.target as HTMLSelectElement).value,
-                  )
-                "
-              >
-                <option
-                  v-for="trim in getSpecTrimOptions(spec)"
-                  :key="trim.value"
-                  :value="trim.value"
-                >
-                  {{ trim.label }}
-                </option>
-              </select>
-              <span v-else class="spec-status">
-                {{ spec?.status ?? '제원 데이터 없음' }}
-              </span>
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <template v-for="group in specComparisonGroups" :key="group.name">
-            <tr class="spec-group-row">
-              <th :colspan="selectedSpecComparisons.length + 1">
-                {{ group.name }}
-              </th>
-            </tr>
-            <tr v-for="rowName in group.rows" :key="`${group.name}-${rowName}`">
-              <th>{{ rowName }}</th>
-              <td
-                v-for="{ vehicle, trim } in selectedSpecComparisons"
-                :key="`${vehicle.id}-${group.name}-${rowName}`"
-              >
-                {{ getSpecValue(trim, group.name, rowName) }}
-              </td>
-            </tr>
-          </template>
-        </tbody>
-      </table>
-    </section>
+    </Teleport>
   </main>
 </template>
 
@@ -1424,6 +1373,58 @@ button:disabled {
 
 .spec-compare-button {
   width: 100%;
+}
+
+.comparison-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  align-items: start;
+  justify-items: center;
+  padding: 32px 18px;
+  background: rgba(11, 20, 16, 0.62);
+  overflow-y: auto;
+}
+
+.comparison-dialog {
+  width: min(1120px, 100%);
+  max-height: calc(100vh - 64px);
+  margin: 0;
+  overflow: auto;
+}
+
+.comparison-dialog-header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: -18px -18px 14px;
+  padding: 18px;
+  border-bottom: 1px solid #e2e9de;
+  background: #ffffff;
+}
+
+.comparison-dialog-header p,
+.comparison-dialog-header h2 {
+  margin: 0;
+}
+
+.comparison-dialog-header p {
+  color: #176b52;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.modal-close-button {
+  min-width: 76px;
+  padding: 0 16px;
+  color: #176b52;
+  border: 1px solid #cbd8c6;
+  background: #f7fbf4;
 }
 
 .results-empty {
