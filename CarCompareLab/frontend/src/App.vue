@@ -144,6 +144,10 @@ const getSizeComparisonLayerStyle = (image: VehicleSizeImageAsset | undefined) =
   }
 }
 
+const isSmallerSizeComparisonImage = (
+  image: VehicleSizeImageAsset | undefined,
+) => (image?.lengthMm ?? 4500) < largestSizeComparisonLength.value
+
 const getPublicAssetUrl = (assetUrl: string) => {
   if (/^(https?:)?\/\//.test(assetUrl) || !assetUrl.startsWith('/')) {
     return assetUrl
@@ -1210,7 +1214,11 @@ const formatSizeDimension = (value: number | null) =>
             :class="[
               `layer-${index + 1}`,
               `asset-${image.assetType}`,
-              { placeholder: image.assetType === 'missing-dimensions-placeholder' },
+              {
+                placeholder: image.assetType === 'missing-dimensions-placeholder',
+                'is-smaller': isSmallerSizeComparisonImage(image),
+                'is-largest': !isSmallerSizeComparisonImage(image),
+              },
             ]"
             :style="getSizeComparisonLayerStyle(image)"
           >
@@ -1524,35 +1532,44 @@ select {
   z-index: 2;
   display: block;
   max-width: 90%;
-  mix-blend-mode: multiply;
+  mix-blend-mode: normal;
   transform: translateX(-50%) translateZ(0);
   transform-origin: center bottom;
 }
 
 .size-overlay-layer.layer-1 {
-  opacity: 0.84;
   filter: drop-shadow(0 12px 17px rgba(16, 35, 28, 0.18));
 }
 
 .size-overlay-layer.layer-2 {
-  z-index: 3;
-  opacity: 0.56;
   filter:
     drop-shadow(0 0 2px rgba(21, 125, 147, 0.78))
     drop-shadow(0 8px 13px rgba(18, 46, 60, 0.18));
 }
 
 .size-overlay-layer.asset-provided-side-profile-image {
-  mix-blend-mode: normal;
-  opacity: 0.84;
   filter: drop-shadow(0 12px 18px rgba(16, 35, 28, 0.18));
 }
 
 .size-overlay-layer.asset-provided-side-profile-image.layer-2 {
-  opacity: 0.52;
   filter:
     drop-shadow(0 0 2px rgba(21, 125, 147, 0.82))
     drop-shadow(0 8px 14px rgba(18, 46, 60, 0.2));
+}
+
+.size-overlay-layer.is-largest {
+  z-index: 2;
+  opacity: 1;
+  filter: drop-shadow(0 12px 18px rgba(16, 35, 28, 0.18));
+}
+
+.size-overlay-layer.is-smaller {
+  z-index: 3;
+  opacity: 0.42;
+  filter:
+    saturate(0.9)
+    drop-shadow(0 0 2px rgba(21, 125, 147, 0.72))
+    drop-shadow(0 8px 13px rgba(18, 46, 60, 0.14));
 }
 
 .size-overlay-layer.placeholder {
