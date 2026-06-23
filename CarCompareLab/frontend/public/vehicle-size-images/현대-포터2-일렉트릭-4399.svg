@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">현대 포터2 일렉트릭 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5105 x 1740 x 1970 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2552.5" cy="3271.072" rx="2399.35" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 128 2862 L 128 1897 L 1480 1897 L 1838 1306 L 2450 1306 L 2757 1897 L 4977 1897 L 4977 2862 Z" fill="#68715f" stroke="#30352e" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 128 2862 L 128 1897 L 1480 1897 L 1838 1306 L 2450 1306 L 2757 1897 L 4977 1897 L 4977 2862 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1736 1798 L 1991 1424 L 2399 1424 L 2553 1798 Z" fill="#e0ebec" stroke="#30352e" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 2808 1936 L 4748 1936" fill="none" stroke="#30352e" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2655 1917 L 2655 2862" fill="none" stroke="#30352e" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 918.9 2763.6 L 4288.2 2763.6" fill="none" stroke="#eef0e8" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="178.675" y="2546.9" width="229.725" height="147.75" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4645.55" y="2507.5" width="255.25" height="137.9" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1148" cy="3000" r="315.2" fill="#171d1b"/>
+    <circle cx="1148" cy="3000" r="226.944" fill="#27312d"/>
+    <circle cx="1148" cy="3000" r="119.776" fill="#eef0e8"/>
+    <circle cx="1148" cy="3000" r="47.279999999999994" fill="#30352e"/>
+  </g>
+    <g>
+    <circle cx="3958" cy="3000" r="315.2" fill="#171d1b"/>
+    <circle cx="3958" cy="3000" r="226.944" fill="#27312d"/>
+    <circle cx="3958" cy="3000" r="119.776" fill="#eef0e8"/>
+    <circle cx="3958" cy="3000" r="47.279999999999994" fill="#30352e"/>
+  </g>
+    <path d="M 706.72 2962.176 C 832.8 2615.456, 1463.2 2615.456, 1589.28 2962.176" fill="none" stroke="#30352e" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3516.7200000000003 2962.176 C 3642.8 2615.456, 4273.2 2615.456, 4399.28 2962.176" fill="none" stroke="#30352e" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

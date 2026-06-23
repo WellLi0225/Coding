@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">포르쉐 911 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4519 x 1852 x 1298 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2259.5" cy="3178.6048" rx="2123.93" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 113 2895 C 452 2676, 994 2559, 1536 2507 C 1898 2117, 2576 2027, 3118 2442 C 3751 2507, 4248 2650, 4406 2895 Z" fill="#205f72" stroke="#123a45" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 113 2895 C 452 2676, 994 2559, 1536 2507 C 1898 2117, 2576 2027, 3118 2442 C 3751 2507, 4248 2650, 4406 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1762 2442 C 2124 2169, 2621 2143, 2983 2442 Z" fill="#d2e8f2" stroke="#123a45" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3118 2520 L 4112 2650" fill="none" stroke="#123a45" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2485 2455 L 2485 2895" fill="none" stroke="#123a45" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 813.42 2844.24 L 3795.96 2844.24" fill="none" stroke="#dce7eb" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="158.16500000000002" y="2701.46" width="203.355" height="97.35" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4112.29" y="2675.5" width="225.95000000000002" height="90.86000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1035" cy="3000" r="207.68" fill="#171d1b"/>
+    <circle cx="1035" cy="3000" r="149.5296" fill="#27312d"/>
+    <circle cx="1035" cy="3000" r="78.9184" fill="#dce7eb"/>
+    <circle cx="1035" cy="3000" r="31.152" fill="#123a45"/>
+  </g>
+    <g>
+    <circle cx="3485" cy="3000" r="207.68" fill="#171d1b"/>
+    <circle cx="3485" cy="3000" r="149.5296" fill="#27312d"/>
+    <circle cx="3485" cy="3000" r="78.9184" fill="#dce7eb"/>
+    <circle cx="3485" cy="3000" r="31.152" fill="#123a45"/>
+  </g>
+    <path d="M 744.248 2975.0784 C 827.3199999999999 2746.6304, 1242.68 2746.6304, 1325.752 2975.0784" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3194.248 2975.0784 C 3277.32 2746.6304, 3692.68 2746.6304, 3775.752 2975.0784" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

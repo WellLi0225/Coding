@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">페라리 812 GTS 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4693 x 1971 x 1276 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2346.5" cy="3175.5776" rx="2205.71" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 117 2895 C 469 2681, 1032 2566, 1596 2515 C 1971 2132, 2675 2043, 3238 2451 C 3895 2515, 4411 2655, 4576 2895 Z" fill="#205f72" stroke="#123a45" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 117 2895 C 469 2681, 1032 2566, 1596 2515 C 1971 2132, 2675 2043, 3238 2451 C 3895 2515, 4411 2655, 4576 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1830 2451 C 2206 2183, 2722 2158, 3097 2451 Z" fill="#d2e8f2" stroke="#123a45" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3238 2528 L 4271 2655" fill="none" stroke="#123a45" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2581 2464 L 2581 2895" fill="none" stroke="#123a45" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 844.74 2846.88 L 3942.12 2846.88" fill="none" stroke="#dce7eb" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="164.25500000000002" y="2706.52" width="211.185" height="95.7" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4270.63" y="2681" width="234.65" height="89.32000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="987" cy="3000" r="204.16" fill="#171d1b"/>
+    <circle cx="987" cy="3000" r="146.99519999999998" fill="#27312d"/>
+    <circle cx="987" cy="3000" r="77.5808" fill="#dce7eb"/>
+    <circle cx="987" cy="3000" r="30.624" fill="#123a45"/>
+  </g>
+    <g>
+    <circle cx="3707" cy="3000" r="204.16" fill="#171d1b"/>
+    <circle cx="3707" cy="3000" r="146.99519999999998" fill="#27312d"/>
+    <circle cx="3707" cy="3000" r="77.5808" fill="#dce7eb"/>
+    <circle cx="3707" cy="3000" r="30.624" fill="#123a45"/>
+  </g>
+    <path d="M 701.176 2975.5008 C 782.84 2750.9248, 1191.16 2750.9248, 1272.824 2975.5008" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3421.176 2975.5008 C 3502.84 2750.9248, 3911.16 2750.9248, 3992.824 2975.5008" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

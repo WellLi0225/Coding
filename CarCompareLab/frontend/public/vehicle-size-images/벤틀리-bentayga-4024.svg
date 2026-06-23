@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">벤틀리 Bentayga 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5125 x 1998 x 1730 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2562.5" cy="3238.048" rx="2408.75" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 128 2879 C 359 2516, 666 2308, 1230 2170 L 1743 1651 C 2358 1443, 3434 1460, 4049 2049 C 4664 2152, 4971 2412, 4997 2879 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 128 2879 C 359 2516, 666 2308, 1230 2170 L 1743 1651 C 2358 1443, 3434 1460, 4049 2049 C 4664 2152, 4971 2412, 4997 2879 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1640 2049 L 2101 1685 C 2563 1581, 3331 1599, 3793 2049 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3895 2170 L 4664 2325" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2819 2031 L 2819 2879" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 922.5 2792.4 L 4305 2792.4" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="179.37500000000003" y="2602.1" width="230.625" height="129.75" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4663.75" y="2567.5" width="256.25" height="121.10000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1065" cy="3000" r="276.8" fill="#171d1b"/>
+    <circle cx="1065" cy="3000" r="199.296" fill="#27312d"/>
+    <circle cx="1065" cy="3000" r="105.18400000000001" fill="#dce6da"/>
+    <circle cx="1065" cy="3000" r="41.52" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="4060" cy="3000" r="276.8" fill="#171d1b"/>
+    <circle cx="4060" cy="3000" r="199.296" fill="#27312d"/>
+    <circle cx="4060" cy="3000" r="105.18400000000001" fill="#dce6da"/>
+    <circle cx="4060" cy="3000" r="41.52" fill="#123b30"/>
+  </g>
+    <path d="M 677.48 2966.784 C 788.2 2662.304, 1341.8 2662.304, 1452.52 2966.784" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3672.48 2966.784 C 3783.2 2662.304, 4336.8 2662.304, 4447.52 2966.784" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

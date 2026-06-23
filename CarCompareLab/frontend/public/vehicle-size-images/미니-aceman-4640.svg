@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">미니 Aceman 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4085 x 1755 x 1515 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2042.5" cy="3208.464" rx="1919.9499999999998" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 102 2894 C 327 2652, 694 2485, 1144 2394 C 1511 1909, 2083 1727, 2696 1940 C 3064 2273, 3595 2394, 3983 2894 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 102 2894 C 327 2652, 694 2485, 1144 2394 C 1511 1909, 2083 1727, 2696 1940 C 3064 2273, 3595 2394, 3983 2894 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1389 2303 C 1757 1970, 2206 1879, 2614 2121 L 2900 2333 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 2819 2409 L 3677 2546" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2124 2318 L 2124 2894" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 735.3 2818.2 L 3431.4 2818.2" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="142.97500000000002" y="2651.55" width="183.825" height="113.625" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="3717.35" y="2621.25" width="204.25" height="106.05000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="740" cy="3000" r="242.4" fill="#161d1a"/>
+    <circle cx="740" cy="3000" r="174.528" fill="#27312d"/>
+    <circle cx="740" cy="3000" r="92.11200000000001" fill="#dbe5dc"/>
+    <circle cx="740" cy="3000" r="36.36" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3345" cy="3000" r="242.4" fill="#161d1a"/>
+    <circle cx="3345" cy="3000" r="174.528" fill="#27312d"/>
+    <circle cx="3345" cy="3000" r="92.11200000000001" fill="#dbe5dc"/>
+    <circle cx="3345" cy="3000" r="36.36" fill="#0d3e33"/>
+  </g>
+    <path d="M 400.64 2970.912 C 497.6 2704.272, 982.4 2704.272, 1079.3600000000001 2970.912" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3005.64 2970.912 C 3102.6 2704.272, 3587.4 2704.272, 3684.36 2970.912" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

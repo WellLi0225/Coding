@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">대창모터스 e-TOVI 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">3395 x 1475 x 1950 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="1697.5" cy="3268.32" rx="1595.6499999999999" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 85 2863 C 238 2454, 441 2220, 815 2064 L 1154 1479 C 1562 1245, 2275 1265, 2682 1928 C 3089 2045, 3293 2337, 3310 2863 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 85 2863 C 238 2454, 441 2220, 815 2064 L 1154 1479 C 1562 1245, 2275 1265, 2682 1928 C 3089 2045, 3293 2337, 3310 2863 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1086 1928 L 1392 1518 C 1698 1401, 2207 1421, 2512 1928 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 2580 2064 L 3089 2240" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 1867 1908 L 1867 2863" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 611.1 2766 L 2851.7999999999997 2766" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="118.82500000000002" y="2551.5" width="152.775" height="146.25" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="3089.4500000000003" y="2512.5" width="169.75" height="136.5" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="696" cy="3000" r="312" fill="#171d1b"/>
+    <circle cx="696" cy="3000" r="224.64" fill="#27312d"/>
+    <circle cx="696" cy="3000" r="118.56" fill="#dce6da"/>
+    <circle cx="696" cy="3000" r="46.8" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="2699" cy="3000" r="312" fill="#171d1b"/>
+    <circle cx="2699" cy="3000" r="224.64" fill="#27312d"/>
+    <circle cx="2699" cy="3000" r="118.56" fill="#dce6da"/>
+    <circle cx="2699" cy="3000" r="46.8" fill="#123b30"/>
+  </g>
+    <path d="M 259.20000000000005 2962.56 C 384 2619.36, 1008 2619.36, 1132.8 2962.56" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 2262.2 2962.56 C 2387 2619.36, 3011 2619.36, 3135.8 2962.56" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

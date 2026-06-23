@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">람보르기니 Urus 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5123 x 2022 x 1638 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2561.5" cy="3225.3888" rx="2407.81" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 128 2885 C 410 2623, 871 2443, 1434 2345 C 1896 1821, 2613 1624, 3381 1853 C 3842 2214, 4508 2345, 4995 2885 Z" fill="#1c6f6a" stroke="#123f3d" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 128 2885 C 410 2623, 871 2443, 1434 2345 C 1896 1821, 2613 1624, 3381 1853 C 3842 2214, 4508 2345, 4995 2885 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1742 2247 C 2203 1886, 2766 1788, 3279 2050 L 3637 2279 Z" fill="#c9e7ef" stroke="#123f3d" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3535 2361 L 4611 2509" fill="none" stroke="#123f3d" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2664 2263 L 2664 2885" fill="none" stroke="#123f3d" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 922.14 2803.44 L 4303.32 2803.44" fill="none" stroke="#dce5e2" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="179.305" y="2623.26" width="230.535" height="122.85" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4661.93" y="2590.5" width="256.15000000000003" height="114.66000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1060" cy="3000" r="262.08" fill="#161d1a"/>
+    <circle cx="1060" cy="3000" r="188.6976" fill="#27312d"/>
+    <circle cx="1060" cy="3000" r="99.59039999999999" fill="#dce5e2"/>
+    <circle cx="1060" cy="3000" r="39.312" fill="#123f3d"/>
+  </g>
+    <g>
+    <circle cx="4063" cy="3000" r="262.08" fill="#161d1a"/>
+    <circle cx="4063" cy="3000" r="188.6976" fill="#27312d"/>
+    <circle cx="4063" cy="3000" r="99.59039999999999" fill="#dce5e2"/>
+    <circle cx="4063" cy="3000" r="39.312" fill="#123f3d"/>
+  </g>
+    <path d="M 693.088 2968.5504 C 797.9200000000001 2680.2624, 1322.08 2680.2624, 1426.912 2968.5504" fill="none" stroke="#123f3d" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3696.088 2968.5504 C 3800.92 2680.2624, 4325.08 2680.2624, 4429.912 2968.5504" fill="none" stroke="#123f3d" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

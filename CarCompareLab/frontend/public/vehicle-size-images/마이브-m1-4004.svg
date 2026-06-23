@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">마이브 M1 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">2845 x 1500 x 1565 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="1422.5" cy="3215.344" rx="1337.1499999999999" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 80 2890 C 228 2640, 484 2468, 797 2374 C 1053 1873, 1451 1685, 1878 1905 C 2134 2249, 2504 2374, 2765 2890 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 80 2890 C 228 2640, 484 2468, 797 2374 C 1053 1873, 1451 1685, 1878 1905 C 2134 2249, 2504 2374, 2765 2890 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 967 2280 C 1223 1936, 1536 1842, 1821 2092 L 2020 2311 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 1963 2390 L 2561 2531" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 1479 2296 L 1479 2890" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 512.1 2812.2 L 2389.7999999999997 2812.2" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="99.575" y="2640.05" width="128.025" height="117.375" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="2588.9500000000003" y="2608.75" width="142.25" height="109.55000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="515" cy="3000" r="250.4" fill="#161d1a"/>
+    <circle cx="515" cy="3000" r="180.288" fill="#27312d"/>
+    <circle cx="515" cy="3000" r="95.152" fill="#dbe5dc"/>
+    <circle cx="515" cy="3000" r="37.56" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="2330" cy="3000" r="250.4" fill="#161d1a"/>
+    <circle cx="2330" cy="3000" r="180.288" fill="#27312d"/>
+    <circle cx="2330" cy="3000" r="95.152" fill="#dbe5dc"/>
+    <circle cx="2330" cy="3000" r="37.56" fill="#0d3e33"/>
+  </g>
+    <path d="M 164.44 2969.952 C 264.6 2694.512, 765.4 2694.512, 865.56 2969.952" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 1979.44 2969.952 C 2079.6 2694.512, 2580.4 2694.512, 2680.56 2969.952" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

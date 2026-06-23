@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">벤츠 EQS SUV 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5125 x 1965 x 1720 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2562.5" cy="3236.672" rx="2408.75" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 128 2880 C 359 2518, 666 2312, 1230 2174 L 1743 1658 C 2358 1452, 3434 1469, 4049 2054 C 4664 2157, 4971 2415, 4997 2880 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 128 2880 C 359 2518, 666 2312, 1230 2174 L 1743 1658 C 2358 1452, 3434 1469, 4049 2054 C 4664 2157, 4971 2415, 4997 2880 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1640 2054 L 2101 1693 C 2563 1590, 3331 1607, 3793 2054 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3895 2174 L 4664 2329" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2819 2037 L 2819 2880" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 922.5 2793.6 L 4305 2793.6" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="179.37500000000003" y="2604.4" width="230.625" height="129" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4663.75" y="2570" width="256.25" height="120.4" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="958" cy="3000" r="275.2" fill="#171d1b"/>
+    <circle cx="958" cy="3000" r="198.14399999999998" fill="#27312d"/>
+    <circle cx="958" cy="3000" r="104.576" fill="#dce6da"/>
+    <circle cx="958" cy="3000" r="41.279999999999994" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="4168" cy="3000" r="275.2" fill="#171d1b"/>
+    <circle cx="4168" cy="3000" r="198.14399999999998" fill="#27312d"/>
+    <circle cx="4168" cy="3000" r="104.576" fill="#dce6da"/>
+    <circle cx="4168" cy="3000" r="41.279999999999994" fill="#123b30"/>
+  </g>
+    <path d="M 572.72 2966.976 C 682.8 2664.256, 1233.2 2664.256, 1343.28 2966.976" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3782.7200000000003 2966.976 C 3892.8 2664.256, 4443.2 2664.256, 4553.28 2966.976" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">지프 Gladiator 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5520 x 1935 x 1860 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2760" cy="3255.936" rx="2594.3999999999996" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 138 2870 L 138 1958 L 1601 1958 L 1987 1400 L 2650 1400 L 2981 1958 L 5382 1958 L 5382 2870 Z" fill="#68715f" stroke="#30352e" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 138 2870 L 138 1958 L 1601 1958 L 1987 1400 L 2650 1400 L 2981 1958 L 5382 1958 L 5382 2870 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1877 1865 L 2153 1512 L 2594 1512 L 2760 1865 Z" fill="#e0ebec" stroke="#30352e" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3036 1996 L 5134 1996" fill="none" stroke="#30352e" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2870 1977 L 2870 2870" fill="none" stroke="#30352e" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 993.5999999999999 2776.8 L 4636.8 2776.8" fill="none" stroke="#eef0e8" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="193.20000000000002" y="2572.2" width="248.39999999999998" height="139.5" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="5023.2" y="2535" width="276" height="130.20000000000002" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1015" cy="3000" r="297.6" fill="#171d1b"/>
+    <circle cx="1015" cy="3000" r="214.27200000000002" fill="#27312d"/>
+    <circle cx="1015" cy="3000" r="113.08800000000001" fill="#eef0e8"/>
+    <circle cx="1015" cy="3000" r="44.64" fill="#30352e"/>
+  </g>
+    <g>
+    <circle cx="4505" cy="3000" r="297.6" fill="#171d1b"/>
+    <circle cx="4505" cy="3000" r="214.27200000000002" fill="#27312d"/>
+    <circle cx="4505" cy="3000" r="113.08800000000001" fill="#eef0e8"/>
+    <circle cx="4505" cy="3000" r="44.64" fill="#30352e"/>
+  </g>
+    <path d="M 598.36 2964.288 C 717.4 2636.928, 1312.6 2636.928, 1431.6399999999999 2964.288" fill="none" stroke="#30352e" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 4088.36 2964.288 C 4207.4 2636.928, 4802.6 2636.928, 4921.64 2964.288" fill="none" stroke="#30352e" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

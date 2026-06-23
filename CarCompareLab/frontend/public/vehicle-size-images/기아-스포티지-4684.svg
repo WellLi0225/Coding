@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">기아 스포티지 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4685 x 1865 x 1660 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2342.5" cy="3228.416" rx="2201.95" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 117 2884 C 375 2552, 796 2353, 1359 2220 L 1827 1738 C 2296 1539, 3092 1589, 3654 2070 C 4217 2170, 4544 2436, 4568 2884 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 117 2884 C 375 2552, 796 2353, 1359 2220 L 1827 1738 C 2296 1539, 3092 1589, 3654 2070 C 4217 2170, 4544 2436, 4568 2884 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1593 2120 L 2015 1805 C 2436 1705, 3045 1755, 3514 2120 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3514 2236 L 4263 2402" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2577 2137 L 2577 2884" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    <path d="M 843 2519 C 1780 2635, 3045 2618, 3935 2502" fill="none" stroke="#123b30" stroke-width="22" stroke-linecap="round" opacity="0.28"/>
+    <path d="M 843.3 2800.8 L 3935.3999999999996 2800.8" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="163.97500000000002" y="2618.2" width="210.825" height="124.5" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4263.35" y="2585" width="234.25" height="116.20000000000002" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="965" cy="3000" r="265.6" fill="#171d1b"/>
+    <circle cx="965" cy="3000" r="191.232" fill="#27312d"/>
+    <circle cx="965" cy="3000" r="100.92800000000001" fill="#dce6da"/>
+    <circle cx="965" cy="3000" r="39.84" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="3720" cy="3000" r="265.6" fill="#171d1b"/>
+    <circle cx="3720" cy="3000" r="191.232" fill="#27312d"/>
+    <circle cx="3720" cy="3000" r="100.92800000000001" fill="#dce6da"/>
+    <circle cx="3720" cy="3000" r="39.84" fill="#123b30"/>
+  </g>
+    <path d="M 593.16 2968.128 C 699.4 2675.968, 1230.6 2675.968, 1336.8400000000001 2968.128" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3348.16 2968.128 C 3454.4 2675.968, 3985.6 2675.968, 4091.84 2968.128" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

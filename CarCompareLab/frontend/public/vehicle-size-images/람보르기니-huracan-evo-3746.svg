@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">람보르기니 Huracan EVO 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4520 x 1933 x 1180 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2260" cy="3162.368" rx="2124.4" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 113 2895 C 452 2705, 994 2599, 1537 2552 C 1898 2198, 2576 2115, 3119 2493 C 3752 2552, 4249 2681, 4407 2895 Z" fill="#205f72" stroke="#123a45" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 113 2895 C 452 2705, 994 2599, 1537 2552 C 1898 2198, 2576 2115, 3119 2493 C 3752 2552, 4249 2681, 4407 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1763 2493 C 2124 2245, 2622 2221, 2983 2493 Z" fill="#d2e8f2" stroke="#123a45" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3119 2563 L 4113 2681" fill="none" stroke="#123a45" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2486 2504 L 2486 2895" fill="none" stroke="#123a45" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 813.6 2858.4 L 3796.7999999999997 2858.4" fill="none" stroke="#dce7eb" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="158.20000000000002" y="2728.6" width="203.4" height="88.5" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4113.2" y="2705" width="226" height="82.60000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="950" cy="3000" r="188.8" fill="#171d1b"/>
+    <circle cx="950" cy="3000" r="135.936" fill="#27312d"/>
+    <circle cx="950" cy="3000" r="71.744" fill="#dce7eb"/>
+    <circle cx="950" cy="3000" r="28.32" fill="#123a45"/>
+  </g>
+    <g>
+    <circle cx="3570" cy="3000" r="188.8" fill="#171d1b"/>
+    <circle cx="3570" cy="3000" r="135.936" fill="#27312d"/>
+    <circle cx="3570" cy="3000" r="71.744" fill="#dce7eb"/>
+    <circle cx="3570" cy="3000" r="28.32" fill="#123a45"/>
+  </g>
+    <path d="M 685.6800000000001 2977.344 C 761.2 2769.6639999999998, 1138.8 2769.6639999999998, 1214.32 2977.344" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3305.68 2977.344 C 3381.2 2769.6639999999998, 3758.8 2769.6639999999998, 3834.32 2977.344" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

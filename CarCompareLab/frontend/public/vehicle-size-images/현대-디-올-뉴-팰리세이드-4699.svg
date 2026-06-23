@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">현대 디 올 뉴 팰리세이드 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5060 x 1980 x 1805 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2530" cy="3248.368" rx="2378.2" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 127 2874 L 405 2386 L 1366 2061 L 1771 1484 L 3694 1484 L 4554 1953 L 4933 2874 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 127 2874 L 405 2386 L 1366 2061 L 1771 1484 L 3694 1484 L 4554 1953 L 4933 2874 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1619 1953 L 1973 1628 L 3542 1628 L 4149 1953 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3795 2098 L 4605 2242" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2783 1971 L 2783 2874" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    <path d="M 607 2639 L 4453 2639" fill="none" stroke="#123b30" stroke-width="22" stroke-linecap="round" opacity="0.28"/>
+    <path d="M 910.8 2783.4 L 4250.4 2783.4" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="177.10000000000002" y="2584.85" width="227.7" height="135.375" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4604.6" y="2548.75" width="253" height="126.35000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1045" cy="3000" r="288.8" fill="#171d1b"/>
+    <circle cx="1045" cy="3000" r="207.936" fill="#27312d"/>
+    <circle cx="1045" cy="3000" r="109.744" fill="#dce6da"/>
+    <circle cx="1045" cy="3000" r="43.32" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="4015" cy="3000" r="288.8" fill="#171d1b"/>
+    <circle cx="4015" cy="3000" r="207.936" fill="#27312d"/>
+    <circle cx="4015" cy="3000" r="109.744" fill="#dce6da"/>
+    <circle cx="4015" cy="3000" r="43.32" fill="#123b30"/>
+  </g>
+    <path d="M 640.6800000000001 2965.344 C 756.2 2647.6639999999998, 1333.8 2647.6639999999998, 1449.32 2965.344" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3610.68 2965.344 C 3726.2 2647.6639999999998, 4303.8 2647.6639999999998, 4419.32 2965.344" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

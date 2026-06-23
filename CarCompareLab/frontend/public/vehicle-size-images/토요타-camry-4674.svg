@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">토요타 Camry 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4920 x 1840 x 1445 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2460" cy="3198.832" rx="2312.4" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 123 2895 C 394 2668, 836 2509, 1378 2422 C 1820 1960, 2509 1786, 3247 1989 C 3690 2306, 4330 2422, 4797 2895 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 123 2895 C 394 2668, 836 2509, 1378 2422 C 1820 1960, 2509 1786, 3247 1989 C 3690 2306, 4330 2422, 4797 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1673 2335 C 2116 2017, 2657 1931, 3149 2162 L 3493 2364 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3395 2436 L 4428 2567" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2558 2350 L 2558 2895" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 885.6 2826.6 L 4132.8 2826.6" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="172.20000000000002" y="2667.65" width="221.4" height="108.375" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4477.2" y="2638.75" width="246" height="101.15" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1048" cy="3000" r="231.20000000000002" fill="#161d1a"/>
+    <circle cx="1048" cy="3000" r="166.464" fill="#27312d"/>
+    <circle cx="1048" cy="3000" r="87.85600000000001" fill="#dbe5dc"/>
+    <circle cx="1048" cy="3000" r="34.68" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3873" cy="3000" r="231.20000000000002" fill="#161d1a"/>
+    <circle cx="3873" cy="3000" r="166.464" fill="#27312d"/>
+    <circle cx="3873" cy="3000" r="87.85600000000001" fill="#dbe5dc"/>
+    <circle cx="3873" cy="3000" r="34.68" fill="#0d3e33"/>
+  </g>
+    <path d="M 724.3199999999999 2972.256 C 816.8 2717.936, 1279.2 2717.936, 1371.68 2972.256" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3549.32 2972.256 C 3641.8 2717.936, 4104.2 2717.936, 4196.68 2972.256" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

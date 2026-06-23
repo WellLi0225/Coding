@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">BYD ATTO 3 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4455 x 1875 x 1615 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2227.5" cy="3222.224" rx="2093.85" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 111 2887 C 356 2629, 757 2451, 1247 2354 C 1648 1837, 2272 1643, 2940 1870 C 3341 2225, 3920 2354, 4344 2887 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 111 2887 C 356 2629, 757 2451, 1247 2354 C 1648 1837, 2272 1643, 2940 1870 C 3341 2225, 3920 2354, 4344 2887 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1515 2257 C 1916 1902, 2406 1805, 2851 2063 L 3163 2289 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3074 2370 L 4010 2516" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2317 2273 L 2317 2887" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 801.9 2806.2 L 3742.2 2806.2" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="155.925" y="2628.55" width="200.475" height="121.125" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4054.05" y="2596.25" width="222.75" height="113.05000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="868" cy="3000" r="258.4" fill="#161d1a"/>
+    <circle cx="868" cy="3000" r="186.04799999999997" fill="#27312d"/>
+    <circle cx="868" cy="3000" r="98.192" fill="#dbe5dc"/>
+    <circle cx="868" cy="3000" r="38.76" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3587" cy="3000" r="258.4" fill="#161d1a"/>
+    <circle cx="3587" cy="3000" r="186.04799999999997" fill="#27312d"/>
+    <circle cx="3587" cy="3000" r="98.192" fill="#dbe5dc"/>
+    <circle cx="3587" cy="3000" r="38.76" fill="#0d3e33"/>
+  </g>
+    <path d="M 506.24000000000007 2968.992 C 609.6 2684.752, 1126.4 2684.752, 1229.76 2968.992" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3225.2400000000002 2968.992 C 3328.6 2684.752, 3845.4 2684.752, 3948.7599999999998 2968.992" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

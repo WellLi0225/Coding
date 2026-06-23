@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">기아 EV3 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4300 x 1850 x 1560 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2150" cy="3214.656" rx="2020.9999999999998" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 108 2891 C 344 2641, 731 2470, 1204 2376 C 1591 1877, 2193 1690, 2838 1908 C 3225 2251, 3784 2376, 4192 2891 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 108 2891 C 344 2641, 731 2470, 1204 2376 C 1591 1877, 2193 1690, 2838 1908 C 3225 2251, 3784 2376, 4192 2891 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1462 2282 C 1849 1939, 2322 1846, 2752 2095 L 3053 2314 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 2967 2392 L 3870 2532" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2236 2298 L 2236 2891" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 774 2812.8 L 3612 2812.8" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="150.50000000000003" y="2641.2" width="193.5" height="117" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="3913" y="2610" width="215" height="109.20000000000002" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="810" cy="3000" r="249.6" fill="#161d1a"/>
+    <circle cx="810" cy="3000" r="179.712" fill="#27312d"/>
+    <circle cx="810" cy="3000" r="94.848" fill="#dbe5dc"/>
+    <circle cx="810" cy="3000" r="37.44" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3490" cy="3000" r="249.6" fill="#161d1a"/>
+    <circle cx="3490" cy="3000" r="179.712" fill="#27312d"/>
+    <circle cx="3490" cy="3000" r="94.848" fill="#dbe5dc"/>
+    <circle cx="3490" cy="3000" r="37.44" fill="#0d3e33"/>
+  </g>
+    <path d="M 460.56 2970.048 C 560.4 2695.488, 1059.6 2695.488, 1159.44 2970.048" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3140.56 2970.048 C 3240.4 2695.488, 3739.6 2695.488, 3839.44 2970.048" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

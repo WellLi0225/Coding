@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">자일자동차 레스타 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">7180 x 2040 x 2820 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="3590" cy="3279.5" rx="3374.6" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 180 2803 C 503 2210, 933 1872, 1723 1646 L 2441 800 C 3303 462, 4811 490, 5672 1449 C 6534 1618, 6965 2041, 7000 2803 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 180 2803 C 503 2210, 933 1872, 1723 1646 L 2441 800 C 3303 462, 4811 490, 5672 1449 C 6534 1618, 6965 2041, 7000 2803 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 2298 1449 L 2944 857 C 3590 688, 4667 716, 5313 1449 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 5457 1646 L 6534 1900" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 3949 1421 L 3949 2803" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 1292.3999999999999 2661.6 L 6031.2 2661.6" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="251.3" y="2351.4" width="323.09999999999997" height="211.5" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="6533.8" y="2295" width="359" height="197.4" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1540" cy="3000" r="325" fill="#171d1b"/>
+    <circle cx="1540" cy="3000" r="234" fill="#27312d"/>
+    <circle cx="1540" cy="3000" r="123.5" fill="#dce6da"/>
+    <circle cx="1540" cy="3000" r="48.75" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="5640" cy="3000" r="325" fill="#171d1b"/>
+    <circle cx="5640" cy="3000" r="234" fill="#27312d"/>
+    <circle cx="5640" cy="3000" r="123.5" fill="#dce6da"/>
+    <circle cx="5640" cy="3000" r="48.75" fill="#123b30"/>
+  </g>
+    <path d="M 1085 2961 C 1215 2603.5, 1865 2603.5, 1995 2961" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 5185 2961 C 5315 2603.5, 5965 2603.5, 6095 2961" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

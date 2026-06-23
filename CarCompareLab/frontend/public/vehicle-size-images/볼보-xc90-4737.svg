@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">볼보 XC90 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4955 x 1960 x 1765 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2477.5" cy="3242.864" rx="2328.85" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 124 2876 C 347 2506, 644 2294, 1189 2153 L 1685 1623 C 2279 1412, 3320 1429, 3914 2029 C 4509 2135, 4806 2400, 4831 2876 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 124 2876 C 347 2506, 644 2294, 1189 2153 L 1685 1623 C 2279 1412, 3320 1429, 3914 2029 C 4509 2135, 4806 2400, 4831 2876 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1586 2029 L 2032 1659 C 2478 1553, 3221 1570, 3667 2029 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3766 2153 L 4509 2312" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2725 2012 L 2725 2876" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 891.9 2788.2 L 4162.2 2788.2" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="173.425" y="2594.05" width="222.975" height="132.375" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4509.05" y="2558.75" width="247.75" height="123.55000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="986" cy="3000" r="282.40000000000003" fill="#171d1b"/>
+    <circle cx="986" cy="3000" r="203.328" fill="#27312d"/>
+    <circle cx="986" cy="3000" r="107.31200000000001" fill="#dce6da"/>
+    <circle cx="986" cy="3000" r="42.36000000000001" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="3970" cy="3000" r="282.40000000000003" fill="#171d1b"/>
+    <circle cx="3970" cy="3000" r="203.328" fill="#27312d"/>
+    <circle cx="3970" cy="3000" r="107.31200000000001" fill="#dce6da"/>
+    <circle cx="3970" cy="3000" r="42.36000000000001" fill="#123b30"/>
+  </g>
+    <path d="M 590.64 2966.112 C 703.5999999999999 2655.4719999999998, 1268.4 2655.4719999999998, 1381.3600000000001 2966.112" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3574.64 2966.112 C 3687.6 2655.4719999999998, 4252.4 2655.4719999999998, 4365.36 2966.112" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

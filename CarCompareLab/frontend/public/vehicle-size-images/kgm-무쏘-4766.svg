@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">KGM 무쏘 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5150 x 1950 x 1865 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2575" cy="3256.624" rx="2420.5" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 129 2869 C 361 2478, 670 2254, 1236 2105 L 1751 1545 C 2369 1322, 3451 1340, 4069 1974 C 4687 2086, 4996 2366, 5021 2869 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 129 2869 C 361 2478, 670 2254, 1236 2105 L 1751 1545 C 2369 1322, 3451 1340, 4069 1974 C 4687 2086, 4996 2366, 5021 2869 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1648 1974 L 2112 1583 C 2575 1471, 3348 1489, 3811 1974 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3914 2105 L 4687 2273" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2833 1956 L 2833 2869" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 927 2776.2 L 4326 2776.2" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="180.25000000000003" y="2571.05" width="231.75" height="139.875" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4686.5" y="2533.75" width="257.5" height="130.55" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1025" cy="3000" r="298.40000000000003" fill="#171d1b"/>
+    <circle cx="1025" cy="3000" r="214.848" fill="#27312d"/>
+    <circle cx="1025" cy="3000" r="113.39200000000001" fill="#dce6da"/>
+    <circle cx="1025" cy="3000" r="44.760000000000005" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="4125" cy="3000" r="298.40000000000003" fill="#171d1b"/>
+    <circle cx="4125" cy="3000" r="214.848" fill="#27312d"/>
+    <circle cx="4125" cy="3000" r="113.39200000000001" fill="#dce6da"/>
+    <circle cx="4125" cy="3000" r="44.760000000000005" fill="#123b30"/>
+  </g>
+    <path d="M 607.24 2964.192 C 726.5999999999999 2635.9519999999998, 1323.4 2635.9519999999998, 1442.76 2964.192" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3707.24 2964.192 C 3826.6 2635.9519999999998, 4423.4 2635.9519999999998, 4542.76 2964.192" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

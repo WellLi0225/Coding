@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">페라리 Roma Spider 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4656 x 1974 x 1306 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2328" cy="3179.7056000000002" rx="2188.3199999999997" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 116 2895 C 466 2674, 1024 2556, 1583 2504 C 1956 2112, 2654 2021, 3213 2438 C 3864 2504, 4377 2647, 4540 2895 Z" fill="#205f72" stroke="#123a45" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 116 2895 C 466 2674, 1024 2556, 1583 2504 C 1956 2112, 2654 2021, 3213 2438 C 3864 2504, 4377 2647, 4540 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1816 2438 C 2188 2164, 2700 2138, 3073 2438 Z" fill="#d2e8f2" stroke="#123a45" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3213 2517 L 4237 2647" fill="none" stroke="#123a45" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2561 2451 L 2561 2895" fill="none" stroke="#123a45" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 838.0799999999999 2843.28 L 3911.04 2843.28" fill="none" stroke="#dce7eb" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="162.96" y="2699.62" width="209.51999999999998" height="97.95" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4236.96" y="2673.5" width="232.8" height="91.42" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="993" cy="3000" r="208.96" fill="#171d1b"/>
+    <circle cx="993" cy="3000" r="150.4512" fill="#27312d"/>
+    <circle cx="993" cy="3000" r="79.40480000000001" fill="#dce7eb"/>
+    <circle cx="993" cy="3000" r="31.344" fill="#123a45"/>
+  </g>
+    <g>
+    <circle cx="3663" cy="3000" r="208.96" fill="#171d1b"/>
+    <circle cx="3663" cy="3000" r="150.4512" fill="#27312d"/>
+    <circle cx="3663" cy="3000" r="79.40480000000001" fill="#dce7eb"/>
+    <circle cx="3663" cy="3000" r="31.344" fill="#123a45"/>
+  </g>
+    <path d="M 700.456 2974.9248 C 784.04 2745.0688, 1201.96 2745.0688, 1285.5439999999999 2974.9248" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3370.456 2974.9248 C 3454.04 2745.0688, 3871.96 2745.0688, 3955.544 2974.9248" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

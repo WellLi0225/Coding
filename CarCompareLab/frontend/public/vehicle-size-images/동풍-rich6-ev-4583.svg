@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">동풍 Rich6 EV 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5290 x 1850 x 1820 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2645" cy="3250.432" rx="2486.2999999999997" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 132 2873 C 370 2490, 688 2272, 1270 2126 L 1799 1580 C 2433 1362, 3544 1380, 4179 1999 C 4814 2108, 5131 2381, 5158 2873 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 132 2873 C 370 2490, 688 2272, 1270 2126 L 1799 1580 C 2433 1362, 3544 1380, 4179 1999 C 4814 2108, 5131 2381, 5158 2873 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1693 1999 L 2169 1617 C 2645 1508, 3439 1526, 3915 1999 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 4020 2126 L 4814 2290" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2910 1981 L 2910 2873" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 952.1999999999999 2781.6 L 4443.599999999999 2781.6" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="185.15" y="2581.4" width="238.04999999999998" height="136.5" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4813.900000000001" y="2545" width="264.5" height="127.4" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1070" cy="3000" r="291.2" fill="#171d1b"/>
+    <circle cx="1070" cy="3000" r="209.664" fill="#27312d"/>
+    <circle cx="1070" cy="3000" r="110.65599999999999" fill="#dce6da"/>
+    <circle cx="1070" cy="3000" r="43.68" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="4220" cy="3000" r="291.2" fill="#171d1b"/>
+    <circle cx="4220" cy="3000" r="209.664" fill="#27312d"/>
+    <circle cx="4220" cy="3000" r="110.65599999999999" fill="#dce6da"/>
+    <circle cx="4220" cy="3000" r="43.68" fill="#123b30"/>
+  </g>
+    <path d="M 662.32 2965.056 C 778.8 2644.736, 1361.2 2644.736, 1477.6799999999998 2965.056" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3812.32 2965.056 C 3928.8 2644.736, 4511.2 2644.736, 4627.68 2965.056" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

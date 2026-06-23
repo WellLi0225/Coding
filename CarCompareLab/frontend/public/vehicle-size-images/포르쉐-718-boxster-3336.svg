@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">포르쉐 718 Boxster 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4391 x 1801 x 1272 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2195.5" cy="3175.0272" rx="2063.77" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 110 2895 C 439 2682, 966 2568, 1493 2517 C 1844 2135, 2503 2046, 3030 2453 C 3645 2517, 4128 2657, 4281 2895 Z" fill="#205f72" stroke="#123a45" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 110 2895 C 439 2682, 966 2568, 1493 2517 C 1844 2135, 2503 2046, 3030 2453 C 3645 2517, 4128 2657, 4281 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1712 2453 C 2064 2186, 2547 2160, 2898 2453 Z" fill="#d2e8f2" stroke="#123a45" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3030 2529 L 3996 2657" fill="none" stroke="#123a45" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2415 2466 L 2415 2895" fill="none" stroke="#123a45" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 790.38 2847.36 L 3688.44 2847.36" fill="none" stroke="#dce7eb" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="153.685" y="2707.44" width="197.595" height="95.39999999999999" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="3995.81" y="2682" width="219.55" height="89.04" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="958" cy="3000" r="203.52" fill="#171d1b"/>
+    <circle cx="958" cy="3000" r="146.5344" fill="#27312d"/>
+    <circle cx="958" cy="3000" r="77.33760000000001" fill="#dce7eb"/>
+    <circle cx="958" cy="3000" r="30.528" fill="#123a45"/>
+  </g>
+    <g>
+    <circle cx="3433" cy="3000" r="203.52" fill="#171d1b"/>
+    <circle cx="3433" cy="3000" r="146.5344" fill="#27312d"/>
+    <circle cx="3433" cy="3000" r="77.33760000000001" fill="#dce7eb"/>
+    <circle cx="3433" cy="3000" r="30.528" fill="#123a45"/>
+  </g>
+    <path d="M 673.072 2975.5776 C 754.48 2751.7056000000002, 1161.52 2751.7056000000002, 1242.9279999999999 2975.5776" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3148.072 2975.5776 C 3229.48 2751.7056000000002, 3636.52 2751.7056000000002, 3717.928 2975.5776" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

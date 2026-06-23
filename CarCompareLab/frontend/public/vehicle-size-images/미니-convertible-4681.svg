@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">미니 Convertible 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">3880 x 1745 x 1430 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="1940" cy="3196.768" rx="1823.6" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 97 2895 C 310 2671, 660 2514, 1086 2428 C 1436 1970, 1979 1799, 2561 1999 C 2910 2314, 3414 2428, 3783 2895 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 97 2895 C 310 2671, 660 2514, 1086 2428 C 1436 1970, 1979 1799, 2561 1999 C 2910 2314, 3414 2428, 3783 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1319 2342 C 1668 2028, 2095 1942, 2483 2171 L 2755 2371 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 2677 2442 L 3492 2571" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2018 2357 L 2018 2895" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 698.4 2828.4 L 3259.2 2828.4" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="135.8" y="2671.1" width="174.6" height="107.25" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="3530.8" y="2642.5" width="194" height="100.10000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="692" cy="3000" r="228.8" fill="#161d1a"/>
+    <circle cx="692" cy="3000" r="164.736" fill="#27312d"/>
+    <circle cx="692" cy="3000" r="86.944" fill="#dbe5dc"/>
+    <circle cx="692" cy="3000" r="34.32" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3188" cy="3000" r="228.8" fill="#161d1a"/>
+    <circle cx="3188" cy="3000" r="164.736" fill="#27312d"/>
+    <circle cx="3188" cy="3000" r="86.944" fill="#dbe5dc"/>
+    <circle cx="3188" cy="3000" r="34.32" fill="#0d3e33"/>
+  </g>
+    <path d="M 371.68 2972.544 C 463.2 2720.864, 920.8 2720.864, 1012.3199999999999 2972.544" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 2867.68 2972.544 C 2959.2 2720.864, 3416.8 2720.864, 3508.32 2972.544" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

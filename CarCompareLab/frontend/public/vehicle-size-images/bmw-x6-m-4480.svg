@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">BMW X6 M 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4950 x 2020 x 1695 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2475" cy="3233.232" rx="2326.5" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 124 2881 C 347 2525, 644 2322, 1188 2186 L 1683 1678 C 2277 1475, 3317 1491, 3911 2068 C 4505 2169, 4802 2424, 4826 2881 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 124 2881 C 347 2525, 644 2322, 1188 2186 L 1683 1678 C 2277 1475, 3317 1491, 3911 2068 C 4505 2169, 4802 2424, 4826 2881 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1584 2068 L 2029 1712 C 2475 1610, 3218 1627, 3663 2068 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3762 2186 L 4505 2339" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2723 2051 L 2723 2881" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 891 2796.6 L 4158 2796.6" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="173.25000000000003" y="2610.15" width="222.75" height="127.125" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4504.5" y="2576.25" width="247.5" height="118.65" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="990" cy="3000" r="271.2" fill="#171d1b"/>
+    <circle cx="990" cy="3000" r="195.26399999999998" fill="#27312d"/>
+    <circle cx="990" cy="3000" r="103.056" fill="#dce6da"/>
+    <circle cx="990" cy="3000" r="40.68" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="3960" cy="3000" r="271.2" fill="#171d1b"/>
+    <circle cx="3960" cy="3000" r="195.26399999999998" fill="#27312d"/>
+    <circle cx="3960" cy="3000" r="103.056" fill="#dce6da"/>
+    <circle cx="3960" cy="3000" r="40.68" fill="#123b30"/>
+  </g>
+    <path d="M 610.32 2967.456 C 718.8 2669.136, 1261.2 2669.136, 1369.6799999999998 2967.456" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3580.32 2967.456 C 3688.8 2669.136, 4231.2 2669.136, 4339.68 2967.456" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

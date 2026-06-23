@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">벤츠 Maybach SL 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4695 x 1915 x 1365 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2347.5" cy="3187.824" rx="2206.65" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 117 2895 C 470 2659, 1033 2536, 1596 2481 C 1972 2072, 2676 1976, 3240 2413 C 3897 2481, 4413 2631, 4578 2895 Z" fill="#205f72" stroke="#123a45" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 117 2895 C 470 2659, 1033 2536, 1596 2481 C 1972 2072, 2676 1976, 3240 2413 C 3897 2481, 4413 2631, 4578 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1831 2413 C 2207 2126, 2723 2099, 3099 2413 Z" fill="#d2e8f2" stroke="#123a45" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3240 2495 L 4272 2631" fill="none" stroke="#123a45" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2582 2427 L 2582 2895" fill="none" stroke="#123a45" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 845.1 2836.2 L 3943.7999999999997 2836.2" fill="none" stroke="#dce7eb" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="164.32500000000002" y="2686.05" width="211.275" height="102.375" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4272.45" y="2658.75" width="234.75" height="95.55000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="997" cy="3000" r="218.4" fill="#171d1b"/>
+    <circle cx="997" cy="3000" r="157.248" fill="#27312d"/>
+    <circle cx="997" cy="3000" r="82.992" fill="#dce7eb"/>
+    <circle cx="997" cy="3000" r="32.76" fill="#123a45"/>
+  </g>
+    <g>
+    <circle cx="3698" cy="3000" r="218.4" fill="#171d1b"/>
+    <circle cx="3698" cy="3000" r="157.248" fill="#27312d"/>
+    <circle cx="3698" cy="3000" r="82.992" fill="#dce7eb"/>
+    <circle cx="3698" cy="3000" r="32.76" fill="#123a45"/>
+  </g>
+    <path d="M 691.24 2973.792 C 778.6 2733.552, 1215.4 2733.552, 1302.76 2973.792" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3392.24 2973.792 C 3479.6 2733.552, 3916.4 2733.552, 4003.76 2973.792" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

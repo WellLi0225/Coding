@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">맥라렌 Artura 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4539 x 1913 x 1193 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2269.5" cy="3164.1568" rx="2133.33" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 113 2895 C 454 2702, 999 2594, 1543 2547 C 1906 2189, 2587 2105, 3132 2487 C 3767 2547, 4267 2678, 4426 2895 Z" fill="#205f72" stroke="#123a45" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 113 2895 C 454 2702, 999 2594, 1543 2547 C 1906 2189, 2587 2105, 3132 2487 C 3767 2547, 4267 2678, 4426 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1770 2487 C 2133 2236, 2633 2213, 2996 2487 Z" fill="#d2e8f2" stroke="#123a45" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3132 2559 L 4130 2678" fill="none" stroke="#123a45" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2496 2499 L 2496 2895" fill="none" stroke="#123a45" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 817.02 2856.84 L 3812.7599999999998 2856.84" fill="none" stroke="#dce7eb" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="158.865" y="2725.61" width="204.255" height="89.475" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4130.49" y="2701.75" width="226.95000000000002" height="83.51" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="950" cy="3000" r="190.88" fill="#171d1b"/>
+    <circle cx="950" cy="3000" r="137.43359999999998" fill="#27312d"/>
+    <circle cx="950" cy="3000" r="72.5344" fill="#dce7eb"/>
+    <circle cx="950" cy="3000" r="28.631999999999998" fill="#123a45"/>
+  </g>
+    <g>
+    <circle cx="3590" cy="3000" r="190.88" fill="#171d1b"/>
+    <circle cx="3590" cy="3000" r="137.43359999999998" fill="#27312d"/>
+    <circle cx="3590" cy="3000" r="72.5344" fill="#dce7eb"/>
+    <circle cx="3590" cy="3000" r="28.631999999999998" fill="#123a45"/>
+  </g>
+    <path d="M 682.768 2977.0944 C 759.12 2767.1264, 1140.88 2767.1264, 1217.232 2977.0944" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3322.768 2977.0944 C 3399.12 2767.1264, 3780.88 2767.1264, 3857.232 2977.0944" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

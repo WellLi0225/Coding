@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">디피코 포트로 P350 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">3580 x 1440 x 1890 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="1790" cy="3260.064" rx="1682.6" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 90 2868 C 251 2471, 465 2244, 859 2093 L 1217 1526 C 1647 1299, 2399 1318, 2828 1961 C 3258 2074, 3473 2357, 3490 2868 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 90 2868 C 251 2471, 465 2244, 859 2093 L 1217 1526 C 1647 1299, 2399 1318, 2828 1961 C 3258 2074, 3473 2357, 3490 2868 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1146 1961 L 1468 1564 C 1790 1450, 2327 1469, 2649 1961 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 2721 2093 L 3258 2263" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 1969 1942 L 1969 2868" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 644.4 2773.2 L 3007.2 2773.2" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="125.30000000000001" y="2565.3" width="161.1" height="141.75" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="3257.8" y="2527.5" width="179" height="132.3" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="590" cy="3000" r="302.40000000000003" fill="#171d1b"/>
+    <circle cx="590" cy="3000" r="217.728" fill="#27312d"/>
+    <circle cx="590" cy="3000" r="114.91200000000002" fill="#dce6da"/>
+    <circle cx="590" cy="3000" r="45.36000000000001" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="2990" cy="3000" r="302.40000000000003" fill="#171d1b"/>
+    <circle cx="2990" cy="3000" r="217.728" fill="#27312d"/>
+    <circle cx="2990" cy="3000" r="114.91200000000002" fill="#dce6da"/>
+    <circle cx="2990" cy="3000" r="45.36000000000001" fill="#123b30"/>
+  </g>
+    <path d="M 166.64 2963.712 C 287.59999999999997 2631.072, 892.4000000000001 2631.072, 1013.36 2963.712" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 2566.64 2963.712 C 2687.6 2631.072, 3292.4 2631.072, 3413.36 2963.712" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

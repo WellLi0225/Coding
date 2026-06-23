@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">벤츠 Electric G-Class 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4865 x 1985 x 1990 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2432.5" cy="3273.824" rx="2286.5499999999997" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 122 2861 L 389 2323 L 1314 1965 L 1703 1328 L 3551 1328 L 4379 1846 L 4743 2861 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 122 2861 L 389 2323 L 1314 1965 L 1703 1328 L 3551 1328 L 4379 1846 L 4743 2861 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1557 1846 L 1897 1488 L 3406 1488 L 3989 1846 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3649 2005 L 4427 2164" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2676 1866 L 2676 2861" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    <path d="M 584 2602 L 4281 2602" fill="none" stroke="#123b30" stroke-width="22" stroke-linecap="round" opacity="0.28"/>
+    <path d="M 875.6999999999999 2761.2 L 4086.6 2761.2" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="170.275" y="2542.3" width="218.92499999999998" height="149.25" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4427.150000000001" y="2502.5" width="243.25" height="139.3" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="988" cy="3000" r="318.40000000000003" fill="#171d1b"/>
+    <circle cx="988" cy="3000" r="229.24800000000002" fill="#27312d"/>
+    <circle cx="988" cy="3000" r="120.99200000000002" fill="#dce6da"/>
+    <circle cx="988" cy="3000" r="47.760000000000005" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="3878" cy="3000" r="318.40000000000003" fill="#171d1b"/>
+    <circle cx="3878" cy="3000" r="229.24800000000002" fill="#27312d"/>
+    <circle cx="3878" cy="3000" r="120.99200000000002" fill="#dce6da"/>
+    <circle cx="3878" cy="3000" r="47.760000000000005" fill="#123b30"/>
+  </g>
+    <path d="M 542.24 2961.792 C 669.5999999999999 2611.552, 1306.4 2611.552, 1433.76 2961.792" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3432.24 2961.792 C 3559.6 2611.552, 4196.4 2611.552, 4323.76 2961.792" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

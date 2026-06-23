@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">포르쉐 Cayenne 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4930 x 1983 x 1696 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2465" cy="3233.3696" rx="2317.1" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 123 2881 C 345 2525, 641 2322, 1183 2186 L 1676 1677 C 2268 1474, 3303 1491, 3895 2067 C 4486 2169, 4782 2423, 4807 2881 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 123 2881 C 345 2525, 641 2322, 1183 2186 L 1676 1677 C 2268 1474, 3303 1491, 3895 2067 C 4486 2169, 4782 2423, 4807 2881 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1578 2067 L 2021 1711 C 2465 1609, 3205 1626, 3648 2067 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3747 2186 L 4486 2339" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2712 2050 L 2712 2881" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 887.4 2796.48 L 4141.2 2796.48" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="172.55" y="2609.92" width="221.85" height="127.19999999999999" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4486.3" y="2576" width="246.5" height="118.72000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1018" cy="3000" r="271.36" fill="#171d1b"/>
+    <circle cx="1018" cy="3000" r="195.3792" fill="#27312d"/>
+    <circle cx="1018" cy="3000" r="103.11680000000001" fill="#dce6da"/>
+    <circle cx="1018" cy="3000" r="40.704" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="3912" cy="3000" r="271.36" fill="#171d1b"/>
+    <circle cx="3912" cy="3000" r="195.3792" fill="#27312d"/>
+    <circle cx="3912" cy="3000" r="103.11680000000001" fill="#dce6da"/>
+    <circle cx="3912" cy="3000" r="40.704" fill="#123b30"/>
+  </g>
+    <path d="M 638.096 2967.4368 C 746.64 2668.9408, 1289.3600000000001 2668.9408, 1397.904 2967.4368" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3532.096 2967.4368 C 3640.64 2668.9408, 4183.36 2668.9408, 4291.904 2967.4368" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

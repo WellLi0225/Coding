@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">BMW XM 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5110 x 2005 x 1755 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2555" cy="3241.488" rx="2401.7" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 128 2877 C 358 2509, 664 2298, 1226 2158 L 1737 1631 C 2351 1421, 3424 1438, 4037 2035 C 4650 2140, 4957 2403, 4982 2877 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 128 2877 C 358 2509, 664 2298, 1226 2158 L 1737 1631 C 2351 1421, 3424 1438, 4037 2035 C 4650 2140, 4957 2403, 4982 2877 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1635 2035 L 2095 1666 C 2555 1561, 3322 1578, 3781 2035 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3884 2158 L 4650 2316" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2811 2017 L 2811 2877" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 919.8 2789.4 L 4292.4 2789.4" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="178.85000000000002" y="2596.35" width="229.95" height="131.625" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4650.1" y="2561.25" width="255.5" height="122.85000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1002" cy="3000" r="280.8" fill="#171d1b"/>
+    <circle cx="1002" cy="3000" r="202.176" fill="#27312d"/>
+    <circle cx="1002" cy="3000" r="106.70400000000001" fill="#dce6da"/>
+    <circle cx="1002" cy="3000" r="42.12" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="4108" cy="3000" r="280.8" fill="#171d1b"/>
+    <circle cx="4108" cy="3000" r="202.176" fill="#27312d"/>
+    <circle cx="4108" cy="3000" r="106.70400000000001" fill="#dce6da"/>
+    <circle cx="4108" cy="3000" r="42.12" fill="#123b30"/>
+  </g>
+    <path d="M 608.88 2966.304 C 721.2 2657.424, 1282.8 2657.424, 1395.12 2966.304" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3714.88 2966.304 C 3827.2 2657.424, 4388.8 2657.424, 4501.12 2966.304" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

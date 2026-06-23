@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">벤츠 AMG GT 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5055 x 1955 x 1445 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2527.5" cy="3198.832" rx="2375.85" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 126 2895 C 506 2639, 1112 2509, 1719 2451 C 2123 2017, 2881 1916, 3488 2379 C 4196 2451, 4752 2610, 4929 2895 Z" fill="#205f72" stroke="#123a45" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 126 2895 C 506 2639, 1112 2509, 1719 2451 C 2123 2017, 2881 1916, 3488 2379 C 4196 2451, 4752 2610, 4929 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1971 2379 C 2376 2075, 2932 2046, 3336 2379 Z" fill="#d2e8f2" stroke="#123a45" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3488 2465 L 4600 2610" fill="none" stroke="#123a45" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2780 2393 L 2780 2895" fill="none" stroke="#123a45" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 909.9 2826.6 L 4246.2 2826.6" fill="none" stroke="#dce7eb" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="176.925" y="2667.65" width="227.475" height="108.375" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4600.05" y="2638.75" width="252.75" height="101.15" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1053" cy="3000" r="231.20000000000002" fill="#171d1b"/>
+    <circle cx="1053" cy="3000" r="166.464" fill="#27312d"/>
+    <circle cx="1053" cy="3000" r="87.85600000000001" fill="#dce7eb"/>
+    <circle cx="1053" cy="3000" r="34.68" fill="#123a45"/>
+  </g>
+    <g>
+    <circle cx="4003" cy="3000" r="231.20000000000002" fill="#171d1b"/>
+    <circle cx="4003" cy="3000" r="166.464" fill="#27312d"/>
+    <circle cx="4003" cy="3000" r="87.85600000000001" fill="#dce7eb"/>
+    <circle cx="4003" cy="3000" r="34.68" fill="#123a45"/>
+  </g>
+    <path d="M 729.3199999999999 2972.256 C 821.8 2717.936, 1284.2 2717.936, 1376.68 2972.256" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3679.32 2972.256 C 3771.8 2717.936, 4234.2 2717.936, 4326.68 2972.256" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">마세라티 Grecale Folgore 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4865 x 1948 x 1651 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2432.5" cy="3227.1776" rx="2286.5499999999997" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 122 2884 C 389 2620, 827 2439, 1362 2340 C 1800 1811, 2481 1613, 3211 1844 C 3649 2208, 4281 2340, 4743 2884 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 122 2884 C 389 2620, 827 2439, 1362 2340 C 1800 1811, 2481 1613, 3211 1844 C 3649 2208, 4281 2340, 4743 2884 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1654 2241 C 2092 1877, 2627 1778, 3114 2042 L 3454 2274 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3357 2356 L 4379 2505" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2530 2257 L 2530 2884" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 875.6999999999999 2801.88 L 4086.6 2801.88" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="170.275" y="2620.27" width="218.92499999999998" height="123.82499999999999" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4427.150000000001" y="2587.25" width="243.25" height="115.57000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="981" cy="3000" r="264.16" fill="#161d1a"/>
+    <circle cx="981" cy="3000" r="190.1952" fill="#27312d"/>
+    <circle cx="981" cy="3000" r="100.38080000000001" fill="#dbe5dc"/>
+    <circle cx="981" cy="3000" r="39.624" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3884" cy="3000" r="264.16" fill="#161d1a"/>
+    <circle cx="3884" cy="3000" r="190.1952" fill="#27312d"/>
+    <circle cx="3884" cy="3000" r="100.38080000000001" fill="#dbe5dc"/>
+    <circle cx="3884" cy="3000" r="39.624" fill="#0d3e33"/>
+  </g>
+    <path d="M 611.1759999999999 2968.3008 C 716.8399999999999 2677.7248, 1245.16 2677.7248, 1350.824 2968.3008" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3514.176 2968.3008 C 3619.84 2677.7248, 4148.16 2677.7248, 4253.824 2968.3008" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

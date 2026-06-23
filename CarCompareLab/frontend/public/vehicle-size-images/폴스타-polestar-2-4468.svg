@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">폴스타 Polestar 2 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4605 x 1860 x 1480 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2302.5" cy="3203.648" rx="2164.35" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 115 2895 C 368 2660, 783 2497, 1289 2408 C 1704 1934, 2349 1757, 3039 1964 C 3454 2290, 4052 2408, 4490 2895 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 115 2895 C 368 2660, 783 2497, 1289 2408 C 1704 1934, 2349 1757, 3039 1964 C 3454 2290, 4052 2408, 4490 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1566 2319 C 1980 1994, 2487 1905, 2947 2142 L 3270 2349 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3177 2423 L 4145 2556" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2395 2334 L 2395 2895" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 828.9 2822.4 L 3868.2 2822.4" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="161.175" y="2659.6" width="207.225" height="111" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4190.55" y="2630" width="230.25" height="103.60000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="935" cy="3000" r="236.8" fill="#161d1a"/>
+    <circle cx="935" cy="3000" r="170.496" fill="#27312d"/>
+    <circle cx="935" cy="3000" r="89.98400000000001" fill="#dbe5dc"/>
+    <circle cx="935" cy="3000" r="35.52" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3670" cy="3000" r="236.8" fill="#161d1a"/>
+    <circle cx="3670" cy="3000" r="170.496" fill="#27312d"/>
+    <circle cx="3670" cy="3000" r="89.98400000000001" fill="#dbe5dc"/>
+    <circle cx="3670" cy="3000" r="35.52" fill="#0d3e33"/>
+  </g>
+    <path d="M 603.48 2971.584 C 698.2 2711.104, 1171.8 2711.104, 1266.52 2971.584" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3338.48 2971.584 C 3433.2 2711.104, 3906.8 2711.104, 4001.52 2971.584" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

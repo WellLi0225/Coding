@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">랜드로버 Discovery Sport 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4597 x 1904 x 1727 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2298.5" cy="3237.6352" rx="2160.5899999999997" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 115 2879 C 322 2516, 598 2309, 1103 2171 L 1563 1653 C 2115 1446, 3080 1463, 3632 2050 C 4183 2154, 4459 2413, 4482 2879 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 115 2879 C 322 2516, 598 2309, 1103 2171 L 1563 1653 C 2115 1446, 3080 1463, 3632 2050 C 4183 2154, 4459 2413, 4482 2879 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1471 2050 L 1885 1687 C 2299 1584, 2988 1601, 3402 2050 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3494 2171 L 4183 2326" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2528 2033 L 2528 2879" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 827.4599999999999 2792.76 L 3861.48 2792.76" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="160.895" y="2602.79" width="206.86499999999998" height="129.525" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4183.27" y="2568.25" width="229.85000000000002" height="120.89000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="928" cy="3000" r="276.32" fill="#171d1b"/>
+    <circle cx="928" cy="3000" r="198.9504" fill="#27312d"/>
+    <circle cx="928" cy="3000" r="105.0016" fill="#dce6da"/>
+    <circle cx="928" cy="3000" r="41.448" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="3669" cy="3000" r="276.32" fill="#171d1b"/>
+    <circle cx="3669" cy="3000" r="198.9504" fill="#27312d"/>
+    <circle cx="3669" cy="3000" r="105.0016" fill="#dce6da"/>
+    <circle cx="3669" cy="3000" r="41.448" fill="#123b30"/>
+  </g>
+    <path d="M 541.152 2966.8416 C 651.6800000000001 2662.8896, 1204.32 2662.8896, 1314.848 2966.8416" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3282.152 2966.8416 C 3392.68 2662.8896, 3945.32 2662.8896, 4055.848 2966.8416" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">토요타 Sienna 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5175 x 1995 x 1775 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2587.5" cy="3244.24" rx="2432.25" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 129 2876 C 362 2503, 673 2290, 1242 2148 L 1760 1616 C 2381 1403, 3467 1420, 4088 2024 C 4709 2130, 5020 2397, 5046 2876 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 129 2876 C 362 2503, 673 2290, 1242 2148 L 1760 1616 C 2381 1403, 3467 1420, 4088 2024 C 4709 2130, 5020 2397, 5046 2876 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1656 2024 L 2122 1651 C 2588 1545, 3364 1562, 3830 2024 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3933 2148 L 4709 2308" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2846 2006 L 2846 2876" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 931.5 2787 L 4347 2787" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="181.12500000000003" y="2591.75" width="232.875" height="133.125" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4709.25" y="2556.25" width="258.75" height="124.25000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1058" cy="3000" r="284" fill="#171d1b"/>
+    <circle cx="1058" cy="3000" r="204.48" fill="#27312d"/>
+    <circle cx="1058" cy="3000" r="107.92" fill="#dce6da"/>
+    <circle cx="1058" cy="3000" r="42.6" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="4118" cy="3000" r="284" fill="#171d1b"/>
+    <circle cx="4118" cy="3000" r="204.48" fill="#27312d"/>
+    <circle cx="4118" cy="3000" r="107.92" fill="#dce6da"/>
+    <circle cx="4118" cy="3000" r="42.6" fill="#123b30"/>
+  </g>
+    <path d="M 660.4000000000001 2965.92 C 774 2653.52, 1342 2653.52, 1455.6 2965.92" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3720.4 2965.92 C 3834 2653.52, 4402 2653.52, 4515.6 2965.92" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

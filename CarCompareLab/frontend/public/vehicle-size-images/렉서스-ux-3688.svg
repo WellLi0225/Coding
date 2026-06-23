@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">렉서스 UX 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4495 x 1840 x 1540 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2247.5" cy="3211.904" rx="2112.65" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 112 2892 C 360 2646, 764 2476, 1259 2384 C 1663 1891, 2292 1706, 2967 1922 C 3371 2261, 3956 2384, 4383 2892 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 112 2892 C 360 2646, 764 2476, 1259 2384 C 1663 1891, 2292 1706, 2967 1922 C 3371 2261, 3956 2384, 4383 2892 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1528 2292 C 1933 1953, 2427 1860, 2877 2107 L 3191 2322 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3102 2399 L 4046 2538" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2337 2307 L 2337 2892" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 809.1 2815.2 L 3775.7999999999997 2815.2" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="157.32500000000002" y="2645.8" width="202.275" height="115.5" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4090.4500000000003" y="2615" width="224.75" height="107.80000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="928" cy="3000" r="246.4" fill="#161d1a"/>
+    <circle cx="928" cy="3000" r="177.408" fill="#27312d"/>
+    <circle cx="928" cy="3000" r="93.632" fill="#dbe5dc"/>
+    <circle cx="928" cy="3000" r="36.96" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3568" cy="3000" r="246.4" fill="#161d1a"/>
+    <circle cx="3568" cy="3000" r="177.408" fill="#27312d"/>
+    <circle cx="3568" cy="3000" r="93.632" fill="#dbe5dc"/>
+    <circle cx="3568" cy="3000" r="36.96" fill="#0d3e33"/>
+  </g>
+    <path d="M 583.04 2970.432 C 681.6 2699.392, 1174.4 2699.392, 1272.96 2970.432" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3223.04 2970.432 C 3321.6 2699.392, 3814.4 2699.392, 3912.96 2970.432" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

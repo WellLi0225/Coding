@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">기아 레이 EV 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">3595 x 1595 x 1710 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="1797.5" cy="3235.296" rx="1689.6499999999999" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 90 2880 C 252 2521, 467 2316, 863 2179 L 1222 1666 C 1654 1461, 2409 1478, 2840 2060 C 3271 2162, 3487 2419, 3505 2880 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 90 2880 C 252 2521, 467 2316, 863 2179 L 1222 1666 C 1654 1461, 2409 1478, 2840 2060 C 3271 2162, 3487 2419, 3505 2880 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1150 2060 L 1474 1700 C 1798 1598, 2337 1615, 2660 2060 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 2732 2179 L 3271 2333" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 1977 2042 L 1977 2880" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 647.1 2794.8 L 3019.7999999999997 2794.8" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="125.82500000000002" y="2606.7" width="161.775" height="128.25" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="3271.4500000000003" y="2572.5" width="179.75" height="119.70000000000002" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="537" cy="3000" r="273.6" fill="#171d1b"/>
+    <circle cx="537" cy="3000" r="196.99200000000002" fill="#27312d"/>
+    <circle cx="537" cy="3000" r="103.968" fill="#dce6da"/>
+    <circle cx="537" cy="3000" r="41.04" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="3058" cy="3000" r="273.6" fill="#171d1b"/>
+    <circle cx="3058" cy="3000" r="196.99200000000002" fill="#27312d"/>
+    <circle cx="3058" cy="3000" r="103.968" fill="#dce6da"/>
+    <circle cx="3058" cy="3000" r="41.04" fill="#123b30"/>
+  </g>
+    <path d="M 153.95999999999998 2967.168 C 263.4 2666.208, 810.6 2666.208, 920.04 2967.168" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 2674.96 2967.168 C 2784.4 2666.208, 3331.6 2666.208, 3441.04 2967.168" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">현대 스타리아 일렉트릭 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5255 x 1995 x 1990 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2627.5" cy="3273.824" rx="2469.85" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 131 2861 C 210 2284, 420 1965, 841 1707 C 1471 1269, 3048 1209, 4309 1567 C 4887 1806, 5150 2244, 5124 2861 Z" fill="#607565" stroke="#303e34" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 131 2861 C 210 2284, 420 1965, 841 1707 C 1471 1269, 3048 1209, 4309 1567 C 4887 1806, 5150 2244, 5124 2861 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 946 1846 C 1577 1488, 2890 1408, 4204 1707 L 4414 1965 L 841 2005 Z" fill="#dcebef" stroke="#303e34" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 4151 2005 L 4940 2244" fill="none" stroke="#303e34" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2470 1965 L 2470 2861" fill="none" stroke="#303e34" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    <path d="M 946 2463 L 4309 2463" fill="none" stroke="#303e34" stroke-width="22" stroke-linecap="round" opacity="0.28"/>
+    <path d="M 945.9 2761.2 L 4414.2 2761.2" fill="none" stroke="#edf2e9" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="183.925" y="2542.3" width="236.475" height="149.25" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4782.05" y="2502.5" width="262.75" height="139.3" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="990" cy="3000" r="318.40000000000003" fill="#171d1b"/>
+    <circle cx="990" cy="3000" r="229.24800000000002" fill="#27312d"/>
+    <circle cx="990" cy="3000" r="120.99200000000002" fill="#edf2e9"/>
+    <circle cx="990" cy="3000" r="47.760000000000005" fill="#303e34"/>
+  </g>
+    <g>
+    <circle cx="4265" cy="3000" r="318.40000000000003" fill="#171d1b"/>
+    <circle cx="4265" cy="3000" r="229.24800000000002" fill="#27312d"/>
+    <circle cx="4265" cy="3000" r="120.99200000000002" fill="#edf2e9"/>
+    <circle cx="4265" cy="3000" r="47.760000000000005" fill="#303e34"/>
+  </g>
+    <path d="M 544.24 2961.792 C 671.5999999999999 2611.552, 1308.4 2611.552, 1435.76 2961.792" fill="none" stroke="#303e34" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3819.24 2961.792 C 3946.6 2611.552, 4583.4 2611.552, 4710.76 2961.792" fill="none" stroke="#303e34" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

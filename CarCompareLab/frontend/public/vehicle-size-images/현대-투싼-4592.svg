@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">현대 투싼 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4640 x 1865 x 1665 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2320" cy="3229.104" rx="2180.7999999999997" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 116 2883 C 371 2550, 789 2351, 1346 2217 L 1810 1735 C 2274 1535, 3062 1585, 3619 2068 C 4176 2168, 4501 2434, 4524 2883 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 116 2883 C 371 2550, 789 2351, 1346 2217 L 1810 1735 C 2274 1535, 3062 1585, 3619 2068 C 4176 2168, 4501 2434, 4524 2883 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1578 2118 L 1995 1801 C 2413 1701, 3016 1751, 3480 2118 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3480 2234 L 4222 2401" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2552 2134 L 2552 2883" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    <path d="M 835 2517 C 1763 2634, 3016 2617, 3898 2501" fill="none" stroke="#123b30" stroke-width="22" stroke-linecap="round" opacity="0.28"/>
+    <path d="M 835.1999999999999 2800.2 L 3897.6 2800.2" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="162.4" y="2617.05" width="208.79999999999998" height="124.875" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4222.400000000001" y="2583.75" width="232" height="116.55000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="943" cy="3000" r="266.4" fill="#171d1b"/>
+    <circle cx="943" cy="3000" r="191.80799999999996" fill="#27312d"/>
+    <circle cx="943" cy="3000" r="101.232" fill="#dce6da"/>
+    <circle cx="943" cy="3000" r="39.959999999999994" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="3698" cy="3000" r="266.4" fill="#171d1b"/>
+    <circle cx="3698" cy="3000" r="191.80799999999996" fill="#27312d"/>
+    <circle cx="3698" cy="3000" r="101.232" fill="#dce6da"/>
+    <circle cx="3698" cy="3000" r="39.959999999999994" fill="#123b30"/>
+  </g>
+    <path d="M 570.0400000000001 2968.032 C 676.6 2674.992, 1209.4 2674.992, 1315.96 2968.032" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3325.04 2968.032 C 3431.6 2674.992, 3964.4 2674.992, 4070.96 2968.032" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

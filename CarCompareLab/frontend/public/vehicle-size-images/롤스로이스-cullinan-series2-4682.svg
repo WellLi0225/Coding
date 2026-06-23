@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">롤스로이스 Cullinan Series2 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5355 x 2000 x 1835 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2677.5" cy="3252.496" rx="2516.85" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 134 2872 C 375 2486, 696 2266, 1285 2119 L 1821 1569 C 2463 1349, 3588 1367, 4230 1991 C 4873 2101, 5194 2376, 5221 2872 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 134 2872 C 375 2486, 696 2266, 1285 2119 L 1821 1569 C 2463 1349, 3588 1367, 4230 1991 C 4873 2101, 5194 2376, 5221 2872 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1714 1991 L 2196 1605 C 2678 1495, 3481 1514, 3963 1991 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 4070 2119 L 4873 2284" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2945 1972 L 2945 2872" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 963.9 2779.8 L 4498.2 2779.8" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="187.425" y="2577.95" width="240.975" height="137.625" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4873.05" y="2541.25" width="267.75" height="128.45000000000002" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1030" cy="3000" r="293.6" fill="#171d1b"/>
+    <circle cx="1030" cy="3000" r="211.392" fill="#27312d"/>
+    <circle cx="1030" cy="3000" r="111.56800000000001" fill="#dce6da"/>
+    <circle cx="1030" cy="3000" r="44.04" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="4325" cy="3000" r="293.6" fill="#171d1b"/>
+    <circle cx="4325" cy="3000" r="211.392" fill="#27312d"/>
+    <circle cx="4325" cy="3000" r="111.56800000000001" fill="#dce6da"/>
+    <circle cx="4325" cy="3000" r="44.04" fill="#123b30"/>
+  </g>
+    <path d="M 618.96 2964.768 C 736.4 2641.808, 1323.6 2641.808, 1441.04 2964.768" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3913.96 2964.768 C 4031.4 2641.808, 4618.6 2641.808, 4736.04 2964.768" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

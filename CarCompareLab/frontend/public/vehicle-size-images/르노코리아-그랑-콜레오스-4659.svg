@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">르노코리아 그랑 콜레오스 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4780 x 1880 x 1705 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2390" cy="3234.608" rx="2246.6" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 120 2881 C 335 2523, 621 2318, 1147 2182 L 1625 1670 C 2199 1466, 3203 1483, 3776 2062 C 4350 2165, 4637 2420, 4660 2881 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 120 2881 C 335 2523, 621 2318, 1147 2182 L 1625 1670 C 2199 1466, 3203 1483, 3776 2062 C 4350 2165, 4637 2420, 4660 2881 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1530 2062 L 1960 1704 C 2390 1602, 3107 1619, 3537 2062 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3633 2182 L 4350 2335" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2629 2045 L 2629 2881" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 860.4 2795.4 L 4015.2 2795.4" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="167.3" y="2607.85" width="215.1" height="127.875" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4349.8" y="2573.75" width="239" height="119.35000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="980" cy="3000" r="272.8" fill="#171d1b"/>
+    <circle cx="980" cy="3000" r="196.416" fill="#27312d"/>
+    <circle cx="980" cy="3000" r="103.664" fill="#dce6da"/>
+    <circle cx="980" cy="3000" r="40.92" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="3800" cy="3000" r="272.8" fill="#171d1b"/>
+    <circle cx="3800" cy="3000" r="196.416" fill="#27312d"/>
+    <circle cx="3800" cy="3000" r="103.664" fill="#dce6da"/>
+    <circle cx="3800" cy="3000" r="40.92" fill="#123b30"/>
+  </g>
+    <path d="M 598.0799999999999 2967.264 C 707.2 2667.184, 1252.8 2667.184, 1361.92 2967.264" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3418.08 2967.264 C 3527.2 2667.184, 4072.8 2667.184, 4181.92 2967.264" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

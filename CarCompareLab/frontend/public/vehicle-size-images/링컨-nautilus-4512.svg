@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">링컨 Nautilus 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4910 x 1950 x 1735 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2455" cy="3238.736" rx="2307.7" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 123 2879 C 344 2514, 638 2306, 1178 2167 L 1669 1647 C 2259 1439, 3290 1456, 3879 2046 C 4468 2150, 4763 2410, 4787 2879 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 123 2879 C 344 2514, 638 2306, 1178 2167 L 1669 1647 C 2259 1439, 3290 1456, 3879 2046 C 4468 2150, 4763 2410, 4787 2879 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1571 2046 L 2013 1681 C 2455 1577, 3192 1595, 3633 2046 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3732 2167 L 4468 2323" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2701 2028 L 2701 2879" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 883.8 2791.8 L 4124.4 2791.8" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="171.85000000000002" y="2600.95" width="220.95" height="130.125" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4468.1" y="2566.25" width="245.5" height="121.45000000000002" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1005" cy="3000" r="277.6" fill="#171d1b"/>
+    <circle cx="1005" cy="3000" r="199.872" fill="#27312d"/>
+    <circle cx="1005" cy="3000" r="105.48800000000001" fill="#dce6da"/>
+    <circle cx="1005" cy="3000" r="41.64" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="3905" cy="3000" r="277.6" fill="#171d1b"/>
+    <circle cx="3905" cy="3000" r="199.872" fill="#27312d"/>
+    <circle cx="3905" cy="3000" r="105.48800000000001" fill="#dce6da"/>
+    <circle cx="3905" cy="3000" r="41.64" fill="#123b30"/>
+  </g>
+    <path d="M 616.36 2966.688 C 727.4 2661.328, 1282.6 2661.328, 1393.6399999999999 2966.688" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3516.36 2966.688 C 3627.4 2661.328, 4182.6 2661.328, 4293.64 2966.688" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

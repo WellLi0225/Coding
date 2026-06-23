@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">DS DS4 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4410 x 1830 x 1505 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2205" cy="3207.088" rx="2072.7" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 110 2895 C 353 2654, 750 2488, 1235 2398 C 1632 1916, 2249 1736, 2911 1947 C 3308 2278, 3881 2398, 4300 2895 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 110 2895 C 353 2654, 750 2488, 1235 2398 C 1632 1916, 2249 1736, 2911 1947 C 3308 2278, 3881 2398, 4300 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1499 2308 C 1896 1977, 2381 1886, 2822 2127 L 3131 2338 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3043 2413 L 3969 2549" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2293 2323 L 2293 2895" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 793.8 2819.4 L 3704.3999999999996 2819.4" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="154.35000000000002" y="2653.85" width="198.45" height="112.875" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4013.1000000000004" y="2623.75" width="220.5" height="105.35000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="868" cy="3000" r="240.8" fill="#161d1a"/>
+    <circle cx="868" cy="3000" r="173.376" fill="#27312d"/>
+    <circle cx="868" cy="3000" r="91.504" fill="#dbe5dc"/>
+    <circle cx="868" cy="3000" r="36.12" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3543" cy="3000" r="240.8" fill="#161d1a"/>
+    <circle cx="3543" cy="3000" r="173.376" fill="#27312d"/>
+    <circle cx="3543" cy="3000" r="91.504" fill="#dbe5dc"/>
+    <circle cx="3543" cy="3000" r="36.12" fill="#0d3e33"/>
+  </g>
+    <path d="M 530.88 2971.104 C 627.2 2706.224, 1108.8 2706.224, 1205.12 2971.104" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3205.88 2971.104 C 3302.2 2706.224, 3783.8 2706.224, 3880.12 2971.104" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

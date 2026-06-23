@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">포르쉐 Macan Electric 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4784 x 1938 x 1622 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2392" cy="3223.1872" rx="2248.48" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 120 2886 C 383 2627, 813 2449, 1340 2351 C 1770 1832, 2440 1638, 3157 1865 C 3588 2221, 4210 2351, 4664 2886 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 120 2886 C 383 2627, 813 2449, 1340 2351 C 1770 1832, 2440 1638, 3157 1865 C 3588 2221, 4210 2351, 4664 2886 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1627 2254 C 2057 1897, 2583 1800, 3062 2059 L 3397 2286 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3301 2367 L 4306 2513" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2488 2270 L 2488 2886" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 861.12 2805.36 L 4018.56 2805.36" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="167.44000000000003" y="2626.94" width="215.28" height="121.64999999999999" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4353.4400000000005" y="2594.5" width="239.20000000000002" height="113.54" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="946" cy="3000" r="259.52" fill="#161d1a"/>
+    <circle cx="946" cy="3000" r="186.85439999999997" fill="#27312d"/>
+    <circle cx="946" cy="3000" r="98.6176" fill="#dbe5dc"/>
+    <circle cx="946" cy="3000" r="38.928" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3838" cy="3000" r="259.52" fill="#161d1a"/>
+    <circle cx="3838" cy="3000" r="186.85439999999997" fill="#27312d"/>
+    <circle cx="3838" cy="3000" r="98.6176" fill="#dbe5dc"/>
+    <circle cx="3838" cy="3000" r="38.928" fill="#0d3e33"/>
+  </g>
+    <path d="M 582.672 2968.8576 C 686.48 2683.3856, 1205.52 2683.3856, 1309.328 2968.8576" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3474.672 2968.8576 C 3578.48 2683.3856, 4097.52 2683.3856, 4201.3279999999995 2968.8576" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

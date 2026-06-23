@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">토요타 GR 86 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4265 x 1775 x 1310 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2132.5" cy="3180.256" rx="2004.55" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 107 2895 C 427 2673, 938 2555, 1450 2502 C 1791 2109, 2431 2018, 2943 2437 C 3540 2502, 4009 2646, 4158 2895 Z" fill="#205f72" stroke="#123a45" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 107 2895 C 427 2673, 938 2555, 1450 2502 C 1791 2109, 2431 2018, 2943 2437 C 3540 2502, 4009 2646, 4158 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1663 2437 C 2005 2162, 2474 2135, 2815 2437 Z" fill="#d2e8f2" stroke="#123a45" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 2943 2515 L 3881 2646" fill="none" stroke="#123a45" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2346 2450 L 2346 2895" fill="none" stroke="#123a45" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 767.6999999999999 2842.8 L 3582.6 2842.8" fill="none" stroke="#dce7eb" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="149.275" y="2698.7" width="191.92499999999998" height="98.25" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="3881.15" y="2672.5" width="213.25" height="91.7" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="845" cy="3000" r="209.6" fill="#171d1b"/>
+    <circle cx="845" cy="3000" r="150.91199999999998" fill="#27312d"/>
+    <circle cx="845" cy="3000" r="79.648" fill="#dce7eb"/>
+    <circle cx="845" cy="3000" r="31.439999999999998" fill="#123a45"/>
+  </g>
+    <g>
+    <circle cx="3420" cy="3000" r="209.6" fill="#171d1b"/>
+    <circle cx="3420" cy="3000" r="150.91199999999998" fill="#27312d"/>
+    <circle cx="3420" cy="3000" r="79.648" fill="#dce7eb"/>
+    <circle cx="3420" cy="3000" r="31.439999999999998" fill="#123a45"/>
+  </g>
+    <path d="M 551.56 2974.848 C 635.4 2744.288, 1054.6 2744.288, 1138.44 2974.848" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3126.56 2974.848 C 3210.4 2744.288, 3629.6 2744.288, 3713.44 2974.848" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">지프 Grand Cherokee 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5220 x 1985 x 1795 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2610" cy="3246.992" rx="2453.3999999999996" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 131 2874 C 365 2497, 679 2282, 1253 2138 L 1775 1600 C 2401 1385, 3497 1402, 4124 2013 C 4750 2120, 5063 2390, 5089 2874 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 131 2874 C 365 2497, 679 2282, 1253 2138 L 1775 1600 C 2401 1385, 3497 1402, 4124 2013 C 4750 2120, 5063 2390, 5089 2874 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1670 2013 L 2140 1636 C 2610 1528, 3393 1546, 3863 2013 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3967 2138 L 4750 2300" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2871 1995 L 2871 2874" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 939.5999999999999 2784.6 L 4384.8 2784.6" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="182.70000000000002" y="2587.15" width="234.89999999999998" height="134.625" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4750.2" y="2551.25" width="261" height="125.65" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1065" cy="3000" r="287.2" fill="#171d1b"/>
+    <circle cx="1065" cy="3000" r="206.784" fill="#27312d"/>
+    <circle cx="1065" cy="3000" r="109.136" fill="#dce6da"/>
+    <circle cx="1065" cy="3000" r="43.08" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="4155" cy="3000" r="287.2" fill="#171d1b"/>
+    <circle cx="4155" cy="3000" r="206.784" fill="#27312d"/>
+    <circle cx="4155" cy="3000" r="109.136" fill="#dce6da"/>
+    <circle cx="4155" cy="3000" r="43.08" fill="#123b30"/>
+  </g>
+    <path d="M 662.9200000000001 2965.536 C 777.8 2649.616, 1352.2 2649.616, 1467.08 2965.536" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3752.92 2965.536 C 3867.8 2649.616, 4442.2 2649.616, 4557.08 2965.536" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

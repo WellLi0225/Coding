@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">캐딜락 Escalade IQ 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5715 x 2055 x 1935 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2857.5" cy="3266.256" rx="2686.0499999999997" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 143 2865 C 400 2458, 743 2226, 1372 2071 L 1943 1491 C 2629 1259, 3829 1278, 4515 1936 C 5201 2052, 5544 2342, 5572 2865 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 143 2865 C 400 2458, 743 2226, 1372 2071 L 1943 1491 C 2629 1259, 3829 1278, 4515 1936 C 5201 2052, 5544 2342, 5572 2865 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1829 1936 L 2343 1529 C 2858 1413, 3715 1433, 4229 1936 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 4343 2071 L 5201 2245" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 3143 1916 L 3143 2865" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 1028.7 2767.8 L 4800.599999999999 2767.8" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="200.025" y="2554.95" width="257.175" height="145.125" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="5200.650000000001" y="2516.25" width="285.75" height="135.45000000000002" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1128" cy="3000" r="309.6" fill="#171d1b"/>
+    <circle cx="1128" cy="3000" r="222.912" fill="#27312d"/>
+    <circle cx="1128" cy="3000" r="117.64800000000001" fill="#dce6da"/>
+    <circle cx="1128" cy="3000" r="46.440000000000005" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="4588" cy="3000" r="309.6" fill="#171d1b"/>
+    <circle cx="4588" cy="3000" r="222.912" fill="#27312d"/>
+    <circle cx="4588" cy="3000" r="117.64800000000001" fill="#dce6da"/>
+    <circle cx="4588" cy="3000" r="46.440000000000005" fill="#123b30"/>
+  </g>
+    <path d="M 694.56 2962.848 C 818.4 2622.288, 1437.6 2622.288, 1561.44 2962.848" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 4154.56 2962.848 C 4278.4 2622.288, 4897.6 2622.288, 5021.44 2962.848" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

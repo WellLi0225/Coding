@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">폭스바겐 ID.Buzz 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">치수 정보 없음</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2250" cy="3220.16" rx="2115" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 113 2888 C 180 2424, 360 2168, 720 1960 C 1260 1608, 2610 1560, 3690 1848 C 4185 2040, 4410 2392, 4387 2888 Z" fill="#c8d1c3" stroke="#7a8675" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 113 2888 C 180 2424, 360 2168, 720 1960 C 1260 1608, 2610 1560, 3690 1848 C 4185 2040, 4410 2392, 4387 2888 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 810 2072 C 1350 1784, 2475 1720, 3600 1960 L 3780 2168 L 720 2200 Z" fill="#eef2ec" stroke="#7a8675" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3555 2200 L 4230 2392" fill="none" stroke="#7a8675" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2115 2168 L 2115 2888" fill="none" stroke="#7a8675" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    <path d="M 810 2568 L 3690 2568" fill="none" stroke="#7a8675" stroke-width="22" stroke-linecap="round" opacity="0.28"/>
+    <path d="M 810 2808 L 3780 2808" fill="none" stroke="#eef2ec" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="157.50000000000003" y="2632" width="202.5" height="120" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4095" y="2600" width="225" height="112.00000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="923" cy="3000" r="256" fill="#828b7f"/>
+    <circle cx="923" cy="3000" r="184.32" fill="#27312d"/>
+    <circle cx="923" cy="3000" r="97.28" fill="#eef2ec"/>
+    <circle cx="923" cy="3000" r="38.4" fill="#7a8675"/>
+  </g>
+    <g>
+    <circle cx="3577" cy="3000" r="256" fill="#828b7f"/>
+    <circle cx="3577" cy="3000" r="184.32" fill="#27312d"/>
+    <circle cx="3577" cy="3000" r="97.28" fill="#eef2ec"/>
+    <circle cx="3577" cy="3000" r="38.4" fill="#7a8675"/>
+  </g>
+    <path d="M 564.6 2969.28 C 667 2687.68, 1179 2687.68, 1281.4 2969.28" fill="none" stroke="#7a8675" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3218.6 2969.28 C 3321 2687.68, 3833 2687.68, 3935.4 2969.28" fill="none" stroke="#7a8675" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

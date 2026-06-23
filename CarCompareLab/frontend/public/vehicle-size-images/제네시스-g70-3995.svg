@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">제네시스 G70 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4685 x 1850 x 1400 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2342.5" cy="3192.64" rx="2201.95" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 117 2895 C 375 2678, 796 2524, 1312 2440 C 1733 1992, 2389 1824, 3092 2020 C 3514 2328, 4123 2440, 4568 2895 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 117 2895 C 375 2678, 796 2524, 1312 2440 C 1733 1992, 2389 1824, 3092 2020 C 3514 2328, 4123 2440, 4568 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1593 2356 C 2015 2048, 2530 1964, 2998 2188 L 3326 2384 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3233 2454 L 4217 2580" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2436 2370 L 2436 2895" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 843.3 2832 L 3935.3999999999996 2832" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="163.97500000000002" y="2678" width="210.825" height="105" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4263.35" y="2650" width="234.25" height="98.00000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="925" cy="3000" r="224" fill="#161d1a"/>
+    <circle cx="925" cy="3000" r="161.28" fill="#27312d"/>
+    <circle cx="925" cy="3000" r="85.12" fill="#dbe5dc"/>
+    <circle cx="925" cy="3000" r="33.6" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3760" cy="3000" r="224" fill="#161d1a"/>
+    <circle cx="3760" cy="3000" r="161.28" fill="#27312d"/>
+    <circle cx="3760" cy="3000" r="85.12" fill="#dbe5dc"/>
+    <circle cx="3760" cy="3000" r="33.6" fill="#0d3e33"/>
+  </g>
+    <path d="M 611.4000000000001 2973.12 C 701 2726.7200000000003, 1149 2726.7200000000003, 1238.6 2973.12" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3446.4 2973.12 C 3536 2726.7200000000003, 3984 2726.7200000000003, 4073.6 2973.12" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

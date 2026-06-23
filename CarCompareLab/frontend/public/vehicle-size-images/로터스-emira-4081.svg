@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">로터스 Emira 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4413 x 1895 x 1226 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2206.5" cy="3168.6976" rx="2074.1099999999997" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 110 2895 C 441 2694, 971 2583, 1500 2534 C 1853 2166, 2515 2081, 3045 2473 C 3663 2534, 4148 2669, 4303 2895 Z" fill="#205f72" stroke="#123a45" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 110 2895 C 441 2694, 971 2583, 1500 2534 C 1853 2166, 2515 2081, 3045 2473 C 3663 2534, 4148 2669, 4303 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1721 2473 C 2074 2215, 2560 2191, 2913 2473 Z" fill="#d2e8f2" stroke="#123a45" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3045 2546 L 4016 2669" fill="none" stroke="#123a45" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2427 2485 L 2427 2895" fill="none" stroke="#123a45" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 794.3399999999999 2852.88 L 3706.92 2852.88" fill="none" stroke="#dce7eb" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="154.455" y="2718.02" width="198.58499999999998" height="91.95" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4015.83" y="2693.5" width="220.65" height="85.82000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="919" cy="3000" r="196.16" fill="#171d1b"/>
+    <circle cx="919" cy="3000" r="141.2352" fill="#27312d"/>
+    <circle cx="919" cy="3000" r="74.5408" fill="#dce7eb"/>
+    <circle cx="919" cy="3000" r="29.424" fill="#123a45"/>
+  </g>
+    <g>
+    <circle cx="3494" cy="3000" r="196.16" fill="#171d1b"/>
+    <circle cx="3494" cy="3000" r="141.2352" fill="#27312d"/>
+    <circle cx="3494" cy="3000" r="74.5408" fill="#dce7eb"/>
+    <circle cx="3494" cy="3000" r="29.424" fill="#123a45"/>
+  </g>
+    <path d="M 644.376 2976.4608 C 722.84 2760.6848, 1115.16 2760.6848, 1193.624 2976.4608" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3219.376 2976.4608 C 3297.84 2760.6848, 3690.16 2760.6848, 3768.624 2976.4608" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

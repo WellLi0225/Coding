@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">람보르기니 Temerario 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4706 x 1996 x 1201 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2353" cy="3165.2576" rx="2211.8199999999997" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 118 2895 C 471 2700, 1035 2592, 1600 2544 C 1977 2183, 2682 2099, 3247 2484 C 3906 2544, 4424 2676, 4588 2895 Z" fill="#205f72" stroke="#123a45" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 118 2895 C 471 2700, 1035 2592, 1600 2544 C 1977 2183, 2682 2099, 3247 2484 C 3906 2544, 4424 2676, 4588 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1835 2484 C 2212 2231, 2729 2207, 3106 2484 Z" fill="#d2e8f2" stroke="#123a45" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3247 2556 L 4282 2676" fill="none" stroke="#123a45" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2588 2496 L 2588 2895" fill="none" stroke="#123a45" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 847.0799999999999 2855.88 L 3953.04 2855.88" fill="none" stroke="#dce7eb" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="164.71" y="2723.77" width="211.76999999999998" height="90.075" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4282.46" y="2699.75" width="235.3" height="84.07000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1024" cy="3000" r="192.16" fill="#171d1b"/>
+    <circle cx="1024" cy="3000" r="138.3552" fill="#27312d"/>
+    <circle cx="1024" cy="3000" r="73.0208" fill="#dce7eb"/>
+    <circle cx="1024" cy="3000" r="28.823999999999998" fill="#123a45"/>
+  </g>
+    <g>
+    <circle cx="3682" cy="3000" r="192.16" fill="#171d1b"/>
+    <circle cx="3682" cy="3000" r="138.3552" fill="#27312d"/>
+    <circle cx="3682" cy="3000" r="73.0208" fill="#dce7eb"/>
+    <circle cx="3682" cy="3000" r="28.823999999999998" fill="#123a45"/>
+  </g>
+    <path d="M 754.976 2976.9408 C 831.84 2765.5648, 1216.16 2765.5648, 1293.024 2976.9408" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3412.976 2976.9408 C 3489.84 2765.5648, 3874.16 2765.5648, 3951.024 2976.9408" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

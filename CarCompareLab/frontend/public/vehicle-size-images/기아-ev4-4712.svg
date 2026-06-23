@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">기아 EV4 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4730 x 1860 x 1480 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2365" cy="3203.648" rx="2223.1" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 118 2895 C 378 2660, 804 2497, 1324 2408 C 1750 1934, 2412 1757, 3122 1964 C 3548 2290, 4162 2408, 4612 2895 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 118 2895 C 378 2660, 804 2497, 1324 2408 C 1750 1934, 2412 1757, 3122 1964 C 3548 2290, 4162 2408, 4612 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1608 2319 C 2034 1994, 2554 1905, 3027 2142 L 3358 2349 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3264 2423 L 4257 2556" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2460 2334 L 2460 2895" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 851.4 2822.4 L 3973.2 2822.4" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="165.55" y="2659.6" width="212.85" height="111" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4304.3" y="2630" width="236.5" height="103.60000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="955" cy="3000" r="236.8" fill="#161d1a"/>
+    <circle cx="955" cy="3000" r="170.496" fill="#27312d"/>
+    <circle cx="955" cy="3000" r="89.98400000000001" fill="#dbe5dc"/>
+    <circle cx="955" cy="3000" r="35.52" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3775" cy="3000" r="236.8" fill="#161d1a"/>
+    <circle cx="3775" cy="3000" r="170.496" fill="#27312d"/>
+    <circle cx="3775" cy="3000" r="89.98400000000001" fill="#dbe5dc"/>
+    <circle cx="3775" cy="3000" r="35.52" fill="#0d3e33"/>
+  </g>
+    <path d="M 623.48 2971.584 C 718.2 2711.104, 1191.8 2711.104, 1286.52 2971.584" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3443.48 2971.584 C 3538.2 2711.104, 4011.8 2711.104, 4106.52 2971.584" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

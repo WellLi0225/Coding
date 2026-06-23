@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">기아 EV9 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5010 x 1980 x 1755 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2505" cy="3241.488" rx="2354.7" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 125 2877 C 301 2474, 651 2228, 1253 2087 L 1804 1596 C 2305 1403, 3357 1421, 3908 1824 L 4559 2017 C 4810 2193, 4910 2509, 4885 2877 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 125 2877 C 301 2474, 651 2228, 1253 2087 L 1804 1596 C 2305 1403, 3357 1421, 3908 1824 L 4559 2017 C 4810 2193, 4910 2509, 4885 2877 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1553 2000 L 2104 1649 L 3407 1649 L 4008 2000 L 3707 2140 L 1653 2140 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3707 2140 L 4559 2245" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2756 2017 L 2756 2877" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    <path d="M 802 2561 L 4158 2561" fill="none" stroke="#123b30" stroke-width="22" stroke-linecap="round" opacity="0.28"/>
+    <path d="M 952 2351 L 1553 2280" fill="none" stroke="#123b30" stroke-width="22" stroke-linecap="round" opacity="0.28"/>
+    <path d="M 901.8 2789.4 L 4208.4 2789.4" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="175.35000000000002" y="2596.35" width="225.45" height="131.625" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4559.1" y="2561.25" width="250.5" height="122.85000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="955" cy="3000" r="280.8" fill="#171d1b"/>
+    <circle cx="955" cy="3000" r="202.176" fill="#27312d"/>
+    <circle cx="955" cy="3000" r="106.70400000000001" fill="#dce6da"/>
+    <circle cx="955" cy="3000" r="42.12" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="4055" cy="3000" r="280.8" fill="#171d1b"/>
+    <circle cx="4055" cy="3000" r="202.176" fill="#27312d"/>
+    <circle cx="4055" cy="3000" r="106.70400000000001" fill="#dce6da"/>
+    <circle cx="4055" cy="3000" r="42.12" fill="#123b30"/>
+  </g>
+    <path d="M 561.88 2966.304 C 674.2 2657.424, 1235.8 2657.424, 1348.12 2966.304" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3661.88 2966.304 C 3774.2 2657.424, 4335.8 2657.424, 4448.12 2966.304" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

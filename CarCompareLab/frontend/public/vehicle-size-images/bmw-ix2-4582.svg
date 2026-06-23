@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">BMW iX2 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4555 x 1830 x 1590 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2277.5" cy="3218.784" rx="2140.85" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 114 2889 C 364 2634, 774 2459, 1275 2364 C 1685 1855, 2323 1664, 3006 1887 C 3416 2237, 4008 2364, 4441 2889 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 114 2889 C 364 2634, 774 2459, 1275 2364 C 1685 1855, 2323 1664, 3006 1887 C 3416 2237, 4008 2364, 4441 2889 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1549 2269 C 1959 1919, 2460 1823, 2915 2078 L 3234 2300 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3143 2380 L 4100 2523" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2369 2285 L 2369 2889" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 819.9 2809.2 L 3826.2 2809.2" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="159.425" y="2634.3" width="204.975" height="119.25" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4145.05" y="2602.5" width="227.75" height="111.30000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="933" cy="3000" r="254.4" fill="#161d1a"/>
+    <circle cx="933" cy="3000" r="183.168" fill="#27312d"/>
+    <circle cx="933" cy="3000" r="96.672" fill="#dbe5dc"/>
+    <circle cx="933" cy="3000" r="38.16" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3623" cy="3000" r="254.4" fill="#161d1a"/>
+    <circle cx="3623" cy="3000" r="183.168" fill="#27312d"/>
+    <circle cx="3623" cy="3000" r="96.672" fill="#dbe5dc"/>
+    <circle cx="3623" cy="3000" r="38.16" fill="#0d3e33"/>
+  </g>
+    <path d="M 576.84 2969.472 C 678.6 2689.632, 1187.4 2689.632, 1289.1599999999999 2969.472" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3266.84 2969.472 C 3368.6 2689.632, 3877.4 2689.632, 3979.16 2969.472" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

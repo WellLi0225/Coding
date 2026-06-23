@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">벤츠 GLS-Class 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5210 x 2030 x 1830 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2605" cy="3251.808" rx="2448.7" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 130 2872 C 521 2597, 1146 2396, 1876 2286 C 2345 1756, 3126 1609, 3803 2030 C 4376 2177, 4897 2433, 5080 2872 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 130 2872 C 521 2597, 1146 2396, 1876 2286 C 2345 1756, 3126 1609, 3803 2030 C 4376 2177, 4897 2433, 5080 2872 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1928 2177 C 2397 1792, 3074 1737, 3647 2103 L 3960 2286 L 1771 2286 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3751 2341 L 4741 2506" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2813 2268 L 2813 2872" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    <path d="M 782 2634 C 2188 2744, 3543 2707, 4689 2561" fill="none" stroke="#123b30" stroke-width="22" stroke-linecap="round" opacity="0.28"/>
+    <path d="M 937.8 2780.4 L 4376.4 2780.4" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="182.35000000000002" y="2579.1" width="234.45" height="137.25" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4741.1" y="2542.5" width="260.5" height="128.10000000000002" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1037" cy="3000" r="292.8" fill="#171d1b"/>
+    <circle cx="1037" cy="3000" r="210.816" fill="#27312d"/>
+    <circle cx="1037" cy="3000" r="111.26400000000001" fill="#dce6da"/>
+    <circle cx="1037" cy="3000" r="43.92" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="4173" cy="3000" r="292.8" fill="#171d1b"/>
+    <circle cx="4173" cy="3000" r="210.816" fill="#27312d"/>
+    <circle cx="4173" cy="3000" r="111.26400000000001" fill="#dce6da"/>
+    <circle cx="4173" cy="3000" r="43.92" fill="#123b30"/>
+  </g>
+    <path d="M 627.0799999999999 2964.864 C 744.2 2642.784, 1329.8 2642.784, 1446.92 2964.864" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3763.08 2964.864 C 3880.2 2642.784, 4465.8 2642.784, 4582.92 2964.864" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

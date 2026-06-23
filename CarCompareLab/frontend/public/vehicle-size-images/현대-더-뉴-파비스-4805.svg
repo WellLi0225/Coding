@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">현대 더 뉴 파비스 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">7800 x 2400 x 2865 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="3900" cy="3279.5" rx="3666" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 195 2799 L 195 1396 L 2262 1396 L 2808 536 L 3744 536 L 4212 1396 L 7605 1396 L 7605 2799 Z" fill="#68715f" stroke="#30352e" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 195 2799 L 195 1396 L 2262 1396 L 2808 536 L 3744 536 L 4212 1396 L 7605 1396 L 7605 2799 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 2652 1252 L 3042 708 L 3666 708 L 3900 1252 Z" fill="#e0ebec" stroke="#30352e" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 4290 1453 L 7254 1453" fill="none" stroke="#30352e" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 4056 1424 L 4056 2799" fill="none" stroke="#30352e" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 1404 2656.2 L 6552 2656.2" fill="none" stroke="#eef0e8" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="273" y="2341.05" width="351" height="214.875" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="7098" y="2283.75" width="390" height="200.55" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1750" cy="3000" r="325" fill="#171d1b"/>
+    <circle cx="1750" cy="3000" r="234" fill="#27312d"/>
+    <circle cx="1750" cy="3000" r="123.5" fill="#eef0e8"/>
+    <circle cx="1750" cy="3000" r="48.75" fill="#30352e"/>
+  </g>
+    <g>
+    <circle cx="6050" cy="3000" r="325" fill="#171d1b"/>
+    <circle cx="6050" cy="3000" r="234" fill="#27312d"/>
+    <circle cx="6050" cy="3000" r="123.5" fill="#eef0e8"/>
+    <circle cx="6050" cy="3000" r="48.75" fill="#30352e"/>
+  </g>
+    <path d="M 1295 2961 C 1425 2603.5, 2075 2603.5, 2205 2961" fill="none" stroke="#30352e" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 5595 2961 C 5725 2603.5, 6375 2603.5, 6505 2961" fill="none" stroke="#30352e" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

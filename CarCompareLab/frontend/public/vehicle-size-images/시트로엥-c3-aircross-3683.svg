@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">시트로엥 C3 Aircross 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4160 x 1765 x 1650 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2080" cy="3227.04" rx="1955.1999999999998" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 104 2884 C 333 2621, 707 2439, 1165 2340 C 1539 1812, 2122 1614, 2746 1845 C 3120 2208, 3661 2340, 4056 2884 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 104 2884 C 333 2621, 707 2439, 1165 2340 C 1539 1812, 2122 1614, 2746 1845 C 3120 2208, 3661 2340, 4056 2884 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1414 2241 C 1789 1878, 2246 1779, 2662 2043 L 2954 2274 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 2870 2357 L 3744 2505" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2163 2258 L 2163 2884" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 748.8 2802 L 3494.4 2802" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="145.60000000000002" y="2620.5" width="187.2" height="123.75" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="3785.6" y="2587.5" width="208" height="115.50000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="777" cy="3000" r="264" fill="#161d1a"/>
+    <circle cx="777" cy="3000" r="190.07999999999998" fill="#27312d"/>
+    <circle cx="777" cy="3000" r="100.32000000000001" fill="#dbe5dc"/>
+    <circle cx="777" cy="3000" r="39.6" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3383" cy="3000" r="264" fill="#161d1a"/>
+    <circle cx="3383" cy="3000" r="190.07999999999998" fill="#27312d"/>
+    <circle cx="3383" cy="3000" r="100.32000000000001" fill="#dbe5dc"/>
+    <circle cx="3383" cy="3000" r="39.6" fill="#0d3e33"/>
+  </g>
+    <path d="M 407.40000000000003 2968.32 C 513 2677.92, 1041 2677.92, 1146.6 2968.32" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3013.4 2968.32 C 3119 2677.92, 3647 2677.92, 3752.6 2968.32" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

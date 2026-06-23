@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">현대 아반떼 N 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4710 x 1825 x 1415 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2355" cy="3194.704" rx="2213.7" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 118 2895 C 424 2689, 942 2533, 1507 2448 C 1931 2066, 2638 1953, 3250 2250 C 3862 2349, 4427 2576, 4592 2895 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 118 2895 C 424 2689, 942 2533, 1507 2448 C 1931 2066, 2638 1953, 3250 2250 C 3862 2349, 4427 2576, 4592 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1649 2377 C 2072 2109, 2638 2066, 3156 2307 L 3391 2434 L 1507 2448 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3297 2476 L 4239 2604" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2449 2420 L 2449 2895" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    <path d="M 848 2689 C 1978 2759, 3062 2745, 4051 2646" fill="none" stroke="#0d3e33" stroke-width="22" stroke-linecap="round" opacity="0.28"/>
+    <path d="M 847.8 2830.2 L 3956.3999999999996 2830.2" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="164.85000000000002" y="2674.55" width="211.95" height="106.125" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4286.1" y="2646.25" width="235.5" height="99.05000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="995" cy="3000" r="226.4" fill="#161d1a"/>
+    <circle cx="995" cy="3000" r="163.008" fill="#27312d"/>
+    <circle cx="995" cy="3000" r="86.032" fill="#dbe5dc"/>
+    <circle cx="995" cy="3000" r="33.96" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3715" cy="3000" r="226.4" fill="#161d1a"/>
+    <circle cx="3715" cy="3000" r="163.008" fill="#27312d"/>
+    <circle cx="3715" cy="3000" r="86.032" fill="#dbe5dc"/>
+    <circle cx="3715" cy="3000" r="33.96" fill="#0d3e33"/>
+  </g>
+    <path d="M 678.04 2972.832 C 768.6 2723.792, 1221.4 2723.792, 1311.96 2972.832" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3398.04 2972.832 C 3488.6 2723.792, 3941.4 2723.792, 4031.96 2972.832" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">랜드로버 Range Rover 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5052 x 2003 x 1868 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2526" cy="3257.0368" rx="2374.44" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 126 2869 C 354 2477, 657 2253, 1212 2103 L 1718 1543 C 2324 1319, 3385 1337, 3991 1973 C 4597 2085, 4900 2365, 4926 2869 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 126 2869 C 354 2477, 657 2253, 1212 2103 L 1718 1543 C 2324 1319, 3385 1337, 3991 1973 C 4597 2085, 4900 2365, 4926 2869 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1617 1973 L 2071 1580 C 2526 1468, 3284 1487, 3738 1973 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3840 2103 L 4597 2271" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2779 1954 L 2779 2869" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 909.36 2775.84 L 4243.68 2775.84" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="176.82000000000002" y="2570.36" width="227.34" height="140.1" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4597.32" y="2533" width="252.60000000000002" height="130.76000000000002" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1028" cy="3000" r="298.88" fill="#171d1b"/>
+    <circle cx="1028" cy="3000" r="215.19359999999998" fill="#27312d"/>
+    <circle cx="1028" cy="3000" r="113.5744" fill="#dce6da"/>
+    <circle cx="1028" cy="3000" r="44.832" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="4025" cy="3000" r="298.88" fill="#171d1b"/>
+    <circle cx="4025" cy="3000" r="215.19359999999998" fill="#27312d"/>
+    <circle cx="4025" cy="3000" r="113.5744" fill="#dce6da"/>
+    <circle cx="4025" cy="3000" r="44.832" fill="#123b30"/>
+  </g>
+    <path d="M 609.568 2964.1344 C 729.12 2635.3664, 1326.88 2635.3664, 1446.432 2964.1344" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3606.568 2964.1344 C 3726.12 2635.3664, 4323.88 2635.3664, 4443.432 2964.1344" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

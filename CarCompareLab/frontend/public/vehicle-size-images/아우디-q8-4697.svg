@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">아우디 Q8 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5005 x 1995 x 1685 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2502.5" cy="3231.856" rx="2352.35" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 125 2882 C 350 2528, 651 2326, 1201 2191 L 1702 1686 C 2302 1484, 3353 1500, 3954 2073 C 4555 2174, 4855 2427, 4880 2882 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 125 2882 C 350 2528, 651 2326, 1201 2191 L 1702 1686 C 2302 1484, 3353 1500, 3954 2073 C 4555 2174, 4855 2427, 4880 2882 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1602 2073 L 2052 1719 C 2503 1618, 3253 1635, 3704 2073 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3804 2191 L 4555 2343" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2753 2056 L 2753 2882" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 900.9 2797.8 L 4204.2 2797.8" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="175.175" y="2612.45" width="225.225" height="126.375" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4554.55" y="2578.75" width="250.25" height="117.95000000000002" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1004" cy="3000" r="269.6" fill="#171d1b"/>
+    <circle cx="1004" cy="3000" r="194.11200000000002" fill="#27312d"/>
+    <circle cx="1004" cy="3000" r="102.44800000000001" fill="#dce6da"/>
+    <circle cx="1004" cy="3000" r="40.440000000000005" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="4002" cy="3000" r="269.6" fill="#171d1b"/>
+    <circle cx="4002" cy="3000" r="194.11200000000002" fill="#27312d"/>
+    <circle cx="4002" cy="3000" r="102.44800000000001" fill="#dce6da"/>
+    <circle cx="4002" cy="3000" r="40.440000000000005" fill="#123b30"/>
+  </g>
+    <path d="M 626.56 2967.648 C 734.4 2671.0879999999997, 1273.6 2671.0879999999997, 1381.44 2967.648" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3624.56 2967.648 C 3732.4 2671.0879999999997, 4271.6 2671.0879999999997, 4379.44 2967.648" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

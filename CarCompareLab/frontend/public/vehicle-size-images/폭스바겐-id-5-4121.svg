@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">폭스바겐 ID.5 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4600 x 1850 x 1620 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2300" cy="3222.912" rx="2162" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 115 2887 C 368 2627, 782 2449, 1288 2352 C 1702 1834, 2346 1639, 3036 1866 C 3450 2222, 4048 2352, 4485 2887 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 115 2887 C 368 2627, 782 2449, 1288 2352 C 1702 1834, 2346 1639, 3036 1866 C 3450 2222, 4048 2352, 4485 2887 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1564 2255 C 1978 1898, 2484 1801, 2944 2060 L 3266 2287 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3174 2368 L 4140 2514" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2392 2271 L 2392 2887" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 828 2805.6 L 3864 2805.6" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="161.00000000000003" y="2627.4" width="207" height="121.5" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4186" y="2595" width="230" height="113.4" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="917" cy="3000" r="259.2" fill="#161d1a"/>
+    <circle cx="917" cy="3000" r="186.624" fill="#27312d"/>
+    <circle cx="917" cy="3000" r="98.496" fill="#dbe5dc"/>
+    <circle cx="917" cy="3000" r="38.879999999999995" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3683" cy="3000" r="259.2" fill="#161d1a"/>
+    <circle cx="3683" cy="3000" r="186.624" fill="#27312d"/>
+    <circle cx="3683" cy="3000" r="98.496" fill="#dbe5dc"/>
+    <circle cx="3683" cy="3000" r="38.879999999999995" fill="#0d3e33"/>
+  </g>
+    <path d="M 554.1200000000001 2968.896 C 657.8 2683.776, 1176.2 2683.776, 1279.8799999999999 2968.896" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3320.12 2968.896 C 3423.8 2683.776, 3942.2 2683.776, 4045.88 2968.896" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

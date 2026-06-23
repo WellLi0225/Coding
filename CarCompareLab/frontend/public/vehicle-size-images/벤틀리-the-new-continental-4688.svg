@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">벤틀리 The new Continental 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4895 x 1966 x 1397 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2447.5" cy="3192.2272" rx="2300.65" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 122 2895 C 392 2679, 832 2525, 1371 2441 C 1811 1994, 2496 1827, 3231 2022 C 3671 2329, 4308 2441, 4773 2895 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 122 2895 C 392 2679, 832 2525, 1371 2441 C 1811 1994, 2496 1827, 3231 2022 C 3671 2329, 4308 2441, 4773 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1664 2357 C 2105 2050, 2643 1966, 3133 2190 L 3475 2385 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3378 2455 L 4406 2581" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2545 2371 L 2545 2895" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 881.1 2832.36 L 4111.8 2832.36" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="171.32500000000002" y="2678.69" width="220.275" height="104.77499999999999" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4454.45" y="2650.75" width="244.75" height="97.79" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1022" cy="3000" r="223.52" fill="#161d1a"/>
+    <circle cx="1022" cy="3000" r="160.9344" fill="#27312d"/>
+    <circle cx="1022" cy="3000" r="84.9376" fill="#dbe5dc"/>
+    <circle cx="1022" cy="3000" r="33.528" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3873" cy="3000" r="223.52" fill="#161d1a"/>
+    <circle cx="3873" cy="3000" r="160.9344" fill="#27312d"/>
+    <circle cx="3873" cy="3000" r="84.9376" fill="#dbe5dc"/>
+    <circle cx="3873" cy="3000" r="33.528" fill="#0d3e33"/>
+  </g>
+    <path d="M 709.072 2973.1776 C 798.48 2727.3056, 1245.52 2727.3056, 1334.9279999999999 2973.1776" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3560.072 2973.1776 C 3649.48 2727.3056, 4096.52 2727.3056, 4185.928 2973.1776" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

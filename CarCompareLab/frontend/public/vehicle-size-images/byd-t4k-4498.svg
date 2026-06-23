@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">BYD T4K 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5310 x 1770 x 2100 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2655" cy="3279.5" rx="2495.7" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 133 2853 C 372 2412, 690 2160, 1274 1992 L 1805 1362 C 2443 1110, 3558 1131, 4195 1845 C 4832 1971, 5151 2286, 5177 2853 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 133 2853 C 372 2412, 690 2160, 1274 1992 L 1805 1362 C 2443 1110, 3558 1131, 4195 1845 C 4832 1971, 5151 2286, 5177 2853 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1699 1845 L 2177 1404 C 2655 1278, 3452 1299, 3929 1845 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 4036 1992 L 4832 2181" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2921 1824 L 2921 2853" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 955.8 2748 L 4460.4 2748" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="185.85000000000002" y="2517" width="238.95" height="157.5" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4832.1" y="2475" width="265.5" height="147" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1230" cy="3000" r="325" fill="#171d1b"/>
+    <circle cx="1230" cy="3000" r="234" fill="#27312d"/>
+    <circle cx="1230" cy="3000" r="123.5" fill="#dce6da"/>
+    <circle cx="1230" cy="3000" r="48.75" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="4080" cy="3000" r="325" fill="#171d1b"/>
+    <circle cx="4080" cy="3000" r="234" fill="#27312d"/>
+    <circle cx="4080" cy="3000" r="123.5" fill="#dce6da"/>
+    <circle cx="4080" cy="3000" r="48.75" fill="#123b30"/>
+  </g>
+    <path d="M 775 2961 C 905 2603.5, 1555 2603.5, 1685 2961" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3625 2961 C 3755 2603.5, 4405 2603.5, 4535 2961" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">애스턴마틴 Vantage 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4465 x 1942 x 1273 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2232.5" cy="3175.1648" rx="2098.5499999999997" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 112 2895 C 447 2682, 982 2567, 1518 2516 C 1875 2134, 2545 2045, 3081 2453 C 3706 2516, 4197 2656, 4353 2895 Z" fill="#205f72" stroke="#123a45" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 112 2895 C 447 2682, 982 2567, 1518 2516 C 1875 2134, 2545 2045, 3081 2453 C 3706 2516, 4197 2656, 4353 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1741 2453 C 2099 2185, 2590 2160, 2947 2453 Z" fill="#d2e8f2" stroke="#123a45" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3081 2529 L 4063 2656" fill="none" stroke="#123a45" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2456 2465 L 2456 2895" fill="none" stroke="#123a45" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 803.6999999999999 2847.24 L 3750.6 2847.24" fill="none" stroke="#dce7eb" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="156.275" y="2707.21" width="200.92499999999998" height="95.475" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4063.15" y="2681.75" width="223.25" height="89.11000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="881" cy="3000" r="203.68" fill="#171d1b"/>
+    <circle cx="881" cy="3000" r="146.6496" fill="#27312d"/>
+    <circle cx="881" cy="3000" r="77.39840000000001" fill="#dce7eb"/>
+    <circle cx="881" cy="3000" r="30.552" fill="#123a45"/>
+  </g>
+    <g>
+    <circle cx="3585" cy="3000" r="203.68" fill="#171d1b"/>
+    <circle cx="3585" cy="3000" r="146.6496" fill="#27312d"/>
+    <circle cx="3585" cy="3000" r="77.39840000000001" fill="#dce7eb"/>
+    <circle cx="3585" cy="3000" r="30.552" fill="#123a45"/>
+  </g>
+    <path d="M 595.848 2975.5584 C 677.3199999999999 2751.5104, 1084.68 2751.5104, 1166.152 2975.5584" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3299.848 2975.5584 C 3381.32 2751.5104, 3788.68 2751.5104, 3870.152 2975.5584" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">포드 Ranger 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5370 x 1920 x 1885 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2685" cy="3259.376" rx="2523.8999999999996" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 134 2868 L 134 1944 L 1557 1944 L 1933 1379 L 2578 1379 L 2900 1944 L 5236 1944 L 5236 2868 Z" fill="#68715f" stroke="#30352e" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 134 2868 L 134 1944 L 1557 1944 L 1933 1379 L 2578 1379 L 2900 1944 L 5236 1944 L 5236 2868 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1826 1850 L 2094 1492 L 2524 1492 L 2685 1850 Z" fill="#e0ebec" stroke="#30352e" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 2954 1982 L 4994 1982" fill="none" stroke="#30352e" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2792 1963 L 2792 2868" fill="none" stroke="#30352e" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 966.5999999999999 2773.8 L 4510.8 2773.8" fill="none" stroke="#eef0e8" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="187.95000000000002" y="2566.45" width="241.64999999999998" height="141.375" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4886.7" y="2528.75" width="268.5" height="131.95000000000002" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1050" cy="3000" r="301.6" fill="#171d1b"/>
+    <circle cx="1050" cy="3000" r="217.15200000000002" fill="#27312d"/>
+    <circle cx="1050" cy="3000" r="114.608" fill="#eef0e8"/>
+    <circle cx="1050" cy="3000" r="45.24" fill="#30352e"/>
+  </g>
+    <g>
+    <circle cx="4320" cy="3000" r="301.6" fill="#171d1b"/>
+    <circle cx="4320" cy="3000" r="217.15200000000002" fill="#27312d"/>
+    <circle cx="4320" cy="3000" r="114.608" fill="#eef0e8"/>
+    <circle cx="4320" cy="3000" r="45.24" fill="#30352e"/>
+  </g>
+    <path d="M 627.76 2963.808 C 748.4 2632.048, 1351.6 2632.048, 1472.24 2963.808" fill="none" stroke="#30352e" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3897.76 2963.808 C 4018.4 2632.048, 4621.6 2632.048, 4742.24 2963.808" fill="none" stroke="#30352e" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

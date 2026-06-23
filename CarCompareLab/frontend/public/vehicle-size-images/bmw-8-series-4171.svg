@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">BMW 8 Series 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4850 x 1900 x 1340 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2425" cy="3184.384" rx="2279.5" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 121 2895 C 485 2665, 1067 2544, 1649 2491 C 2037 2089, 2764 1995, 3346 2424 C 4026 2491, 4559 2638, 4729 2895 Z" fill="#205f72" stroke="#123a45" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 121 2895 C 485 2665, 1067 2544, 1649 2491 C 2037 2089, 2764 1995, 3346 2424 C 4026 2491, 4559 2638, 4729 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1892 2424 C 2280 2142, 2813 2116, 3201 2424 Z" fill="#d2e8f2" stroke="#123a45" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3346 2504 L 4414 2638" fill="none" stroke="#123a45" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2668 2437 L 2668 2895" fill="none" stroke="#123a45" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 873 2839.2 L 4074 2839.2" fill="none" stroke="#dce7eb" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="169.75000000000003" y="2691.8" width="218.25" height="100.5" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4413.5" y="2665" width="242.5" height="93.80000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1015" cy="3000" r="214.4" fill="#171d1b"/>
+    <circle cx="1015" cy="3000" r="154.368" fill="#27312d"/>
+    <circle cx="1015" cy="3000" r="81.47200000000001" fill="#dce7eb"/>
+    <circle cx="1015" cy="3000" r="32.16" fill="#123a45"/>
+  </g>
+    <g>
+    <circle cx="3835" cy="3000" r="214.4" fill="#171d1b"/>
+    <circle cx="3835" cy="3000" r="154.368" fill="#27312d"/>
+    <circle cx="3835" cy="3000" r="81.47200000000001" fill="#dce7eb"/>
+    <circle cx="3835" cy="3000" r="32.16" fill="#123a45"/>
+  </g>
+    <path d="M 714.84 2974.272 C 800.6 2738.432, 1229.4 2738.432, 1315.1599999999999 2974.272" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3534.84 2974.272 C 3620.6 2738.432, 4049.4 2738.432, 4135.16 2974.272" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">현대 아이오닉 5 N 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4715 x 1940 x 1585 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2357.5" cy="3218.096" rx="2216.0499999999997" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 118 2889 L 613 2493 L 1603 2239 L 2027 1859 L 3112 1859 L 3866 2239 L 4597 2889 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 118 2889 L 613 2493 L 1603 2239 L 2027 1859 L 3112 1859 L 3866 2239 L 4597 2889 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1745 2208 L 2169 1954 L 3065 1954 L 3536 2208 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3536 2318 L 4244 2461" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2593 2223 L 2593 2889" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    <path d="M 707 2683 L 1980 2556 L 3866 2651" fill="none" stroke="#0d3e33" stroke-width="22" stroke-linecap="round" opacity="0.28"/>
+    <path d="M 848.6999999999999 2809.8 L 3960.6 2809.8" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="165.025" y="2635.45" width="212.17499999999998" height="118.875" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4290.650000000001" y="2603.75" width="235.75" height="110.95000000000002" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="858" cy="3000" r="253.6" fill="#161d1a"/>
+    <circle cx="858" cy="3000" r="182.59199999999998" fill="#27312d"/>
+    <circle cx="858" cy="3000" r="96.368" fill="#dbe5dc"/>
+    <circle cx="858" cy="3000" r="38.04" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3858" cy="3000" r="253.6" fill="#161d1a"/>
+    <circle cx="3858" cy="3000" r="182.59199999999998" fill="#27312d"/>
+    <circle cx="3858" cy="3000" r="96.368" fill="#dbe5dc"/>
+    <circle cx="3858" cy="3000" r="38.04" fill="#0d3e33"/>
+  </g>
+    <path d="M 502.96000000000004 2969.568 C 604.4 2690.608, 1111.6 2690.608, 1213.04 2969.568" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3502.96 2969.568 C 3604.4 2690.608, 4111.6 2690.608, 4213.04 2969.568" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

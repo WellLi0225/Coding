@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">BMW M4 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4795 x 1885 x 1400 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2397.5" cy="3192.64" rx="2253.65" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 120 2895 C 384 2678, 815 2524, 1343 2440 C 1774 1992, 2445 1824, 3165 2020 C 3596 2328, 4220 2440, 4675 2895 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 120 2895 C 384 2678, 815 2524, 1343 2440 C 1774 1992, 2445 1824, 3165 2020 C 3596 2328, 4220 2440, 4675 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1630 2356 C 2062 2048, 2589 1964, 3069 2188 L 3404 2384 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3309 2454 L 4316 2580" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2493 2370 L 2493 2895" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 863.1 2832 L 4027.7999999999997 2832" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="167.82500000000002" y="2678" width="215.775" height="105" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4363.45" y="2650" width="239.75" height="98.00000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="970" cy="3000" r="224" fill="#161d1a"/>
+    <circle cx="970" cy="3000" r="161.28" fill="#27312d"/>
+    <circle cx="970" cy="3000" r="85.12" fill="#dbe5dc"/>
+    <circle cx="970" cy="3000" r="33.6" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3825" cy="3000" r="224" fill="#161d1a"/>
+    <circle cx="3825" cy="3000" r="161.28" fill="#27312d"/>
+    <circle cx="3825" cy="3000" r="85.12" fill="#dbe5dc"/>
+    <circle cx="3825" cy="3000" r="33.6" fill="#0d3e33"/>
+  </g>
+    <path d="M 656.4000000000001 2973.12 C 746 2726.7200000000003, 1194 2726.7200000000003, 1283.6 2973.12" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3511.4 2973.12 C 3601 2726.7200000000003, 4049 2726.7200000000003, 4138.6 2973.12" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">캐딜락 Escalade 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5410 x 2060 x 1935 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2705" cy="3266.256" rx="2542.7" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 135 2865 C 379 2458, 703 2226, 1298 2071 L 1839 1491 C 2489 1259, 3625 1278, 4274 1936 C 4923 2052, 5248 2342, 5275 2865 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 135 2865 C 379 2458, 703 2226, 1298 2071 L 1839 1491 C 2489 1259, 3625 1278, 4274 1936 C 4923 2052, 5248 2342, 5275 2865 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1731 1936 L 2218 1529 C 2705 1413, 3517 1433, 4003 1936 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 4112 2071 L 4923 2245" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2976 1916 L 2976 2865" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 973.8 2767.8 L 4544.4 2767.8" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="189.35000000000002" y="2554.95" width="243.45" height="145.125" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4923.1" y="2516.25" width="270.5" height="135.45000000000002" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1170" cy="3000" r="309.6" fill="#171d1b"/>
+    <circle cx="1170" cy="3000" r="222.912" fill="#27312d"/>
+    <circle cx="1170" cy="3000" r="117.64800000000001" fill="#dce6da"/>
+    <circle cx="1170" cy="3000" r="46.440000000000005" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="4241" cy="3000" r="309.6" fill="#171d1b"/>
+    <circle cx="4241" cy="3000" r="222.912" fill="#27312d"/>
+    <circle cx="4241" cy="3000" r="117.64800000000001" fill="#dce6da"/>
+    <circle cx="4241" cy="3000" r="46.440000000000005" fill="#123b30"/>
+  </g>
+    <path d="M 736.56 2962.848 C 860.4 2622.288, 1479.6 2622.288, 1603.44 2962.848" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3807.56 2962.848 C 3931.4 2622.288, 4550.6 2622.288, 4674.44 2962.848" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

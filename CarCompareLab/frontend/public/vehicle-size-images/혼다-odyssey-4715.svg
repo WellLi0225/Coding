@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">혼다 Odyssey 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5250 x 1995 x 1765 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2625" cy="3242.864" rx="2467.5" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 131 2876 C 368 2506, 683 2294, 1260 2153 L 1785 1623 C 2415 1412, 3518 1429, 4148 2029 C 4778 2135, 5093 2400, 5119 2876 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 131 2876 C 368 2506, 683 2294, 1260 2153 L 1785 1623 C 2415 1412, 3518 1429, 4148 2029 C 4778 2135, 5093 2400, 5119 2876 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1680 2029 L 2153 1659 C 2625 1553, 3413 1570, 3885 2029 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3990 2153 L 4778 2312" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2888 2012 L 2888 2876" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 945 2788.2 L 4410 2788.2" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="183.75000000000003" y="2594.05" width="236.25" height="132.375" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4777.5" y="2558.75" width="262.5" height="123.55000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1125" cy="3000" r="282.40000000000003" fill="#171d1b"/>
+    <circle cx="1125" cy="3000" r="203.328" fill="#27312d"/>
+    <circle cx="1125" cy="3000" r="107.31200000000001" fill="#dce6da"/>
+    <circle cx="1125" cy="3000" r="42.36000000000001" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="4125" cy="3000" r="282.40000000000003" fill="#171d1b"/>
+    <circle cx="4125" cy="3000" r="203.328" fill="#27312d"/>
+    <circle cx="4125" cy="3000" r="107.31200000000001" fill="#dce6da"/>
+    <circle cx="4125" cy="3000" r="42.36000000000001" fill="#123b30"/>
+  </g>
+    <path d="M 729.64 2966.112 C 842.5999999999999 2655.4719999999998, 1407.4 2655.4719999999998, 1520.3600000000001 2966.112" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3729.64 2966.112 C 3842.6 2655.4719999999998, 4407.4 2655.4719999999998, 4520.36 2966.112" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

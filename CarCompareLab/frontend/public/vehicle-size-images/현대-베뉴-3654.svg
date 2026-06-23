@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">현대 베뉴 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4040 x 1770 x 1565 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2020" cy="3215.344" rx="1898.8" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 101 2890 C 323 2640, 687 2468, 1131 2374 C 1495 1873, 2060 1685, 2666 1905 C 3030 2249, 3555 2374, 3939 2890 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 101 2890 C 323 2640, 687 2468, 1131 2374 C 1495 1873, 2060 1685, 2666 1905 C 3030 2249, 3555 2374, 3939 2890 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1374 2280 C 1737 1936, 2182 1842, 2586 2092 L 2868 2311 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 2788 2390 L 3636 2531" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2101 2296 L 2101 2890" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 727.1999999999999 2812.2 L 3393.6 2812.2" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="141.4" y="2640.05" width="181.79999999999998" height="117.375" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="3676.4" y="2608.75" width="202" height="109.55000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="760" cy="3000" r="250.4" fill="#161d1a"/>
+    <circle cx="760" cy="3000" r="180.288" fill="#27312d"/>
+    <circle cx="760" cy="3000" r="95.152" fill="#dbe5dc"/>
+    <circle cx="760" cy="3000" r="37.56" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3280" cy="3000" r="250.4" fill="#161d1a"/>
+    <circle cx="3280" cy="3000" r="180.288" fill="#27312d"/>
+    <circle cx="3280" cy="3000" r="95.152" fill="#dbe5dc"/>
+    <circle cx="3280" cy="3000" r="37.56" fill="#0d3e33"/>
+  </g>
+    <path d="M 409.44 2969.952 C 509.6 2694.512, 1010.4 2694.512, 1110.56 2969.952" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 2929.44 2969.952 C 3029.6 2694.512, 3530.4 2694.512, 3630.56 2969.952" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

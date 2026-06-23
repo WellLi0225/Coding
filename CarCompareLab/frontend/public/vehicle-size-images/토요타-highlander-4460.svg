@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">토요타 Highlander 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4965 x 1930 x 1755 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2482.5" cy="3241.488" rx="2333.5499999999997" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 124 2877 C 348 2509, 645 2298, 1192 2158 L 1688 1631 C 2284 1421, 3327 1438, 3922 2035 C 4518 2140, 4816 2403, 4841 2877 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 124 2877 C 348 2509, 645 2298, 1192 2158 L 1688 1631 C 2284 1421, 3327 1438, 3922 2035 C 4518 2140, 4816 2403, 4841 2877 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1589 2035 L 2036 1666 C 2483 1561, 3227 1578, 3674 2035 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3773 2158 L 4518 2316" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2731 2017 L 2731 2877" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 893.6999999999999 2789.4 L 4170.599999999999 2789.4" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="173.775" y="2596.35" width="223.42499999999998" height="131.625" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4518.150000000001" y="2561.25" width="248.25" height="122.85000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1058" cy="3000" r="280.8" fill="#171d1b"/>
+    <circle cx="1058" cy="3000" r="202.176" fill="#27312d"/>
+    <circle cx="1058" cy="3000" r="106.70400000000001" fill="#dce6da"/>
+    <circle cx="1058" cy="3000" r="42.12" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="3907" cy="3000" r="280.8" fill="#171d1b"/>
+    <circle cx="3907" cy="3000" r="202.176" fill="#27312d"/>
+    <circle cx="3907" cy="3000" r="106.70400000000001" fill="#dce6da"/>
+    <circle cx="3907" cy="3000" r="42.12" fill="#123b30"/>
+  </g>
+    <path d="M 664.88 2966.304 C 777.2 2657.424, 1338.8 2657.424, 1451.12 2966.304" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3513.88 2966.304 C 3626.2 2657.424, 4187.8 2657.424, 4300.12 2966.304" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

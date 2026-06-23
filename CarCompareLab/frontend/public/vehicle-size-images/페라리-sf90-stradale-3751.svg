@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">페라리 SF90 Stradale 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4705 x 1975 x 1225 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2352.5" cy="3168.56" rx="2211.35" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 118 2895 C 471 2694, 1035 2584, 1600 2535 C 1976 2167, 2682 2081, 3246 2473 C 3905 2535, 4423 2669, 4587 2895 Z" fill="#205f72" stroke="#123a45" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 118 2895 C 471 2694, 1035 2584, 1600 2535 C 1976 2167, 2682 2081, 3246 2473 C 3905 2535, 4423 2669, 4587 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1835 2473 C 2211 2216, 2729 2192, 3105 2473 Z" fill="#d2e8f2" stroke="#123a45" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3246 2547 L 4282 2669" fill="none" stroke="#123a45" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2588 2486 L 2588 2895" fill="none" stroke="#123a45" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 846.9 2853 L 3952.2 2853" fill="none" stroke="#dce7eb" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="164.675" y="2718.25" width="211.725" height="91.875" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4281.55" y="2693.75" width="235.25" height="85.75000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1028" cy="3000" r="196" fill="#171d1b"/>
+    <circle cx="1028" cy="3000" r="141.12" fill="#27312d"/>
+    <circle cx="1028" cy="3000" r="74.48" fill="#dce7eb"/>
+    <circle cx="1028" cy="3000" r="29.4" fill="#123a45"/>
+  </g>
+    <g>
+    <circle cx="3678" cy="3000" r="196" fill="#171d1b"/>
+    <circle cx="3678" cy="3000" r="141.12" fill="#27312d"/>
+    <circle cx="3678" cy="3000" r="74.48" fill="#dce7eb"/>
+    <circle cx="3678" cy="3000" r="29.4" fill="#123a45"/>
+  </g>
+    <path d="M 753.6 2976.48 C 832 2760.88, 1224 2760.88, 1302.4 2976.48" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3403.6 2976.48 C 3482 2760.88, 3874 2760.88, 3952.4 2976.48" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">벤틀리 The New Flying Spur 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5316 x 1987 x 1474 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2658" cy="3202.8224" rx="2498.52" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 133 2895 C 425 2661, 904 2499, 1488 2410 C 1967 1939, 2711 1762, 3509 1968 C 3987 2292, 4678 2410, 5183 2895 Z" fill="#1c6f6a" stroke="#123f3d" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 133 2895 C 425 2661, 904 2499, 1488 2410 C 1967 1939, 2711 1762, 3509 1968 C 3987 2292, 4678 2410, 5183 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1807 2322 C 2286 1998, 2871 1909, 3402 2145 L 3774 2351 Z" fill="#c9e7ef" stroke="#123f3d" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3668 2425 L 4784 2558" fill="none" stroke="#123f3d" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2764 2337 L 2764 2895" fill="none" stroke="#123f3d" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 956.88 2823.12 L 4465.44 2823.12" fill="none" stroke="#dce5e2" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="186.06000000000003" y="2660.98" width="239.22" height="110.55" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4837.56" y="2631.5" width="265.8" height="103.18" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1061" cy="3000" r="235.84" fill="#161d1a"/>
+    <circle cx="1061" cy="3000" r="169.8048" fill="#27312d"/>
+    <circle cx="1061" cy="3000" r="89.6192" fill="#dce5e2"/>
+    <circle cx="1061" cy="3000" r="35.376" fill="#123f3d"/>
+  </g>
+    <g>
+    <circle cx="4255" cy="3000" r="235.84" fill="#161d1a"/>
+    <circle cx="4255" cy="3000" r="169.8048" fill="#27312d"/>
+    <circle cx="4255" cy="3000" r="89.6192" fill="#dce5e2"/>
+    <circle cx="4255" cy="3000" r="35.376" fill="#123f3d"/>
+  </g>
+    <path d="M 730.8240000000001 2971.6992 C 825.16 2712.2752, 1296.84 2712.2752, 1391.176 2971.6992" fill="none" stroke="#123f3d" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3924.824 2971.6992 C 4019.16 2712.2752, 4490.84 2712.2752, 4585.176 2971.6992" fill="none" stroke="#123f3d" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

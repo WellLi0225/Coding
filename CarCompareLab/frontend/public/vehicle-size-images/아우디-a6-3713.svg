@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">아우디 A6 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4940 x 1885 x 1460 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2470" cy="3200.896" rx="2321.7999999999997" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 124 2895 C 395 2664, 840 2504, 1383 2416 C 1828 1949, 2519 1774, 3260 1978 C 3705 2299, 4347 2416, 4816 2895 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 124 2895 C 395 2664, 840 2504, 1383 2416 C 1828 1949, 2519 1774, 3260 1978 C 3705 2299, 4347 2416, 4816 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1680 2328 C 2124 2007, 2668 1920, 3162 2153 L 3507 2358 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3409 2431 L 4446 2562" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2569 2343 L 2569 2895" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 889.1999999999999 2824.8 L 4149.599999999999 2824.8" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="172.9" y="2664.2" width="222.29999999999998" height="109.5" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4495.400000000001" y="2635" width="247" height="102.2" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1008" cy="3000" r="233.6" fill="#161d1a"/>
+    <circle cx="1008" cy="3000" r="168.19199999999998" fill="#27312d"/>
+    <circle cx="1008" cy="3000" r="88.768" fill="#dbe5dc"/>
+    <circle cx="1008" cy="3000" r="35.04" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3932" cy="3000" r="233.6" fill="#161d1a"/>
+    <circle cx="3932" cy="3000" r="168.19199999999998" fill="#27312d"/>
+    <circle cx="3932" cy="3000" r="88.768" fill="#dbe5dc"/>
+    <circle cx="3932" cy="3000" r="35.04" fill="#0d3e33"/>
+  </g>
+    <path d="M 680.96 2971.968 C 774.4 2715.008, 1241.6 2715.008, 1335.04 2971.968" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3604.96 2971.968 C 3698.4 2715.008, 4165.6 2715.008, 4259.04 2971.968" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

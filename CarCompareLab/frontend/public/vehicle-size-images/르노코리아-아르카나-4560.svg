@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">르노코리아 아르카나 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4570 x 1820 x 1570 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2285" cy="3216.032" rx="2147.9" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 114 2890 C 366 2639, 777 2466, 1280 2372 C 1691 1870, 2331 1681, 3016 1901 C 3428 2246, 4022 2372, 4456 2890 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 114 2890 C 366 2639, 777 2466, 1280 2372 C 1691 1870, 2331 1681, 3016 1901 C 3428 2246, 4022 2372, 4456 2890 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1554 2278 C 1965 1932, 2468 1838, 2925 2089 L 3245 2309 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3153 2388 L 4113 2529" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2376 2294 L 2376 2890" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 822.6 2811.6 L 3838.7999999999997 2811.6" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="159.95000000000002" y="2638.9" width="205.65" height="117.75" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4158.7" y="2607.5" width="228.5" height="109.9" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="925" cy="3000" r="251.20000000000002" fill="#161d1a"/>
+    <circle cx="925" cy="3000" r="180.864" fill="#27312d"/>
+    <circle cx="925" cy="3000" r="95.456" fill="#dbe5dc"/>
+    <circle cx="925" cy="3000" r="37.68" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3645" cy="3000" r="251.20000000000002" fill="#161d1a"/>
+    <circle cx="3645" cy="3000" r="180.864" fill="#27312d"/>
+    <circle cx="3645" cy="3000" r="95.456" fill="#dbe5dc"/>
+    <circle cx="3645" cy="3000" r="37.68" fill="#0d3e33"/>
+  </g>
+    <path d="M 573.3199999999999 2969.856 C 673.8 2693.536, 1176.2 2693.536, 1276.68 2969.856" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3293.32 2969.856 C 3393.8 2693.536, 3896.2 2693.536, 3996.68 2969.856" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

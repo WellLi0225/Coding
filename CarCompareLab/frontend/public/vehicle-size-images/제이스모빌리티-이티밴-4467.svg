@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">제이스모빌리티 이티밴 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4495 x 1680 x 1350 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2247.5" cy="3185.76" rx="2112.65" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 112 2895 C 450 2663, 989 2541, 1528 2487 C 1888 2082, 2562 1988, 3102 2420 C 3731 2487, 4225 2636, 4383 2895 Z" fill="#205f72" stroke="#123a45" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 112 2895 C 450 2663, 989 2541, 1528 2487 C 1888 2082, 2562 1988, 3102 2420 C 3731 2487, 4225 2636, 4383 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1753 2420 C 2113 2136, 2607 2109, 2967 2420 Z" fill="#d2e8f2" stroke="#123a45" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3102 2501 L 4090 2636" fill="none" stroke="#123a45" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2472 2433 L 2472 2895" fill="none" stroke="#123a45" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 809.1 2838 L 3775.7999999999997 2838" fill="none" stroke="#dce7eb" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="157.32500000000002" y="2689.5" width="202.275" height="101.25" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4090.4500000000003" y="2662.5" width="224.75" height="94.50000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="772" cy="3000" r="216" fill="#171d1b"/>
+    <circle cx="772" cy="3000" r="155.51999999999998" fill="#27312d"/>
+    <circle cx="772" cy="3000" r="82.08" fill="#dce7eb"/>
+    <circle cx="772" cy="3000" r="32.4" fill="#123a45"/>
+  </g>
+    <g>
+    <circle cx="3723" cy="3000" r="216" fill="#171d1b"/>
+    <circle cx="3723" cy="3000" r="155.51999999999998" fill="#27312d"/>
+    <circle cx="3723" cy="3000" r="82.08" fill="#dce7eb"/>
+    <circle cx="3723" cy="3000" r="32.4" fill="#123a45"/>
+  </g>
+    <path d="M 469.6 2974.08 C 556 2736.48, 988 2736.48, 1074.4 2974.08" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3420.6 2974.08 C 3507 2736.48, 3939 2736.48, 4025.4 2974.08" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

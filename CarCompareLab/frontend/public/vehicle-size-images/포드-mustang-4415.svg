@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">포드 Mustang 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4810 x 1915 x 1395 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2405" cy="3191.952" rx="2260.7" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 120 2895 C 385 2679, 818 2526, 1347 2442 C 1780 1996, 2453 1828, 3175 2024 C 3608 2330, 4233 2442, 4690 2895 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 120 2895 C 385 2679, 818 2526, 1347 2442 C 1780 1996, 2453 1828, 3175 2024 C 3608 2330, 4233 2442, 4690 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1635 2358 C 2068 2051, 2597 1968, 3078 2191 L 3415 2386 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3319 2456 L 4329 2582" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2501 2372 L 2501 2895" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 865.8 2832.6 L 4040.3999999999996 2832.6" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="168.35000000000002" y="2679.15" width="216.45" height="104.625" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4377.1" y="2651.25" width="240.5" height="97.65" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1045" cy="3000" r="223.20000000000002" fill="#161d1a"/>
+    <circle cx="1045" cy="3000" r="160.704" fill="#27312d"/>
+    <circle cx="1045" cy="3000" r="84.816" fill="#dbe5dc"/>
+    <circle cx="1045" cy="3000" r="33.480000000000004" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3765" cy="3000" r="223.20000000000002" fill="#161d1a"/>
+    <circle cx="3765" cy="3000" r="160.704" fill="#27312d"/>
+    <circle cx="3765" cy="3000" r="84.816" fill="#dbe5dc"/>
+    <circle cx="3765" cy="3000" r="33.480000000000004" fill="#0d3e33"/>
+  </g>
+    <path d="M 732.52 2973.216 C 821.8 2727.696, 1268.2 2727.696, 1357.48 2973.216" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3452.52 2973.216 C 3541.8 2727.696, 3988.2 2727.696, 4077.48 2973.216" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

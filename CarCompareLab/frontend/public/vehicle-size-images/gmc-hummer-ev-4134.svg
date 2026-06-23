@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">GMC Hummer EV 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5245 x 2195 x 1990 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2622.5" cy="3273.824" rx="2465.1499999999996" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 131 2861 C 367 2443, 682 2204, 1259 2045 L 1783 1448 C 2413 1209, 3514 1229, 4144 1906 C 4773 2025, 5088 2323, 5114 2861 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 131 2861 C 367 2443, 682 2204, 1259 2045 L 1783 1448 C 2413 1209, 3514 1229, 4144 1906 C 4773 2025, 5088 2323, 5114 2861 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1678 1906 L 2150 1488 C 2623 1368, 3409 1388, 3881 1906 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3986 2045 L 4773 2224" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2885 1886 L 2885 2861" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 944.0999999999999 2761.2 L 4405.8 2761.2" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="183.57500000000002" y="2542.3" width="236.02499999999998" height="149.25" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4772.95" y="2502.5" width="262.25" height="139.3" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1014" cy="3000" r="318.40000000000003" fill="#171d1b"/>
+    <circle cx="1014" cy="3000" r="229.24800000000002" fill="#27312d"/>
+    <circle cx="1014" cy="3000" r="120.99200000000002" fill="#dce6da"/>
+    <circle cx="1014" cy="3000" r="47.760000000000005" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="4232" cy="3000" r="318.40000000000003" fill="#171d1b"/>
+    <circle cx="4232" cy="3000" r="229.24800000000002" fill="#27312d"/>
+    <circle cx="4232" cy="3000" r="120.99200000000002" fill="#dce6da"/>
+    <circle cx="4232" cy="3000" r="47.760000000000005" fill="#123b30"/>
+  </g>
+    <path d="M 568.24 2961.792 C 695.5999999999999 2611.552, 1332.4 2611.552, 1459.76 2961.792" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3786.24 2961.792 C 3913.6 2611.552, 4550.4 2611.552, 4677.76 2961.792" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

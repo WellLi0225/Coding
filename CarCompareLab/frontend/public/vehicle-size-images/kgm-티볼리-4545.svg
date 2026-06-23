@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">KGM 티볼리 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4225 x 1810 x 1615 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2112.5" cy="3222.224" rx="1985.75" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 106 2887 C 338 2629, 718 2451, 1183 2354 C 1563 1837, 2155 1643, 2789 1870 C 3169 2225, 3718 2354, 4119 2887 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 106 2887 C 338 2629, 718 2451, 1183 2354 C 1563 1837, 2155 1643, 2789 1870 C 3169 2225, 3718 2354, 4119 2887 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1437 2257 C 1817 1902, 2282 1805, 2704 2063 L 3000 2289 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 2915 2370 L 3803 2516" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2197 2273 L 2197 2887" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 760.5 2806.2 L 3549 2806.2" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="147.875" y="2628.55" width="190.125" height="121.125" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="3844.75" y="2596.25" width="211.25" height="113.05000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="812" cy="3000" r="258.4" fill="#161d1a"/>
+    <circle cx="812" cy="3000" r="186.04799999999997" fill="#27312d"/>
+    <circle cx="812" cy="3000" r="98.192" fill="#dbe5dc"/>
+    <circle cx="812" cy="3000" r="38.76" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3413" cy="3000" r="258.4" fill="#161d1a"/>
+    <circle cx="3413" cy="3000" r="186.04799999999997" fill="#27312d"/>
+    <circle cx="3413" cy="3000" r="98.192" fill="#dbe5dc"/>
+    <circle cx="3413" cy="3000" r="38.76" fill="#0d3e33"/>
+  </g>
+    <path d="M 450.24000000000007 2968.992 C 553.6 2684.752, 1070.4 2684.752, 1173.76 2968.992" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3051.2400000000002 2968.992 C 3154.6 2684.752, 3671.4 2684.752, 3774.7599999999998 2968.992" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

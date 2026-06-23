@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">현대 캐스퍼 일렉트릭 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">3825 x 1610 x 1575 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="1912.5" cy="3216.72" rx="1797.75" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 96 2890 C 306 2638, 650 2465, 1071 2370 C 1415 1866, 1951 1677, 2525 1898 C 2869 2244, 3366 2370, 3729 2890 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 96 2890 C 306 2638, 650 2465, 1071 2370 C 1415 1866, 1951 1677, 2525 1898 C 2869 2244, 3366 2370, 3729 2890 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1301 2276 C 1645 1929, 2066 1835, 2448 2087 L 2716 2307 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 2639 2386 L 3443 2528" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 1989 2291 L 1989 2890" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 688.5 2811 L 3213 2811" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="133.875" y="2637.75" width="172.125" height="118.125" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="3480.75" y="2606.25" width="191.25" height="110.25000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="622" cy="3000" r="252" fill="#161d1a"/>
+    <circle cx="622" cy="3000" r="181.44" fill="#27312d"/>
+    <circle cx="622" cy="3000" r="95.76" fill="#dbe5dc"/>
+    <circle cx="622" cy="3000" r="37.8" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3203" cy="3000" r="252" fill="#161d1a"/>
+    <circle cx="3203" cy="3000" r="181.44" fill="#27312d"/>
+    <circle cx="3203" cy="3000" r="95.76" fill="#dbe5dc"/>
+    <circle cx="3203" cy="3000" r="37.8" fill="#0d3e33"/>
+  </g>
+    <path d="M 269.20000000000005 2969.76 C 370 2692.56, 874 2692.56, 974.8 2969.76" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 2850.2 2969.76 C 2951 2692.56, 3455 2692.56, 3555.8 2969.76" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

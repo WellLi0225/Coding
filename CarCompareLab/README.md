@@ -10,6 +10,25 @@ npm install
 npm run dev
 ```
 
+## 3주차 Backend API 실행
+
+```bash
+cd backend
+npm run dev
+```
+
+백엔드는 `http://localhost:8080`에서 실행됩니다. 프론트 개발 서버는 `/api` 요청을 백엔드로 프록시하므로, 백엔드와 프론트를 같이 켜면 차량 목록을 `GET /api/vehicles` 응답으로 불러옵니다.
+
+주요 API:
+
+```text
+GET  /api/health
+GET  /api/vehicles
+GET  /api/vehicles/compare?ids=...
+POST /api/admin/ingestion/run
+GET  /api/admin/ingestion/runs
+```
+
 ## 파일 구조
 
 ```text

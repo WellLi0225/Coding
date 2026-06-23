@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">페라리 12Cilindri 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4733 x 2176 x 1292 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2366.5" cy="3177.7792" rx="2224.5099999999998" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 118 2895 C 473 2677, 1041 2561, 1609 2509 C 1988 2121, 2698 2031, 3266 2444 C 3928 2509, 4449 2651, 4615 2895 Z" fill="#205f72" stroke="#123a45" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 118 2895 C 473 2677, 1041 2561, 1609 2509 C 1988 2121, 2698 2031, 3266 2444 C 3928 2509, 4449 2651, 4615 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1846 2444 C 2225 2173, 2745 2147, 3124 2444 Z" fill="#d2e8f2" stroke="#123a45" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3266 2522 L 4307 2651" fill="none" stroke="#123a45" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2603 2457 L 2603 2895" fill="none" stroke="#123a45" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 851.9399999999999 2844.96 L 3975.72 2844.96" fill="none" stroke="#dce7eb" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="165.65500000000003" y="2702.84" width="212.98499999999999" height="96.89999999999999" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4307.03" y="2677" width="236.65" height="90.44000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1016" cy="3000" r="206.72" fill="#171d1b"/>
+    <circle cx="1016" cy="3000" r="148.8384" fill="#27312d"/>
+    <circle cx="1016" cy="3000" r="78.5536" fill="#dce7eb"/>
+    <circle cx="1016" cy="3000" r="31.008" fill="#123a45"/>
+  </g>
+    <g>
+    <circle cx="3717" cy="3000" r="206.72" fill="#171d1b"/>
+    <circle cx="3717" cy="3000" r="148.8384" fill="#27312d"/>
+    <circle cx="3717" cy="3000" r="78.5536" fill="#dce7eb"/>
+    <circle cx="3717" cy="3000" r="31.008" fill="#123a45"/>
+  </g>
+    <path d="M 726.5920000000001 2975.1936 C 809.28 2747.8016, 1222.72 2747.8016, 1305.408 2975.1936" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3427.592 2975.1936 C 3510.28 2747.8016, 3923.72 2747.8016, 4006.408 2975.1936" fill="none" stroke="#123a45" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -6,8 +6,11 @@
   "scripts": {
     "dev": "vite",
     "dev:host": "vite --host 0.0.0.0",
+    "type-check": "vue-tsc -b",
     "build": "vue-tsc -b && vite build",
     "data:recalls": "node ./scripts/updateRecallData.mjs",
+    "data:side-images": "node --experimental-strip-types ./scripts/syncVehicleActualSideImages.mjs",
+    "data:side-image-names": "node --experimental-strip-types ./scripts/exportVehicleImageFileNames.mjs",
     "data:specs": "node ./scripts/updateVehicleSpecs.mjs",
     "preview": "vite preview",
     "preview:host": "vite preview --host 0.0.0.0"

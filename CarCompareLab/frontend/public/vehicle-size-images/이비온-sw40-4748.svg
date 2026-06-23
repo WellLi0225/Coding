@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">이비온 SW40 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4880 x 1680 x 2000 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2440" cy="3275.2" rx="2293.6" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 122 2860 C 342 2440, 634 2200, 1171 2040 L 1659 1440 C 2245 1200, 3270 1220, 3855 1900 C 4441 2020, 4734 2320, 4758 2860 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 122 2860 C 342 2440, 634 2200, 1171 2040 L 1659 1440 C 2245 1200, 3270 1220, 3855 1900 C 4441 2020, 4734 2320, 4758 2860 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1562 1900 L 2001 1480 C 2440 1360, 3172 1380, 3611 1900 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3709 2040 L 4441 2220" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2684 1880 L 2684 2860" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 878.4 2760 L 4099.2 2760" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="170.8" y="2540" width="219.6" height="150" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4440.8" y="2500" width="244" height="140" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="918" cy="3000" r="320" fill="#171d1b"/>
+    <circle cx="918" cy="3000" r="230.39999999999998" fill="#27312d"/>
+    <circle cx="918" cy="3000" r="121.6" fill="#dce6da"/>
+    <circle cx="918" cy="3000" r="48" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="3963" cy="3000" r="320" fill="#171d1b"/>
+    <circle cx="3963" cy="3000" r="230.39999999999998" fill="#27312d"/>
+    <circle cx="3963" cy="3000" r="121.6" fill="#dce6da"/>
+    <circle cx="3963" cy="3000" r="48" fill="#123b30"/>
+  </g>
+    <path d="M 470 2961.6 C 598 2609.6, 1238 2609.6, 1366 2961.6" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3515 2961.6 C 3643 2609.6, 4283 2609.6, 4411 2961.6" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

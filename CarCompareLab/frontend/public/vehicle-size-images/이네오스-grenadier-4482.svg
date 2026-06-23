@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">이네오스 Grenadier 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4927 x 1930 x 2036 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2463.5" cy="3279.5" rx="2315.69" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 123 2857 C 345 2430, 641 2186, 1182 2023 L 1675 1412 C 2266 1168, 3301 1188, 3892 1880 C 4484 2002, 4779 2308, 4804 2857 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 123 2857 C 345 2430, 641 2186, 1182 2023 L 1675 1412 C 2266 1168, 3301 1188, 3892 1880 C 4484 2002, 4779 2308, 4804 2857 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1577 1880 L 2020 1453 C 2464 1330, 3203 1351, 3646 1880 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3745 2023 L 4484 2206" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2710 1860 L 2710 2857" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 886.86 2755.68 L 4138.68 2755.68" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="172.44500000000002" y="2531.72" width="221.715" height="152.7" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4483.57" y="2491" width="246.35000000000002" height="142.52" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1003" cy="3000" r="325" fill="#171d1b"/>
+    <circle cx="1003" cy="3000" r="234" fill="#27312d"/>
+    <circle cx="1003" cy="3000" r="123.5" fill="#dce6da"/>
+    <circle cx="1003" cy="3000" r="48.75" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="3924" cy="3000" r="325" fill="#171d1b"/>
+    <circle cx="3924" cy="3000" r="234" fill="#27312d"/>
+    <circle cx="3924" cy="3000" r="123.5" fill="#dce6da"/>
+    <circle cx="3924" cy="3000" r="48.75" fill="#123b30"/>
+  </g>
+    <path d="M 548 2961 C 678 2603.5, 1328 2603.5, 1458 2961" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3469 2961 C 3599 2603.5, 4249 2603.5, 4379 2961" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

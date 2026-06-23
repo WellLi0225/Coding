@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">토요타 Prius 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">4600 x 1780 x 1420 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2300" cy="3195.392" rx="2162" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 115 2895 C 368 2673, 782 2517, 1288 2432 C 1702 1978, 2346 1807, 3036 2006 C 3450 2318, 4048 2432, 4485 2895 Z" fill="#1b765d" stroke="#0d3e33" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 115 2895 C 368 2673, 782 2517, 1288 2432 C 1702 1978, 2346 1807, 3036 2006 C 3450 2318, 4048 2432, 4485 2895 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1564 2347 C 1978 2034, 2484 1949, 2944 2176 L 3266 2375 Z" fill="#c7e7ec" stroke="#0d3e33" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3174 2446 L 4140 2574" fill="none" stroke="#0d3e33" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2392 2361 L 2392 2895" fill="none" stroke="#0d3e33" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 828 2829.6 L 3864 2829.6" fill="none" stroke="#dbe5dc" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="161.00000000000003" y="2673.4" width="207" height="106.5" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4186" y="2645" width="230" height="99.4" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="925" cy="3000" r="227.20000000000002" fill="#161d1a"/>
+    <circle cx="925" cy="3000" r="163.584" fill="#27312d"/>
+    <circle cx="925" cy="3000" r="86.33600000000001" fill="#dbe5dc"/>
+    <circle cx="925" cy="3000" r="34.08" fill="#0d3e33"/>
+  </g>
+    <g>
+    <circle cx="3675" cy="3000" r="227.20000000000002" fill="#161d1a"/>
+    <circle cx="3675" cy="3000" r="163.584" fill="#27312d"/>
+    <circle cx="3675" cy="3000" r="86.33600000000001" fill="#dbe5dc"/>
+    <circle cx="3675" cy="3000" r="34.08" fill="#0d3e33"/>
+  </g>
+    <path d="M 606.9200000000001 2972.736 C 697.8 2722.816, 1152.2 2722.816, 1243.08 2972.736" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3356.92 2972.736 C 3447.8 2722.816, 3902.2 2722.816, 3993.08 2972.736" fill="none" stroke="#0d3e33" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>

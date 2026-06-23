@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="360" viewBox="0 0 9400 3600" role="img" aria-labelledby="title desc">
+  <title id="title">GMC Acadia 측면 실제 크기 비교 이미지</title>
+  <desc id="desc">5160 x 2020 x 1815 mm</desc>
+  <g transform="translate(300, 0)">
+    <ellipse cx="2580" cy="3249.744" rx="2425.2" ry="95" fill="#10231c" opacity="0.16"/>
+    <path d="M 129 2873 C 361 2492, 671 2274, 1238 2129 L 1754 1584 C 2374 1367, 3457 1385, 4076 2002 C 4696 2111, 5005 2383, 5031 2873 Z" fill="#266f52" stroke="#123b30" stroke-width="46" stroke-linejoin="round"/>
+    <path d="M 129 2873 C 361 2492, 671 2274, 1238 2129 L 1754 1584 C 2374 1367, 3457 1385, 4076 2002 C 4696 2111, 5005 2383, 5031 2873 Z" fill="url(#paint)" opacity="0.28"/>
+    <path d="M 1651 2002 L 2116 1621 C 2580 1512, 3354 1530, 3818 2002 Z" fill="#d3e9ef" stroke="#123b30" stroke-width="34" stroke-linejoin="round"/>
+    <path d="M 3922 2129 L 4696 2292" fill="none" stroke="#123b30" stroke-width="28" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 2838 1984 L 2838 2873" fill="none" stroke="#123b30" stroke-width="24" stroke-linecap="round" opacity="0.55"/>
+    
+    <path d="M 928.8 2782.2 L 4334.4 2782.2" fill="none" stroke="#dce6da" stroke-width="30" stroke-linecap="round" opacity="0.7"/>
+    <rect x="180.60000000000002" y="2582.55" width="232.2" height="136.125" rx="16" fill="#d64d37" opacity="0.9"/>
+    <rect x="4695.6" y="2546.25" width="258" height="127.05000000000001" rx="16" fill="#f1e6b0" opacity="0.95"/>
+    <g>
+    <circle cx="1044" cy="3000" r="290.40000000000003" fill="#171d1b"/>
+    <circle cx="1044" cy="3000" r="209.08800000000002" fill="#27312d"/>
+    <circle cx="1044" cy="3000" r="110.35200000000002" fill="#dce6da"/>
+    <circle cx="1044" cy="3000" r="43.56" fill="#123b30"/>
+  </g>
+    <g>
+    <circle cx="4116" cy="3000" r="290.40000000000003" fill="#171d1b"/>
+    <circle cx="4116" cy="3000" r="209.08800000000002" fill="#27312d"/>
+    <circle cx="4116" cy="3000" r="110.35200000000002" fill="#dce6da"/>
+    <circle cx="4116" cy="3000" r="43.56" fill="#123b30"/>
+  </g>
+    <path d="M 637.44 2965.152 C 753.5999999999999 2645.712, 1334.4 2645.712, 1450.56 2965.152" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+    <path d="M 3709.44 2965.152 C 3825.6 2645.712, 4406.4 2645.712, 4522.56 2965.152" fill="none" stroke="#123b30" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="paint" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.26"/>
+    </linearGradient>
+  </defs>
+</svg>
