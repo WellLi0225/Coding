@@ -134,6 +134,7 @@ const largestSizeComparisonLength = computed(() =>
 
 const getSizeComparisonLayerStyle = (image: VehicleSizeImageAsset | undefined) => {
   const lengthMm = image?.lengthMm ?? 4500
+  const heightMm = image?.heightMm ?? null
   const widthPercent = Math.min(
     88,
     Math.max(34, (lengthMm / largestSizeComparisonLength.value) * 82),
@@ -141,6 +142,7 @@ const getSizeComparisonLayerStyle = (image: VehicleSizeImageAsset | undefined) =
 
   return {
     width: `${widthPercent}%`,
+    aspectRatio: heightMm ? `${lengthMm} / ${heightMm}` : undefined,
   }
 }
 
@@ -1522,25 +1524,29 @@ select {
 }
 
 .size-overlay-layer.layer-1 {
-  opacity: 0.84;
-  filter: drop-shadow(0 13px 18px rgba(16, 35, 28, 0.18));
+  opacity: 0.78;
+  filter: drop-shadow(0 12px 17px rgba(16, 35, 28, 0.18));
 }
 
 .size-overlay-layer.layer-2 {
   z-index: 3;
-  opacity: 0.72;
-  filter: hue-rotate(132deg) saturate(1.1) drop-shadow(0 8px 13px rgba(18, 46, 60, 0.18));
+  opacity: 0.66;
+  filter:
+    drop-shadow(0 0 2px rgba(21, 125, 147, 0.88))
+    drop-shadow(0 8px 13px rgba(18, 46, 60, 0.18));
 }
 
 .size-overlay-layer.asset-provided-side-profile-image {
   mix-blend-mode: normal;
-  opacity: 0.9;
+  opacity: 0.78;
   filter: drop-shadow(0 12px 18px rgba(16, 35, 28, 0.18));
 }
 
 .size-overlay-layer.asset-provided-side-profile-image.layer-2 {
-  opacity: 0.76;
-  filter: drop-shadow(0 8px 14px rgba(18, 46, 60, 0.2));
+  opacity: 0.64;
+  filter:
+    drop-shadow(0 0 2px rgba(21, 125, 147, 0.9))
+    drop-shadow(0 8px 14px rgba(18, 46, 60, 0.2));
 }
 
 .size-overlay-layer.placeholder {
@@ -1551,9 +1557,8 @@ select {
 .size-overlay-image {
   display: block;
   width: 100%;
-  height: auto;
-  max-height: clamp(190px, 34vh, 430px);
-  object-fit: contain;
+  height: 100%;
+  object-fit: fill;
   object-position: center bottom;
 }
 
