@@ -125,6 +125,25 @@ const sizeComparisonItems = computed(() =>
   ),
 )
 
+const largestSizeComparisonLength = computed(() =>
+  Math.max(
+    ...sizeComparisonItems.value.map(({ image }) => image?.lengthMm ?? 4500),
+    1,
+  ),
+)
+
+const getSizeComparisonLayerStyle = (image: VehicleSizeImageAsset | undefined) => {
+  const lengthMm = image?.lengthMm ?? 4500
+  const widthPercent = Math.min(
+    88,
+    Math.max(34, (lengthMm / largestSizeComparisonLength.value) * 82),
+  )
+
+  return {
+    width: `${widthPercent}%`,
+  }
+}
+
 const brands = computed(() =>
   Array.from(new Set(vehicles.value.map((vehicle) => vehicle.brand))).sort(),
 )
@@ -1177,18 +1196,23 @@ const formatSizeDimension = (value: number | null) =>
           v-for="({ vehicle, image }, index) in sizeComparisonItems"
           :key="vehicle.id"
         >
-          <img
+          <div
             v-if="image"
-            class="size-overlay-image"
+            class="size-overlay-layer"
             :class="[
               `layer-${index + 1}`,
               `asset-${image.assetType}`,
               { placeholder: image.assetType === 'missing-dimensions-placeholder' },
             ]"
-            :src="image.imageUrl"
-            :alt="image.imageAlt"
-            loading="lazy"
-          />
+            :style="getSizeComparisonLayerStyle(image)"
+          >
+            <img
+              class="size-overlay-image"
+              :src="image.imageUrl"
+              :alt="image.imageAlt"
+              loading="lazy"
+            />
+          </div>
         </template>
       </div>
 
@@ -1485,45 +1509,52 @@ select {
   background-size: 10% 25%, 10% 25%;
 }
 
-.size-overlay-image {
+.size-overlay-layer {
   position: absolute;
-  inset: 0;
+  bottom: 11.4%;
+  left: 50%;
   z-index: 2;
   display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center bottom;
+  max-width: 90%;
   mix-blend-mode: multiply;
-  transform: translateZ(0);
-  transform-origin: left bottom;
+  transform: translateX(-50%) translateZ(0);
+  transform-origin: center bottom;
 }
 
-.size-overlay-image.layer-1 {
+.size-overlay-layer.layer-1 {
   opacity: 0.84;
   filter: drop-shadow(0 13px 18px rgba(16, 35, 28, 0.18));
 }
 
-.size-overlay-image.layer-2 {
+.size-overlay-layer.layer-2 {
   z-index: 3;
   opacity: 0.72;
   filter: hue-rotate(132deg) saturate(1.1) drop-shadow(0 8px 13px rgba(18, 46, 60, 0.18));
 }
 
-.size-overlay-image.asset-provided-side-profile-image {
+.size-overlay-layer.asset-provided-side-profile-image {
   mix-blend-mode: normal;
   opacity: 0.9;
   filter: drop-shadow(0 12px 18px rgba(16, 35, 28, 0.18));
 }
 
-.size-overlay-image.asset-provided-side-profile-image.layer-2 {
+.size-overlay-layer.asset-provided-side-profile-image.layer-2 {
   opacity: 0.76;
   filter: drop-shadow(0 8px 14px rgba(18, 46, 60, 0.2));
 }
 
-.size-overlay-image.placeholder {
+.size-overlay-layer.placeholder {
   opacity: 0.44;
   filter: grayscale(1);
+}
+
+.size-overlay-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: clamp(190px, 34vh, 430px);
+  object-fit: contain;
+  object-position: center bottom;
 }
 
 .size-compare-legend {

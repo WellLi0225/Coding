@@ -9,7 +9,7 @@
     "type-check": "vue-tsc -b",
     "build": "vue-tsc -b && vite build",
     "data:recalls": "node ./scripts/updateRecallData.mjs",
-    "data:side-images": "node --experimental-strip-types ./scripts/syncVehicleActualSideImages.mjs",
+    "data:side-images": "node ./scripts/normalizeVehicleActualSideImages.mjs && node --experimental-strip-types ./scripts/syncVehicleActualSideImages.mjs",
     "data:side-image-names": "node --experimental-strip-types ./scripts/exportVehicleImageFileNames.mjs",
     "data:specs": "node ./scripts/updateVehicleSpecs.mjs",
     "preview": "vite preview",
@@ -22,6 +22,7 @@
     "@types/node": "^24.12.3",
     "@vitejs/plugin-vue": "^6.0.6",
     "@vue/tsconfig": "^0.9.1",
+    "sharp": "^0.35.2",
     "typescript": "~6.0.2",
     "vite": "^8.0.12",
     "vue-tsc": "^3.2.8"
