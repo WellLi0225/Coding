@@ -144,6 +144,14 @@ const getSizeComparisonLayerStyle = (image: VehicleSizeImageAsset | undefined) =
   }
 }
 
+const getPublicAssetUrl = (assetUrl: string) => {
+  if (/^(https?:)?\/\//.test(assetUrl) || !assetUrl.startsWith('/')) {
+    return assetUrl
+  }
+
+  return `${import.meta.env.BASE_URL}${assetUrl.slice(1)}`
+}
+
 const brands = computed(() =>
   Array.from(new Set(vehicles.value.map((vehicle) => vehicle.brand))).sort(),
 )
@@ -1208,7 +1216,7 @@ const formatSizeDimension = (value: number | null) =>
           >
             <img
               class="size-overlay-image"
-              :src="image.imageUrl"
+              :src="getPublicAssetUrl(image.imageUrl)"
               :alt="image.imageAlt"
               loading="lazy"
             />
