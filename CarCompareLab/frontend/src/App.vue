@@ -43,6 +43,7 @@ const vehicleSpecsData = ref<VehicleSpecItem[] | null>(null)
 const selectedSpecTrimNames = ref<Record<string, string>>({})
 
 type MainTab = 'home' | 'search' | 'compare' | 'news'
+type SizePickerTarget = 'first' | 'second'
 
 type VehicleListApiResponse = {
   items: VehicleCompareItem[]
@@ -56,6 +57,8 @@ const activeMainTab = ref<MainTab>('home')
 const showVehicleWorkspace = computed(() => activeMainTab.value === 'search')
 const sizeCompareFirstId = ref(mockVehicles[0]?.id ?? '')
 const sizeCompareSecondId = ref(mockVehicles[1]?.id ?? '')
+const sizePickerTarget = ref<SizePickerTarget | null>(null)
+const sizePickerSelectedBrand = ref('')
 
 type SizeComparisonItem = {
   vehicle: VehicleCompareItem
@@ -96,6 +99,81 @@ const sizeCompareOptions = computed(() =>
   })),
 )
 
+const sizeCompareBrands = computed(() =>
+  Array.from(
+    new Set(sizeCompareOptions.value.map(({ vehicle }) => vehicle.brand)),
+  ).sort((firstBrand, secondBrand) =>
+    firstBrand.localeCompare(secondBrand, 'ko-KR'),
+  ),
+)
+
+const sizePickerVehiclesByBrand = computed(() =>
+  sizeCompareBrands.value.map((brand) => ({
+    brand,
+    vehicles: sizeCompareOptions.value
+      .filter(({ vehicle }) => vehicle.brand === brand)
+      .map(({ vehicle }) => vehicle)
+      .sort((firstVehicle, secondVehicle) =>
+        firstVehicle.model.localeCompare(secondVehicle.model, 'ko-KR'),
+      ),
+  })),
+)
+
+const selectedSizePickerItem = computed(() =>
+  sizePickerTarget.value === 'first'
+    ? firstSizeComparison.value
+    : secondSizeComparison.value,
+)
+
+const sizePickerDisabledVehicleId = computed(() =>
+  sizePickerTarget.value === 'first'
+    ? sizeCompareSecondId.value
+    : sizeCompareFirstId.value,
+)
+
+const sizePickerTitle = computed(() =>
+  sizePickerTarget.value === 'first' ? '첫 번째 차량 선택' : '두 번째 차량 선택',
+)
+
+const getSizeVehicleName = (vehicleId: string) => {
+  const vehicle = vehicles.value.find((item) => item.id === vehicleId)
+
+  return vehicle ? `${vehicle.brand} ${vehicle.model}` : '차량 선택'
+}
+
+const openSizeVehiclePicker = (target: SizePickerTarget) => {
+  sizePickerTarget.value = target
+
+  const selectedItem = target === 'first'
+    ? firstSizeComparison.value
+    : secondSizeComparison.value
+
+  sizePickerSelectedBrand.value =
+    selectedItem?.vehicle.brand ?? sizeCompareBrands.value[0] ?? ''
+}
+
+const closeSizeVehiclePicker = () => {
+  sizePickerTarget.value = null
+}
+
+const selectSizePickerBrand = (brand: string) => {
+  sizePickerSelectedBrand.value = brand
+}
+
+const selectSizePickerVehicle = (vehicleId: string) => {
+  if (!sizePickerTarget.value || vehicleId === sizePickerDisabledVehicleId.value) {
+    return
+  }
+
+  if (sizePickerTarget.value === 'first') {
+    sizeCompareFirstId.value = vehicleId
+  } else {
+    sizeCompareSecondId.value = vehicleId
+  }
+
+  closeSizeVehiclePicker()
+}
+
 const getSizeComparisonItem = (
   vehicleId: string,
 ): SizeComparisonItem | null => {
@@ -132,15 +210,52 @@ const largestSizeComparisonLength = computed(() =>
   ),
 )
 
+const rearWheelAnchorRatioByVehicleId: Record<string, number> = {
+  '기아-더-뉴-니로-4775': 0.8248,
+  '기아-레이-4689': 0.8492,
+  '기아-레이-ev-4691': 0.8464,
+  '기아-모닝-4554': 0.8372,
+  '기아-봉고-3-ev-4404': 0.7822,
+  '기아-셀토스-4763': 0.8183,
+  '기아-스포티지-4684': 0.8032,
+  '기아-쏘렌토-4563': 0.7896,
+  '기아-카니발-4586': 0.7939,
+  '기아-타스만-4686': 0.7683,
+  '기아-ev3-4647': 0.8152,
+  '기아-ev4-4712': 0.7806,
+  '기아-ev5-4499': 0.8043,
+  '기아-ev6-4641': 0.8112,
+  '기아-ev9-4128': 0.8111,
+  '기아-k5-4585': 0.7934,
+  '기아-k8-4665': 0.7769,
+  '기아-k9-4066': 0.7818,
+  '기아-pv5-4714': 0.8138,
+  '현대-코나-일렉트릭-4510': 0.8174,
+}
+
 const getSizeComparisonLayerStyle = (image: VehicleSizeImageAsset | undefined) => {
   const lengthMm = image?.lengthMm ?? 4500
+  const heightMm = image?.heightMm ?? null
+  const wheelbaseMm = image?.wheelbaseMm ?? null
   const widthPercent = Math.min(
-    84,
-    Math.max(34, (lengthMm / largestSizeComparisonLength.value) * 76),
+    76,
+    Math.max(30, (lengthMm / largestSizeComparisonLength.value) * 68),
   )
+  const rearWheelAnchorRatio = image?.vehicleId
+    ? rearWheelAnchorRatioByVehicleId[image.vehicleId]
+    : undefined
+  const fallbackRearWheelAnchorRatio = wheelbaseMm
+    ? Math.min(0.86, Math.max(0.62, (lengthMm + wheelbaseMm) / (lengthMm * 2)))
+    : 0.78
+  const rearWheelTargetPercent = 70
+  const resolvedRearWheelAnchorRatio =
+    rearWheelAnchorRatio ?? fallbackRearWheelAnchorRatio
 
   return {
     width: `${widthPercent}%`,
+    aspectRatio: heightMm ? `${lengthMm} / ${heightMm}` : undefined,
+    left: `${rearWheelTargetPercent}%`,
+    '--rear-wheel-offset': `-${resolvedRearWheelAnchorRatio * 100}%`,
   }
 }
 
@@ -1172,7 +1287,124 @@ const formatSizeDimension = (value: number | null) =>
         <span>같은 mm 스케일 기준</span>
       </div>
 
-      <div class="size-compare-controls">
+      <div class="size-compare-controls size-picker-controls">
+        <div class="size-picker-field">
+          <span>첫 번째 차량</span>
+          <button
+            type="button"
+            class="size-picker-trigger"
+            @click="openSizeVehiclePicker('first')"
+          >
+            <span>
+              <small>선택 차량</small>
+              <strong>{{ getSizeVehicleName(sizeCompareFirstId) }}</strong>
+            </span>
+            <span class="size-picker-trigger-icon" aria-hidden="true">›</span>
+          </button>
+        </div>
+
+        <div class="size-picker-field">
+          <span>두 번째 차량</span>
+          <button
+            type="button"
+            class="size-picker-trigger"
+            @click="openSizeVehiclePicker('second')"
+          >
+            <span>
+              <small>선택 차량</small>
+              <strong>{{ getSizeVehicleName(sizeCompareSecondId) }}</strong>
+            </span>
+            <span class="size-picker-trigger-icon" aria-hidden="true">›</span>
+          </button>
+        </div>
+      </div>
+
+      <Teleport to="body">
+        <div
+          v-if="sizePickerTarget"
+          class="vehicle-picker-backdrop"
+          @click="closeSizeVehiclePicker"
+        >
+          <section
+            class="vehicle-picker-modal"
+            role="dialog"
+            aria-modal="true"
+            :aria-label="sizePickerTitle"
+            @click.stop
+          >
+            <header>
+              <div>
+                <p>차량 선택</p>
+                <h2>{{ sizePickerTitle }}</h2>
+                <span v-if="selectedSizePickerItem">
+                  현재 {{ selectedSizePickerItem.vehicle.brand }}
+                  {{ selectedSizePickerItem.vehicle.model }}
+                </span>
+              </div>
+              <button
+                type="button"
+                class="vehicle-picker-close"
+                aria-label="차량 선택 닫기"
+                @click="closeSizeVehiclePicker"
+              >
+                ×
+              </button>
+            </header>
+
+            <div class="vehicle-picker-body">
+              <nav class="vehicle-picker-brands" aria-label="브랜드 목록">
+                <button
+                  v-for="group in sizePickerVehiclesByBrand"
+                  :key="group.brand"
+                  type="button"
+                  :class="{ active: group.brand === sizePickerSelectedBrand }"
+                  @click="selectSizePickerBrand(group.brand)"
+                >
+                  <span>{{ group.brand }}</span>
+                  <small>{{ group.vehicles.length }}대</small>
+                </button>
+              </nav>
+
+              <div class="vehicle-picker-list" aria-label="차량 목록">
+                <button
+                  v-for="vehicle in sizePickerVehiclesByBrand.find((group) => group.brand === sizePickerSelectedBrand)?.vehicles ?? []"
+                  :key="vehicle.id"
+                  type="button"
+                  :disabled="vehicle.id === sizePickerDisabledVehicleId"
+                  :class="{
+                    active:
+                      vehicle.id ===
+                      (sizePickerTarget === 'first'
+                        ? sizeCompareFirstId
+                        : sizeCompareSecondId),
+                  }"
+                  @click="selectSizePickerVehicle(vehicle.id)"
+                >
+                  <span>
+                    <small>{{ vehicle.brand }}</small>
+                    <strong>{{ vehicle.model }}</strong>
+                  </span>
+                  <em v-if="vehicle.id === sizePickerDisabledVehicleId">
+                    이미 선택됨
+                  </em>
+                  <em
+                    v-else-if="
+                      vehicle.id ===
+                      (sizePickerTarget === 'first'
+                        ? sizeCompareFirstId
+                        : sizeCompareSecondId)
+                    "
+                  >
+                    현재 선택
+                  </em>
+                </button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </Teleport>
+
+      <div class="size-compare-controls native-size-compare-controls">
         <label>
           첫 번째 차량
           <select v-model="sizeCompareFirstId">
@@ -1494,6 +1726,233 @@ select {
   gap: 12px;
 }
 
+.native-size-compare-controls {
+  display: none;
+}
+
+.size-picker-field {
+  display: grid;
+  gap: 7px;
+  color: #58655d;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.size-picker-trigger {
+  display: flex;
+  min-width: 0;
+  min-height: 56px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 9px 13px;
+  border: 1px solid #cbd8c6;
+  color: #18211d;
+  background: #fbfdf9;
+  text-align: left;
+}
+
+.size-picker-trigger:hover,
+.size-picker-trigger:focus-visible {
+  border-color: #176b52;
+  box-shadow: 0 0 0 3px rgba(23, 107, 82, 0.14);
+}
+
+.size-picker-trigger small,
+.vehicle-picker-list small {
+  display: block;
+  color: #66736a;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.size-picker-trigger strong {
+  display: block;
+  margin-top: 3px;
+  overflow-wrap: anywhere;
+  font-size: 17px;
+}
+
+.size-picker-trigger-icon {
+  color: #176b52;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.vehicle-picker-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgba(12, 22, 18, 0.38);
+  backdrop-filter: blur(6px);
+}
+
+.vehicle-picker-modal {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  width: min(920px, 100%);
+  max-height: min(760px, calc(100vh - 40px));
+  overflow: hidden;
+  border: 1px solid #dbe4d7;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: rgba(10, 20, 16, 0.22) 0 22px 58px;
+}
+
+.vehicle-picker-modal header {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px;
+  border-bottom: 1px solid #dbe4d7;
+}
+
+.vehicle-picker-modal header p,
+.vehicle-picker-modal header h2 {
+  margin: 0;
+}
+
+.vehicle-picker-modal header p {
+  color: #176b52;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.vehicle-picker-modal header h2 {
+  margin-top: 4px;
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.1;
+}
+
+.vehicle-picker-modal header span {
+  display: block;
+  margin-top: 8px;
+  color: #66736a;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.vehicle-picker-close {
+  width: 42px;
+  min-height: 42px;
+  flex: 0 0 auto;
+  border: 1px solid #dbe4d7;
+  color: #18211d;
+  background: #f2f7ef;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.vehicle-picker-body {
+  display: grid;
+  grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
+  min-height: 0;
+}
+
+.vehicle-picker-brands,
+.vehicle-picker-list {
+  min-height: 0;
+  overflow: auto;
+}
+
+.vehicle-picker-brands {
+  display: grid;
+  align-content: start;
+  gap: 8px;
+  padding: 14px;
+  border-right: 1px solid #dbe4d7;
+  background: #f7faf5;
+}
+
+.vehicle-picker-brands button,
+.vehicle-picker-list button {
+  min-height: auto;
+  border: 1px solid transparent;
+  color: #18211d;
+  background: transparent;
+  text-align: left;
+}
+
+.vehicle-picker-brands button {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 11px 12px;
+}
+
+.vehicle-picker-brands button small {
+  color: #66736a;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.vehicle-picker-brands button.active,
+.vehicle-picker-brands button:hover,
+.vehicle-picker-list button.active,
+.vehicle-picker-list button:hover {
+  border-color: #cbd8c6;
+  background: #ffffff;
+}
+
+.vehicle-picker-brands button.active {
+  color: #ffffff;
+  background: #176b52;
+}
+
+.vehicle-picker-brands button.active small {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.vehicle-picker-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  align-content: start;
+  gap: 10px;
+  padding: 14px;
+}
+
+.vehicle-picker-list button {
+  display: flex;
+  min-width: 0;
+  min-height: 78px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px;
+  border-color: #dbe4d7;
+  background: #fbfdf9;
+}
+
+.vehicle-picker-list button strong {
+  display: block;
+  margin-top: 4px;
+  overflow-wrap: anywhere;
+  font-size: 18px;
+}
+
+.vehicle-picker-list button.active {
+  border-color: #176b52;
+  box-shadow: inset 0 0 0 2px rgba(23, 107, 82, 0.16);
+}
+
+.vehicle-picker-list button:disabled {
+  cursor: not-allowed;
+  opacity: 0.48;
+}
+
+.vehicle-picker-list em {
+  flex: 0 0 auto;
+  color: #176b52;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+}
+
 .size-overlay-stage {
   position: relative;
   min-height: clamp(250px, 42vh, 520px);
@@ -1528,13 +1987,13 @@ select {
 .size-overlay-layer {
   position: absolute;
   bottom: 11.4%;
-  left: 50%;
+  left: 70%;
   z-index: 2;
   display: block;
   max-width: 90%;
   mix-blend-mode: normal;
-  transform: translateX(-50%) translateZ(0);
-  transform-origin: center bottom;
+  transform: translateX(var(--rear-wheel-offset, -78%)) translateZ(0);
+  transform-origin: left bottom;
 }
 
 .size-overlay-layer.layer-1 {
@@ -1543,7 +2002,7 @@ select {
 
 .size-overlay-layer.layer-2 {
   filter:
-    drop-shadow(0 0 2px rgba(21, 125, 147, 0.78))
+    drop-shadow(0 0 1px rgba(21, 125, 147, 0.34))
     drop-shadow(0 8px 13px rgba(18, 46, 60, 0.18));
 }
 
@@ -1553,7 +2012,7 @@ select {
 
 .size-overlay-layer.asset-provided-side-profile-image.layer-2 {
   filter:
-    drop-shadow(0 0 2px rgba(21, 125, 147, 0.82))
+    drop-shadow(0 0 1px rgba(21, 125, 147, 0.34))
     drop-shadow(0 8px 14px rgba(18, 46, 60, 0.2));
 }
 
@@ -1565,10 +2024,10 @@ select {
 
 .size-overlay-layer.is-smaller {
   z-index: 3;
-  opacity: 0.42;
+  opacity: 0.75;
   filter:
     saturate(0.9)
-    drop-shadow(0 0 2px rgba(21, 125, 147, 0.72))
+    drop-shadow(0 0 1px rgba(21, 125, 147, 0.28))
     drop-shadow(0 8px 13px rgba(18, 46, 60, 0.14));
 }
 
@@ -1580,9 +2039,8 @@ select {
 .size-overlay-image {
   display: block;
   width: 100%;
-  height: auto;
-  max-height: clamp(180px, 32vh, 390px);
-  object-fit: contain;
+  height: 100%;
+  object-fit: fill;
   object-position: center bottom;
 }
 
@@ -2143,6 +2601,35 @@ td {
 
   .size-compare-controls,
   .size-compare-legend {
+    grid-template-columns: 1fr;
+  }
+
+  .vehicle-picker-backdrop {
+    align-items: end;
+    padding: 12px;
+  }
+
+  .vehicle-picker-modal {
+    max-height: min(82vh, 760px);
+  }
+
+  .vehicle-picker-modal header {
+    padding: 16px;
+  }
+
+  .vehicle-picker-body {
+    grid-template-columns: 1fr;
+  }
+
+  .vehicle-picker-brands {
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(118px, max-content);
+    overflow-x: auto;
+    border-right: 0;
+    border-bottom: 1px solid #dbe4d7;
+  }
+
+  .vehicle-picker-list {
     grid-template-columns: 1fr;
   }
 
