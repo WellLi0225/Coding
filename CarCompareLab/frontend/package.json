@@ -8,6 +8,7 @@
     "dev:host": "vite --host 0.0.0.0",
     "type-check": "vue-tsc -b",
     "build": "vue-tsc -b && vite build",
+    "data:vehicles:sync": "node --experimental-strip-types ./scripts/syncDanawaCurrentSearch.mjs",
     "data:recalls": "node ./scripts/updateRecallData.mjs",
     "data:side-images": "node ./scripts/normalizeVehicleActualSideImages.mjs && node --experimental-strip-types ./scripts/syncVehicleActualSideImages.mjs",
     "data:side-image-names": "node --experimental-strip-types ./scripts/exportVehicleImageFileNames.mjs",

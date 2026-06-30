@@ -1,7 +1,7 @@
 import { writeFile } from 'node:fs/promises'
 import { mockVehicles } from '../src/data/mockVehicles.ts'
 
-const today = '2026-06-22'
+const today = new Date().toISOString().slice(0, 10)
 const baseUrl = 'https://auto.danawa.com'
 const vehiclePath = new URL('../src/data/mockVehicles.ts', import.meta.url)
 const knownBrandNames = [...new Set(mockVehicles.map((vehicle) => vehicle.brand))].sort(
@@ -207,14 +207,13 @@ for (const match of inputMatches) {
 const vehiclesByDanawaId = new Map(
   mockVehicles.map((vehicle) => [getDanawaModelId(vehicle), vehicle]).filter(([id]) => id),
 )
-const outputVehicles = []
+const outputVehicles = [...mockVehicles]
 const added = []
 
 for (const item of currentItems) {
   const existing = vehiclesByDanawaId.get(item.modelId)
 
   if (existing) {
-    outputVehicles.push(existing)
     continue
   }
 
@@ -276,7 +275,7 @@ for (const item of currentItems) {
 }
 
 const currentModelIds = new Set(currentItems.map((item) => item.modelId))
-const removed = mockVehicles
+const missingFromCurrentSearch = mockVehicles
   .filter((vehicle) => !currentModelIds.has(getDanawaModelId(vehicle)))
   .map((vehicle) => `${vehicle.brand} ${vehicle.model} (${getDanawaModelId(vehicle)})`)
 
@@ -294,9 +293,9 @@ console.log(
       currentCount: currentItems.length,
       outputCount: outputVehicles.length,
       addedCount: added.length,
-      removedCount: removed.length,
+      missingFromCurrentSearchCount: missingFromCurrentSearch.length,
       added,
-      removed,
+      missingFromCurrentSearch,
     },
     null,
     2,

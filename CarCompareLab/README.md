@@ -101,3 +101,14 @@ npm run data:recalls
 ```
 
 공공데이터포털의 `국토교통부_자동차 리콜정보 API 서비스`는 사전 협의형 LINK API라서, 정식 API 접근 권한이 없는 상태에서는 대량 호출이 제한될 수 있습니다.
+
+## 신규 차량 자동 동기화
+
+다나와 자동차 신차검색에서 신규 모델을 확인하고, 기존 차량은 유지한 채 새 모델만 `mockVehicles.ts`에 추가합니다.
+
+```bash
+cd frontend
+npm run data:vehicles:sync
+```
+
+GitHub Actions의 `Daily Vehicle Data Sync` 워크플로가 매일 오전 9시 20분(KST)에 이 스크립트를 실행합니다. 신규 차량이 있으면 데이터를 커밋하고 GitHub Pages 배포까지 진행하며, 신규 차량이 없으면 변경 없이 종료됩니다.
