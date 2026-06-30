@@ -16,6 +16,7 @@ import { vehicleSizeImages } from './data/vehicleSizeImages'
 import type { VehicleCompareItem } from './types/vehicle'
 import type { VehicleSizeImageAsset } from './types/vehicleSizeImage'
 import type { VehicleSpecItem, VehicleSpecTrim } from './types/vehicleSpec'
+import { compareBrandsByPreferredOrder } from './utils/brandOrder'
 import {
   formatCurrency,
   formatNullable,
@@ -110,9 +111,7 @@ const sizeCompareOptions = computed(() =>
 const sizeCompareBrands = computed(() =>
   Array.from(
     new Set(sizeCompareOptions.value.map(({ vehicle }) => vehicle.brand)),
-  ).sort((firstBrand, secondBrand) =>
-    firstBrand.localeCompare(secondBrand, 'ko-KR'),
-  ),
+  ).sort(compareBrandsByPreferredOrder),
 )
 
 const sizePickerVehiclesByBrand = computed(() =>
@@ -280,7 +279,9 @@ const getPublicAssetUrl = (assetUrl: string) => {
 }
 
 const brands = computed(() =>
-  Array.from(new Set(vehicles.value.map((vehicle) => vehicle.brand))).sort(),
+  Array.from(new Set(vehicles.value.map((vehicle) => vehicle.brand))).sort(
+    compareBrandsByPreferredOrder,
+  ),
 )
 
 const years = computed(() =>
