@@ -53,6 +53,14 @@ type VehicleCompareApiResponse = {
   vehicleSpecs?: VehicleSpecItem[]
 }
 
+const configuredApiBaseUrl = (import.meta.env.VITE_API_BASE_URL ?? '').replace(
+  /\/$/,
+  '',
+)
+const shouldUseBackendApi =
+  import.meta.env.DEV || configuredApiBaseUrl.length > 0
+const getApiUrl = (path: string) => `${configuredApiBaseUrl}${path}`
+
 const activeMainTab = ref<MainTab>('home')
 const showVehicleWorkspace = computed(() => activeMainTab.value === 'search')
 const sizeCompareFirstId = ref(mockVehicles[0]?.id ?? '')
@@ -410,11 +418,17 @@ const compareNullableDesc = (
 }
 
 const loadVehicles = async () => {
-  try {
-    isLoadingVehicles.value = true
-    vehicleLoadError.value = null
+  isLoadingVehicles.value = true
+  vehicleLoadError.value = null
 
-    const response = await fetch('/api/vehicles?pageSize=1000')
+  if (!shouldUseBackendApi) {
+    vehicles.value = mockVehicles
+    isLoadingVehicles.value = false
+    return
+  }
+
+  try {
+    const response = await fetch(getApiUrl('/api/vehicles?pageSize=1000'))
 
     if (!response.ok) {
       throw new Error(`Vehicle API returned ${response.status}`)
@@ -526,14 +540,20 @@ const loadVehicleSpecs = async () => {
     return
   }
 
+  if (!shouldUseBackendApi) {
+    const module = await import('./data/vehicleSpecs')
+    vehicleSpecsData.value = module.vehicleSpecs
+    return
+  }
+
   try {
     isLoadingSpecs.value = true
     specLoadError.value = null
 
     const response = await fetch(
-      `/api/vehicles/compare?ids=${selectedIds.value
+      getApiUrl(`/api/vehicles/compare?ids=${selectedIds.value
         .map((vehicleId) => encodeURIComponent(vehicleId))
-        .join(',')}`,
+        .join(',')}`),
     )
 
     if (!response.ok) {
