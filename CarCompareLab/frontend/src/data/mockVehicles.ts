@@ -17189,5 +17189,45 @@ export const mockVehicles: VehicleCompareItem[] = [
     "recallSourceName": "자동차리콜센터 리콜현황",
     "recallSourceCheckedAt": "2026-06-04",
     "recallStatus": null
+  },
+  {
+    "id": "현대-디-올-뉴-아반떼-4835",
+    "brand": "현대",
+    "model": "디 올 뉴 아반떼",
+    "year": 2026,
+    "trim": "대표 모델",
+    "fuelType": "하이브리드, 가솔린",
+    "msrpUsd": null,
+    "combinedKmPerLiter": 14.3,
+    "domesticSalesRank": null,
+    "domesticSalesVolume": null,
+    "salesRankSourceName": null,
+    "salesRankCheckedAt": null,
+    "recallCount": 0,
+    "sourceName": "다나와 자동차 신차검색",
+    "sourceCheckedAt": "2026-09-04",
+    "combinedEfficiencyValue": 14.3,
+    "combinedEfficiencyUnit": "km/L",
+    "efficiencySourceName": "다나와 자동차 신차검색",
+    "efficiencySourceCheckedAt": "2026-09-04",
+    "modelYearLabel": "2027년형",
+    "modelYearSourceName": "다나와 자동차 상세 페이지",
+    "modelYearSourceCheckedAt": "2026-09-04",
+    "efficiencyOptions": [
+      {
+        "fuelType": "하이브리드",
+        "drivetrain": null,
+        "value": 14.3,
+        "unit": "km/L",
+        "trimName": "다나와 모델 요약 복합 효율",
+        "sourceName": "다나와 자동차 신차검색",
+        "sourceCheckedAt": "2026-09-04"
+      }
+    ],
+    "efficiencyStatus": null,
+    "recallItems": [],
+    "recallSourceName": "자동차리콜센터 리콜현황",
+    "recallSourceCheckedAt": "2026-06-04",
+    "recallStatus": null
   }
 ]
