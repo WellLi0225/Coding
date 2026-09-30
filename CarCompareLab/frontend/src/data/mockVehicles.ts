@@ -17389,5 +17389,45 @@ export const mockVehicles: VehicleCompareItem[] = [
     "recallSourceName": "자동차리콜센터 리콜현황",
     "recallSourceCheckedAt": "2026-06-04",
     "recallStatus": null
+  },
+  {
+    "id": "지프-new-grand-cherokee-4760",
+    "brand": "지프",
+    "model": "New Grand Cherokee",
+    "year": 2026,
+    "trim": "대표 모델",
+    "fuelType": "가솔린",
+    "msrpUsd": null,
+    "combinedKmPerLiter": 7.9,
+    "domesticSalesRank": null,
+    "domesticSalesVolume": null,
+    "salesRankSourceName": null,
+    "salesRankCheckedAt": null,
+    "recallCount": 0,
+    "sourceName": "다나와 자동차 신차검색",
+    "sourceCheckedAt": "2026-09-30",
+    "combinedEfficiencyValue": 7.9,
+    "combinedEfficiencyUnit": "km/L",
+    "efficiencySourceName": "다나와 자동차 신차검색",
+    "efficiencySourceCheckedAt": "2026-09-30",
+    "modelYearLabel": "2026년형",
+    "modelYearSourceName": "다나와 자동차 상세 페이지",
+    "modelYearSourceCheckedAt": "2026-09-30",
+    "efficiencyOptions": [
+      {
+        "fuelType": "가솔린",
+        "drivetrain": null,
+        "value": 7.9,
+        "unit": "km/L",
+        "trimName": "다나와 모델 요약 복합 효율",
+        "sourceName": "다나와 자동차 신차검색",
+        "sourceCheckedAt": "2026-09-30"
+      }
+    ],
+    "efficiencyStatus": null,
+    "recallItems": [],
+    "recallSourceName": "자동차리콜센터 리콜현황",
+    "recallSourceCheckedAt": "2026-06-04",
+    "recallStatus": null
   }
 ]
