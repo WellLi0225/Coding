@@ -17529,5 +17529,45 @@ export const mockVehicles: VehicleCompareItem[] = [
     "recallSourceName": "자동차리콜센터 리콜현황",
     "recallSourceCheckedAt": "2026-06-04",
     "recallStatus": null
+  },
+  {
+    "id": "롤스로이스-spectre-series-ii-4857",
+    "brand": "롤스로이스",
+    "model": "Spectre Series II",
+    "year": 2026,
+    "trim": "대표 모델",
+    "fuelType": "전기",
+    "msrpUsd": null,
+    "combinedKmPerLiter": null,
+    "domesticSalesRank": null,
+    "domesticSalesVolume": null,
+    "salesRankSourceName": null,
+    "salesRankCheckedAt": null,
+    "recallCount": 0,
+    "sourceName": "다나와 자동차 신차검색",
+    "sourceCheckedAt": "2026-11-11",
+    "combinedEfficiencyValue": 3.6,
+    "combinedEfficiencyUnit": "km/kWh",
+    "efficiencySourceName": "다나와 자동차 신차검색",
+    "efficiencySourceCheckedAt": "2026-11-11",
+    "modelYearLabel": "2027년형",
+    "modelYearSourceName": "다나와 자동차 상세 페이지",
+    "modelYearSourceCheckedAt": "2026-11-11",
+    "efficiencyOptions": [
+      {
+        "fuelType": "전기",
+        "drivetrain": null,
+        "value": 3.6,
+        "unit": "km/kWh",
+        "trimName": "다나와 모델 요약 복합 효율",
+        "sourceName": "다나와 자동차 신차검색",
+        "sourceCheckedAt": "2026-11-11"
+      }
+    ],
+    "efficiencyStatus": null,
+    "recallItems": [],
+    "recallSourceName": "자동차리콜센터 리콜현황",
+    "recallSourceCheckedAt": "2026-06-04",
+    "recallStatus": null
   }
 ]
